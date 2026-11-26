@@ -1,0 +1,7 @@
+# Verified Colab runtime with Tesla T4, CUDA 13.0
+# Use the runtime's torch distribution or its matching vendor CUDA index.
+torch==2.14.1+cu130
+numpy==2.4.6
+pandas==2.2.3
+numba==0.64.0
+tqdm==4.67.1

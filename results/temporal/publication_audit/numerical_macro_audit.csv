@@ -1,0 +1,37 @@
+tex_macro,printed_value,unrounded,origin
+OldOracleOn,11/295,11,B/historical/all/oracle_on: attainment
+OldEstimatedOn,279/295,279,B/historical/all/estimated_on: attainment
+NewOracleOn,25/150,25,B/new/all/oracle_on: attainment
+NewEstimatedOn,39/150,39,B/new/all/estimated_on: attainment
+NewEstimatedOff,35/150,35,B/new/all/estimated_off: attainment
+NewBothOracle,29/75,29,D/new/all/OO: attainment
+NewBothEstimated,9/75,9,D/new/all/EE: attainment
+OldGuardCross,122/295,122,B/historical: estimated guard crossings
+OldOracleNear,5/295,5,"B/historical/oracle_off: rates in (0.50%,0.55%]"
+OldEstimatedNear,64/295,64,"B/historical/estimated_off: rates in (0.50%,0.55%]"
+NewGuardCross,4/150,4,B/new: estimated guard crossings
+NewOracleNear,9/150,9,"B/new/oracle_off: rates in (0.50%,0.55%]"
+NewEstimatedNear,6/150,6,"B/new/estimated_off: rates in (0.50%,0.55%]"
+NewTrainingMiss,-0.122,-0.12205074048252482,B/new/all/fine_tuning_guard_on/miss_delta_pp
+NewTrainingP,+25.38,25.380855978734672,B/new/all/fine_tuning_guard_on/p95_delta_ms
+NewTrainingAttain,+9.33,9.333333333333334,B/new/all/fine_tuning_guard_on/attainment_pp
+NewOracleCross,5,5,B/new/all/guard_oracle_training/fail_to_pass
+NewGuardInteract,-0.67,-0.6666666666666667,B/new/all/training_by_guard_interaction/attainment_pp
+NewBothShift,+0.071,0.071122535347564,"D/new/all/both shift, guarded/miss_delta_pp"
+DayThirteenBothShift,-0.153,-0.15310168788308853,"D/new/d13/both shift, guarded/miss_delta_pp"
+DayThirteenPolicyShift,-0.387,-0.38744517983324867,"D/new/d13/base shift, no guard/miss_delta_pp"
+NewObsInteraction,+0.030,0.030452333053336566,D/new/all/observation interaction/miss_delta_pp
+DayThirteenInteraction,-0.071,-0.07145447008562722,D/new/d13/observation interaction/miss_delta_pp
+ReservedDayEightMiss,+22.95,22.949832524180497,transfer/new/8/guard_estimated_training/miss_delta_pp
+ReservedDayEightP,+293.1,293.0919965531166,transfer/new/8/guard_estimated_training/p95_delta_ms
+ReservedDaySevenP,-1938.4,-1938.434497497478,transfer/new/7/guard_estimated_training/p95_delta_ms
+ReservedAllP,-822.7,-822.6712504721808,transfer/new/all/guard_estimated_training/p95_delta_ms
+ReservedOffMiss,8.40,8.395087938989706,transfer/new/all/estimated_off/miss_pct
+ReservedOffP,"1,233.6",1233.5801718216198,transfer/new/all/estimated_off/p95_ms
+ReservedOnMiss,27.62,27.61832910997851,transfer/new/all/estimated_on/miss_pct
+ReservedOnP,410.9,410.90892134943886,transfer/new/all/estimated_on/p95_ms
+ReservedSevenFloor,0.247,0.2468555307393911,transfer/new/7/pooled floor
+ReservedEightFloor,0.173,0.1731210718452448,transfer/new/8/pooled floor
+TemporalExecuted,"1,090",1090,600 B + 450 D + 40 transfer archived executions
+TemporalOverlap,150,150,Identical effective configurations B and D
+TemporalUnique,940,940,Set union of workload/model/policy-view/guard-view identities

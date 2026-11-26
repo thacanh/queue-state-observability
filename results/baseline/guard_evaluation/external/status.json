@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIED_2021_HELDOUT_TRANSFER",
+  "identity": "73145a6d906828926948d07a33e97182edff82ceb0746008d26ca8dccad8ced5",
+  "rows": 170,
+  "cohort_size": 30,
+  "excluded_source_records": 171333,
+  "paired_sha256": "84bb13f4a1b1a546eea78de8db1b6ef5f159c05864d80fe8fdaeefb9fe7a94e6"
+}

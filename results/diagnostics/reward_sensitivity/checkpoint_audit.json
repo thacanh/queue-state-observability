@@ -1,0 +1,109 @@
+{
+  "checkpoints": [
+    {
+      "seed": 42,
+      "penalty": 0,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "d6692776d4e74508745cb2c47c13ec53a8260ff3d8386c96d984dc788a2bb900",
+      "stage1_sha256": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 61.29659635200005,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed42_lambda0_ed12e7bd0f6a/final.pt"
+    },
+    {
+      "seed": 42,
+      "penalty": 5,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "d5b2ec2ae8e9d5b065828bfb8175154d73971a1ccc88de18a17b4573198ba6e8",
+      "stage1_sha256": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 56.1783226550001,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed42_lambda5_1d852343c3ab/final.pt"
+    },
+    {
+      "seed": 42,
+      "penalty": 20,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "15f58c34500a858c36e855a6f03bcff547d7dc23eed3f9b3b434934b9c350d07",
+      "stage1_sha256": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 56.073887754,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed42_lambda20_bc7fb66183d7/final.pt"
+    },
+    {
+      "seed": 42,
+      "penalty": 80,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "75fa9135bd35ba19961df7461fe08df5084bafb30c87f82dd4a2553650a346f8",
+      "stage1_sha256": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 56.04553784100017,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed42_lambda80_e413ec3943a6/final.pt"
+    },
+    {
+      "seed": 43,
+      "penalty": 0,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "4a1afd34fe345e8cc97c72b51b3fb97a9d3dec8e58b9e61d3d682b2b99ec9244",
+      "stage1_sha256": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 53.29000232499993,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed43_lambda0_34945d7d03dc/final.pt"
+    },
+    {
+      "seed": 43,
+      "penalty": 5,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "cb335d8ee8e53427dca0b590bcb6fa8a3b30bff10bce5effb965c230d37b24e4",
+      "stage1_sha256": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 54.71900727399998,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed43_lambda5_1070b42cab42/final.pt"
+    },
+    {
+      "seed": 43,
+      "penalty": 20,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "a498cd8218e7e05f872b1ce8501eb6c2dedf4b650c1156b5d4632ebb99fdab20",
+      "stage1_sha256": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 54.62794711300012,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed43_lambda20_51faca1f7511/final.pt"
+    },
+    {
+      "seed": 43,
+      "penalty": 80,
+      "training_observation": "oracle",
+      "expected_binary_sha256": "84701ecc7babd70bc8dc1e962602d0daedb8515832fb82f78354d69beebba519",
+      "stage1_sha256": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e",
+      "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+      "recorded_transitions": 2000128,
+      "recorded_updates": 7695,
+      "gpu_active_session_s": 55.1556623649999,
+      "recovered_local_files": [],
+      "project_relative_original_path": "runs/e2_complete_v2/fixed_seed43_lambda80_4841f5d27848/final.pt"
+    }
+  ],
+  "registry_sha256": "bfc0a2eeb97891221affefdb642f652a2600623e1a0406e1b5e474994c3abab5"
+}

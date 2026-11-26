@@ -1,0 +1,113 @@
+{
+  "phase": "T5",
+  "parent": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "runtime_budget_s": 900,
+  "workers": 4,
+  "native_threads": 1,
+  "software": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "torch": "2.10.0+cpu"
+  },
+  "bank_sha256": "445df37ed11d9a8f1f85c4c8d8882c4957b8519a4ff7dfcef20e4701abb86338",
+  "checkpoints": {
+    "oracle/42": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+    "oracle/43": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+    "estimated/42": "c997a5ea4667f5c2f0c5b663a74234621ef93ece5fdac55636308f4e03a6cdbe",
+    "estimated/43": "b0ab43d89aea0836729a44cd5072b7d9f75aa4616975bf4f7dda10c7b4ae2869"
+  },
+  "workloads": {
+    "d12_r00": {
+      "day": "d12",
+      "trace_sha256": "9938936549a44401d695876ed15bbb82718583a52a52795b1108924655b03084",
+      "file_sha256": "a053c2230cba2a540ebeca23ba46e40e8cb487fe66bbb533c886cb9f723c1c5a"
+    },
+    "d12_r01": {
+      "day": "d12",
+      "trace_sha256": "6d0232378ff8d871723969fc7ab490aea3d09d757c29246eaeba770207a5ceae",
+      "file_sha256": "877af7aedb7aad61397cb0a10a7522fdd0de7af3afa21310da81820c64c3f4b4"
+    },
+    "d13_r00": {
+      "day": "d13",
+      "trace_sha256": "cc7c3a55415d2b2a1fdef999c86ad3985f1602247faed883c007220f18ebcb49",
+      "file_sha256": "17728119b8fa9ef57b07071124599164fbdc02d24e1ed3734f3b773a7720360f"
+    },
+    "d13_r01": {
+      "day": "d13",
+      "trace_sha256": "7079209512ce20585ece2f7c4ae764fac0f5776a02530dfa0143c9b91013fbbb",
+      "file_sha256": "580a97ebdb7e2b621d3182a91c255736e1b014af6b5b9b430abc25e20b9f0539"
+    },
+    "d14_r00": {
+      "day": "d14",
+      "trace_sha256": "4e28b93a04e21166fb519569839924da476f0ab017468824d9bc8f14f0e38d2b",
+      "file_sha256": "8d586e75b7a388eeb2b4929e54b8196e88e6fbd6fc4d652fe7312d67f043c83a"
+    },
+    "d14_r01": {
+      "day": "d14",
+      "trace_sha256": "43126613610e9b4e3d62ca3162af91dfbdffcb8067fb1ae4f81527c15def303c",
+      "file_sha256": "00eab9e5aa900d45db6c9537dee6da4f308658810b4f068dc7cb44ffc8a40dd3"
+    }
+  },
+  "seeds": [
+    42,
+    43
+  ],
+  "budget": 0.005,
+  "load": 0.6,
+  "provenance": "Later Azure 2019 days have unverified prior use; Azure 2021 elapsed 7\u20138 are fixed diagnostic windows.",
+  "runner": "42187ebeea6d2672dc8c0a773f662c392f56ed2cc563a784bb0cb85335a6ff9e",
+  "simulator": "cdc75cf365d79b8fd233a3d35265b420ceb749051945596938b25325d336329d",
+  "analysis": "Show every setting. Within each channel, mean outcomes by day and paired changes vs zero and genuine estimator. Errors over all valid workers on each arm trajectory. No population inference.",
+  "plan": {
+    "noise_seed": 9261105,
+    "noise_generator": "NumPy PCG64 standard normal; one tape per workload",
+    "channels": {
+      "policy_only": "perturb oracle residuals, guard off",
+      "guard_only": "estimated policy, perturb guard oracle residuals"
+    },
+    "doses_bias_sigma_ms": [
+      [
+        "zero",
+        0.0,
+        0.0
+      ],
+      [
+        "bias",
+        -30,
+        0.0
+      ],
+      [
+        "bias",
+        30,
+        0.0
+      ],
+      [
+        "bias",
+        60,
+        0.0
+      ],
+      [
+        "jitter",
+        0.0,
+        15
+      ],
+      [
+        "jitter",
+        0.0,
+        30
+      ],
+      [
+        "jitter",
+        0.0,
+        60
+      ]
+    ],
+    "expected_new": 336,
+    "expected_reused": 48,
+    "idle_worker_policy": "preserve valid idle workers and padding, truncate active residuals at zero",
+    "anchor": "use unchanged genuine estimated policy and, when enabled, estimated guard",
+    "diagnostic_code": "8cfdb066ab913f3e103b4fc2e03f984d0e3d65c8979987dbf7a3c4eb1140e7d2",
+    "kernel_adapter": "a42731ad2dd58b99c621bda7d5e44d89e6e3f84ebbc61f8004507519e2259098"
+  },
+  "protocol_sha256": "072adf3882309caf0b7db1ec0b77fb51c4e356df69c026ef709c91242ed0cc49"
+}

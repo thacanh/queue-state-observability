@@ -1,0 +1,11 @@
+{
+  "protocol": "62247436fcd4d7a850b8fa6074d352d0a8a583f27e74e42e234eafe26678f889",
+  "new_replays": 0,
+  "status": "COMPLETE",
+  "output": {
+    "a3_original_transfer_full_telemetry": "34e5ca3e67bffbb873846203a5d6995bbcd7cd72fd082d0e464086f67c39996c",
+    "a4_original_burst_tail_rows": "ba0da6845bc41d6eb21a1cd83a50e3f43611add9376d75bfd0dff93dc93a527b",
+    "a4_original_burst_tail_summary": "2a42a72ed006c2e7ea2cd22385a25f654d82d5a86885936694a3eae50b6c3b7d",
+    "a4_original_feasibility_scope": "1058e2899c85305c71090e142ddd0e6e9c81ebffbae661ffc4da9a679f297ee9"
+  }
+}

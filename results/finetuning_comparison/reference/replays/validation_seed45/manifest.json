@@ -1,0 +1,86 @@
+{
+  "scope": "Paired Azure 2019 validation replays conditional on the inspected source days d08 and d09",
+  "training_observation": "Oracle Stage 1 for both groups, completion events only during Estimated-DDQN fine-tuning",
+  "evaluation_observation": "Completion-event estimates for both groups",
+  "guard_trigger_and_reduction": 0.005,
+  "validation_bank_sha256": "d78bd6b5ce938d4bee445fa1343a452a1f113264d72e39f9049558e81224baeb",
+  "baseline_sha256": "381b6fdd9e435da7c02997d74df5d1e60ed7f3967547c05aa4cedcb9ea8a5f29",
+  "training_manifests": {
+    "45": {
+      "source": "342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313",
+      "runtime": {
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "torch": "2.14.1+cu130",
+        "cuda": "13.0",
+        "numpy": "2.4.6",
+        "numba": "0.64.0",
+        "pandas": "2.2.3"
+      },
+      "config": {
+        "device": "cuda",
+        "speeds": [
+          1.5,
+          1.0,
+          0.7
+        ],
+        "workers": [
+          4,
+          3,
+          2
+        ],
+        "nenv": 256,
+        "episode_len": 3000,
+        "mask": "full",
+        "dual_envs": 128,
+        "dual_warmup": 512,
+        "dual_measure": 512,
+        "seed": 45,
+        "buffer": 600000,
+        "lr": 0.0001,
+        "lambda_init": 10.0,
+        "identity": "pending",
+        "transitions": 2000000,
+        "learning_starts": 30000,
+        "eps_start": 0.2,
+        "eps_fraction": 0.25,
+        "method": "fixed",
+        "fixed_lambda": 2.0,
+        "clip_reward": true,
+        "gamma": 0.99,
+        "batch": 4096,
+        "target_update": 500,
+        "dual_update": 200,
+        "ema": 0.5,
+        "dual_lr": 100.0,
+        "target": 0.005,
+        "lambda_max": 80.0,
+        "checkpoint_every": 1000,
+        "amp_init_scale": 1024.0,
+        "amp_growth_interval": 1000000000
+      },
+      "inputs": {
+        "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+        "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+        "stage1": "b08afc589cfd717c1b27bf80bbff3c043fe83220a163d30d1045502f5e75bbdb"
+      },
+      "observation": "estimated",
+      "residual_scale": 1.0,
+      "guard_in_training": false,
+      "id": "5bcc9a7136ddd0fd353367446606e6105fc1f2f4690db9aed9efd3e2a8d3311b",
+      "seed": 45,
+      "status": "COMPLETE",
+      "oracle_model_sha256": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427",
+      "actual_transitions": 2000128,
+      "optimizer_updates": 7695,
+      "model_sha256": "21b83fa4223d054e984e9e510d853fe1ad4d30d0a4c9c4c9a91ac695f792d463",
+      "session_seconds": 58.959671914999944
+    }
+  },
+  "evaluation_source_sha256": "62503e0314f0e91c5268d7a5a5dd064c368792fec5a0a90966143d93ed15f252",
+  "outputs": {
+    "paired.csv": "a0367671db5ee4d4650cfa90f6d6fcabaad1d2899895bf85b66383ae7508f7fb",
+    "paired_effects_by_day_seed.csv": "4ca7fa6f3f9654c02c2ee18eb7644dcfb83dcce402684f10fa644cf76d0df3cf",
+    "summary.csv": "33b486b8c483b3df717fdd48e2b897ee72911b8b25e47be298faa03878ed4aec"
+  }
+}

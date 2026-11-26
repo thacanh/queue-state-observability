@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "af1fc019db2d20fe2514c3ac4e05d3dc50c2f0b01fdf9d11b7a0a560598ad586",
+  "historical_replays_verified": 50,
+  "new_replays": 50,
+  "outputs": {
+    "transfer_paired.csv": "c66080d4d95fde71b9ee28f4f0e0812521d4363d5249b47a382cb7b8ff8baa53",
+    "transfer_by_day_seed.csv": "ca2ada479c03b3a35dc153faa4d88a79dd8e8227f592113662a48f49c77c03a2",
+    "transfer_summary.csv": "512c34f10f64da850cd82454d4c97678f6bbbedc526987c789a8b0ba8475394a",
+    "transfer_by_day.csv": "aab8000e2f53f189e8e185de107fbbd9e0a87d8724e6d7c45e440f4b8d7c4def"
+  }
+}

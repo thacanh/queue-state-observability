@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "scope": "Matched development follow-up on 59 reconstructions of two inspected days, d08 and d09",
+  "validation_bank_sha256": "d78bd6b5ce938d4bee445fa1343a452a1f113264d72e39f9049558e81224baeb",
+  "replay_manifests": {
+    "42": "c3969527dbf65d1971db014542202f73861fce060f9db205a462bccc65acd784",
+    "43": "2a644d9d351280dc1cb264f411dfbb8a9c1c3e8a95ad5461586a5b4467fc4e71",
+    "44": "3aa59312269d8607c6079b33845d16aedc42cadf8041e989e2da52a5879b6e81",
+    "45": "98308d1858a213a66ec89c903deaea4c57615281dfec2300d475d56bcf6bef47",
+    "46": "8d891222c41340af9ec227df8988fa91e9c30c9b0569526e29bd8085e6c46eb9"
+  },
+  "outputs": {
+    "by_day_seed.csv": "a6d4873974cc6e9b5f73f26a8f12842e2390d18fcce702ac1979c277753f9161",
+    "by_seed.csv": "307349f38edd8dfa509d921d2774bfb6a55ee1bcbaa79611799f0f146ea4517d",
+    "paired.csv": "479d6b006ef9f923f159e3bef849f30df6e9e6e2bbd0850138bad4060f386d9b",
+    "paired_intervals.csv": "5b0bbd9b8ce2f6a4aabe838afdfc1bd7b7aeb57200d75d74c279712bc289cabc",
+    "paired_transitions.csv": "0435b39f1b16345ef8e5c4111f579318adb9d51020096386254f7efa636eaae3",
+    "summary.csv": "e7012101619dc56eebc76dde18936d122d4a1ec3b7df87afef3c7cd8233e311a"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "states_per_job": 2000128,
+  "updates_per_job": 7695,
+  "guard_in_training": false,
+  "lambda": 2,
+  "seeds": [
+    42,
+    43
+  ],
+  "same_device_per_phase": true,
+  "same_save_cadence_batches": 1000,
+  "target_update_batches": 500,
+  "source_sha256": "05138bded10b9f58f50db933a226c5904196e5879509461316a3629ca920b8e3",
+  "replay_source_sha256": "8efbfa4605006fe7be9c67dde30c93becc503a7a980a3ccd6b7a94cb36bc640e",
+  "deadline_budget": 0.005,
+  "evaluation_guard": [
+    false,
+    true
+  ],
+  "evaluation_observation": "estimated",
+  "budget_s": "first GPU active training, second CPU evaluation",
+  "safe_stop": "record phase elapsed time, stop at the cap, preserve atomic checkpoints",
+  "analysis": "all paired seeds and days; report miss fraction, workload P95/P99, attainment and guard override; intervals are conditional, with no cross-pair independence or calendar equivalence claim",
+  "phase": "T8",
+  "budget_limits_s": [
+    900,
+    600
+  ],
+  "training_prefix_only": {
+    "source_sha256": "d56368ef194baa8d418304bd2f87cca67668ced0d117bd89ad4ef3cf836457d2",
+    "source_cutoff": "arrival in elapsed days 0\u20136 and completion strictly before start of day 7",
+    "days": {
+      "0": {
+        "n": 14029,
+        "window_start_minute": 335,
+        "trace_sha256": "3eb5c1614501bc1f5f12095439f911ac54a28f77fc78b58ba141a87f00e373dc"
+      },
+      "1": {
+        "n": 41034,
+        "window_start_minute": 893,
+        "trace_sha256": "287c1a2bd9e81960a154df395c9409d33456d6491a994dc3fd9a1e8178449883"
+      },
+      "2": {
+        "n": 51372,
+        "window_start_minute": 1260,
+        "trace_sha256": "bfd440489ad150030682b3eee39c6ff8cb93d434f4168ac52febbbf018088390"
+      },
+      "3": {
+        "n": 42421,
+        "window_start_minute": 1029,
+        "trace_sha256": "b407ca581fa6006ff90dbe274c29b8e61c4fee7d2cd49195355a8d5ec65c7072"
+      },
+      "4": {
+        "n": 15152,
+        "window_start_minute": 837,
+        "trace_sha256": "7142dec18a1056fc85a23d2ed3deb1d00ab2cbcd3534317f745923fc4f7b46ec"
+      },
+      "5": {
+        "n": 14806,
+        "window_start_minute": 77,
+        "trace_sha256": "dce14b33ce1c5ad2ed6729a08c7ac21daf05d42ccbd21e29b552c53e27208391"
+      },
+      "6": {
+        "n": 9579,
+        "window_start_minute": 1091,
+        "trace_sha256": "a6cf35d88e6549a178fc277100572cf821d54d3bb29ff90aeca78a567a7fa5f3"
+      }
+    },
+    "frozen_bank_value_match": true,
+    "training_csv_sha256": "d21f819f4473c278b12cb7465011f3f34ae42ada25e4149d910f77a70b11742e",
+    "training_bank_sha256": "be092e0574da61026632bda804fcbc2019f87811417149462ee4996afb5f36a3",
+    "protocol_sha256": "434d0e0033f271cf7e9f312b812c1d5c081f5693c429a4f12338586f91f48c7a"
+  },
+  "fit_scales_sha256": "a9d6f2eda9d9533178c006aa4173f3d080ac1193f04a8f10e1fc528da8ca28d7",
+  "jobs": [
+    [
+      42,
+      "estimated"
+    ],
+    [
+      43,
+      "estimated"
+    ]
+  ],
+  "initialization": {
+    "42": "c997a5ea4667f5c2f0c5b663a74234621ef93ece5fdac55636308f4e03a6cdbe",
+    "43": "b0ab43d89aea0836729a44cd5072b7d9f75aa4616975bf4f7dda10c7b4ae2869"
+  },
+  "workloads": {
+    "elapsed07": "b40ea2e198654d89c24884a6278703cafca3efe25155d7d6c872f08f63face23",
+    "elapsed08": "ea4cecc4511ff7809a1e45dc7719a41b13e8221ec009191ec284c5a3b59f4635"
+  },
+  "replays_new": 8,
+  "replays_reused": 8,
+  "reference_protocol": "a4a4177d9846f0dca5fb9fc0281514681bb51d4854adc3fc7dc6ab3ad67a314f",
+  "scope": "fixed diagnostic windows with prior outcomes; same normalization for learned and frozen weights",
+  "protocol_sha256": "2a1ba31f79c7e526da7d047a4d15901e849d998b0ea1c6a173ba6cea14e16d44"
+}

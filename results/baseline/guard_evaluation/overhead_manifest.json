@@ -1,0 +1,16 @@
+{
+  "source_hash": "32ca8cde08511db751706762299e138989a41ed80402d203416566686ecd39d8",
+  "trace_sha256": "3fc740aae9b88abcd49706dfa908f441301125af124483d6873b1fd745b9251c",
+  "train_sha256": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+  "model_sha256": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+  "scope": "Python/Numba, single-host TCP, wall-clock worker starts and completions, scaled service; not cluster deployment",
+  "jit_initial_calls_seconds": 7.919110299997556,
+  "num_functions": 30,
+  "samples": 868593,
+  "guard_sorted_bank_bytes": 6948992,
+  "state_extra_bank_bytes": 6948992,
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpus": 16,
+  "rows": 15,
+  "output_sha256": "692f2a79f393f3f3431e2ddff2bd36f31a10caf62be76e13c948cf9d94deb07a"
+}

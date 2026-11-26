@@ -1,0 +1,149 @@
+{
+  "identity": "c407fcd7c519ef890cbbce472a4469e5e5fb6b1a869dcb21130afe24b3675917",
+  "question": "Does fixed-DDQN+Guard add value beyond RiskOnly under plausible observation?",
+  "scope": "Conditional d08/d09 development and validation, no temporal holdout.",
+  "banks": {
+    "plan": "c58fc2f33b17b9e0a6bd2be89671b086894254d39b6ed99e8f9a16369686286f",
+    "inputs": "d78bd6b5ce938d4bee445fa1343a452a1f113264d72e39f9049558e81224baeb",
+    "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+    "legacy_guard_results": "3df313f17ff8689d8f916469cdf8a81b5ac79bca65e2d4b0df220bc3ca903bf2",
+    "matched_training_confirm": "9237c49e27ec230715b20ebda796ba63c05c56faefc6590b35b3064404cc3f94"
+  },
+  "sources": {
+    "routing_simulator.py": "08e48d84576f6bce60ed010f6d331b658a6afe4430b16153fbd2f984b608b49d",
+    "replay_io.py": "c2454163e7dfc38575fb6f036f41f2eb2ef2355a153154e2f880fe8643a0d13a",
+    "deadline_guard.py": "e787f970cdec01693335ade20039223654d687491a29119a1e39d778827e1b07",
+    "simulation_baselines.py": "2b288c66defa4e935fb81a7acc5e59fbe9b3d3fe2b470be73e7b28cb3b423caa"
+  },
+  "profiles": {
+    "function_durations_percentiles.anon.d01.csv": "6bb4e9a918dff8bf021158cbb9470107b47f0a2003412f789d03cb23dce3a5d2",
+    "function_durations_percentiles.anon.d02.csv": "4986df9ca6284d21c79767ebabbf2ce7851cf26bfbb6bedbd39e44e5fa127af6",
+    "function_durations_percentiles.anon.d03.csv": "8c197c00304cebbb0e8c4392877fa84c990619c07e33369d25671d6e426cba83",
+    "function_durations_percentiles.anon.d04.csv": "ff54d6a15b78fcb19e790effc0a379b064058433f27d4e66177a360993d1c927",
+    "function_durations_percentiles.anon.d05.csv": "63fee5d1c8bf208d8d4719aa683ba495b3a10e4bf578652ba38d1e385129053b",
+    "function_durations_percentiles.anon.d06.csv": "36959f76b9e12f2d130563eeaf65d4beda6f6f71c4fc9704a9070da21e84df0a",
+    "function_durations_percentiles.anon.d07.csv": "cbb94daec594584c66ae4946fa939a141f7fd484c01a57369e1d37ecdbd11065"
+  },
+  "function_cohort": "de049e036d8262eb25059019e66b8e2ee74c96faa09b88c209360e70330c1dec",
+  "guard": {
+    "trigger": 0.005,
+    "min_reduction": 0.005,
+    "tie": "larger base score"
+  },
+  "risk_only": "min estimated empirical risk, ties by lowest predicted P50 completion then server index",
+  "SED_P95": "log-interpolate historic P75 and P99 as in simulation",
+  "availability": {
+    "oracle": "hidden next-free forecast exact from future completions",
+    "estimated": "past starts/completions + elapsed conditional residual expectation + queued function means under fluid water filling; fallback for elapsed beyond support is function mean"
+  },
+  "arms": [
+    [
+      "RiskOnly",
+      2,
+      false,
+      "p50"
+    ],
+    [
+      "SED-P50",
+      1,
+      false,
+      "p50"
+    ],
+    [
+      "SED-P50+Guard",
+      1,
+      true,
+      "p50"
+    ],
+    [
+      "SED-P95",
+      1,
+      false,
+      "p95"
+    ],
+    [
+      "SED-P95+Guard",
+      1,
+      true,
+      "p95"
+    ],
+    [
+      "SED-P99",
+      1,
+      false,
+      "p99"
+    ],
+    [
+      "SED-P99+Guard",
+      1,
+      true,
+      "p99"
+    ]
+  ],
+  "models": {
+    "fixed/42": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+    "fixed/43": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+    "fixed/44": "57cf7d0f411c85d52316b5c1b4a6d73be61e86a922bbbc52e3cefbf3ed454dbc",
+    "fixed/45": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427",
+    "fixed/46": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566"
+  },
+  "missing_checkpoints": [
+    {
+      "model": "adaptive_seed42_lambda10",
+      "sha256": "d0b7b63d49b7707b59cf31cf434950f066b8375e1bc2bd24fa7c55eea25fe36c"
+    },
+    {
+      "model": "adaptive_seed43_lambda10",
+      "sha256": "cbfea01ec18d62847f2ddbbf63df6ec1da0d10aa80001f46c132dd81fbc0b060"
+    },
+    {
+      "model": "adaptive_seed44_lambda10",
+      "sha256": "6e6c87ff77150f0f44d4ed4ddb88b6479cacccf0d7bc13285484654650ad3ee6"
+    },
+    {
+      "model": "adaptive_seed45_lambda10",
+      "sha256": "b558b7d350fa988479628887deb590d9e9f0efdd8a61e86b4b12da6777ac4a4d"
+    },
+    {
+      "model": "adaptive_seed46_lambda10",
+      "sha256": "4b719c76ae69116b80f3acfdf6731b461cae4eeb335f571a508c42f1ccdac5ae"
+    },
+    {
+      "model": "latency_seed42_lambda0",
+      "sha256": "ec401d18a1885ee85610aceba2d2bf1555b55b177ae741b7ec4de94c783a51b2"
+    },
+    {
+      "model": "latency_seed43_lambda0",
+      "sha256": "6fa910ff8ffc015ce44defb36e41b4d6fd8d9f84c02c4fe625d2167647b52ca1"
+    },
+    {
+      "model": "latency_seed44_lambda0",
+      "sha256": "08f08b037935cab3be92f03ef0c354bf2f3c63253552fc2fa49ad749e87b088f"
+    },
+    {
+      "model": "latency_seed45_lambda0",
+      "sha256": "7657362e8562448179d1619bd999ed184460e501e3e4c6696d59c25d05661f98"
+    },
+    {
+      "model": "latency_seed46_lambda0",
+      "sha256": "9c1aa592704582f4814d59e71eae1f49fe094ee99a2b703c25375f6a64670d38"
+    }
+  ],
+  "budget": 0.005,
+  "offered_load": 0.6,
+  "primary": "per-workload SLO attainment; also mean/P95/P99, violations, paired transitions",
+  "decision": "Independent evidence required for method-superiority claims; conditional result reports if any comparator weakly dominates both mean violation and mean workload P95.",
+  "risk_bins": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.000001
+  ],
+  "seed_scope": "42\u201346; 42\u201343 used in fixed pilot"
+}

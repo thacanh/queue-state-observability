@@ -1,0 +1,13 @@
+bank,guard,contrast,pairs,fail_to_pass,pass_to_fail,delta_violation_rate,delta_p95_ms,delta_p99_ms,delta_met_budget,delta_override_rate
+Later,False,Estimated Numba minus Oracle Numba,60,3,1,-0.0006416444692680916,17.233198008026754,133.56776265329185,0.03333333333333333,0.0
+Later,False,Estimated Numba minus archived Estimated Numba,60,0,0,0.0,0.0,0.0,0.0,0.0
+Later,False,Oracle Numba minus archived Oracle Torch,60,0,0,0.0,0.0,0.0,0.0,0.0
+Later,True,Estimated Numba minus Oracle Numba,60,2,0,-0.0007550203238668569,17.5400205703826,208.2088370100766,0.03333333333333333,0.005540163658034816
+Later,True,Estimated Numba minus archived Estimated Numba,60,0,0,0.0,0.0,0.0,0.0,0.0
+Later,True,Oracle Numba minus archived Oracle Torch,60,0,0,0.0,0.0,0.0,0.0,0.0
+Original,False,Estimated Numba minus Oracle Numba,118,46,0,-0.0013081169509100762,19.36562188827657,78.13429456628366,0.3898305084745763,0.0
+Original,False,Estimated Numba minus archived Estimated Numba,118,0,0,0.0,0.0,-3.853791109207323e-15,0.0,0.0
+Original,False,Oracle Numba minus archived Oracle Torch,118,0,0,0.0,0.0,-3.853791109207323e-15,0.0,0.0
+Original,True,Estimated Numba minus Oracle Numba,118,100,0,-0.001483498396095828,17.821134053509738,73.90989300975531,0.847457627118644,0.005794988160190319
+Original,True,Estimated Numba minus archived Estimated Numba,118,0,0,0.0,0.0,0.0,0.0,0.0
+Original,True,Oracle Numba minus archived Oracle Torch,118,0,0,0.0,0.0,-3.853791109207323e-15,0.0,0.0

@@ -1,0 +1,11 @@
+{
+  "code_sha256": "79e65800e881ab05116af4c86d4772afb06d2843955bdac41e609b4ef7f1e9ab",
+  "sources": {
+    "a3_original_transfer_full_telemetry": "c66080d4d95fde71b9ee28f4f0e0812521d4363d5249b47a382cb7b8ff8baa53",
+    "a4_original_burst_tail_rows": "6397826e9d27bc033306831b3fd808c1785fae6b43faed26df7cd3e696479b08",
+    "a4_original_burst_tail_summary": "daea8e5572827b7e4348c9fbbf8976c80f202d9edeb4ebf94f733433c1306721",
+    "a4_original_feasibility_scope": "c677dc277d2ac838e486c007703f03eb5468f7abfd481b1856724581148f2618"
+  },
+  "new_replays": 0,
+  "protocol_sha256": "47c2981f473d18e24c6c141c631baa019c60146c8b2cdcb482bc34deffb86530"
+}

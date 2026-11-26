@@ -1,0 +1,216 @@
+{
+  "version": "matched-fine-tuning-v2",
+  "pilot": [
+    {
+      "seed": 42,
+      "method": "latency",
+      "fixed_lambda": 0.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "adaptive",
+      "fixed_lambda": 10.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 0.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 2.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 5.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 10.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 15.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 20.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 30.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 40.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 42,
+      "method": "fixed",
+      "fixed_lambda": 80.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "latency",
+      "fixed_lambda": 0.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "adaptive",
+      "fixed_lambda": 10.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 0.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 2.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 5.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 10.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 15.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 20.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 30.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 40.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    },
+    {
+      "seed": 43,
+      "method": "fixed",
+      "fixed_lambda": 80.0,
+      "fine_tuning_transitions": 2000000,
+      "train_days": "d01-d07",
+      "validation_days": "d08-d09",
+      "holdout_used": false
+    }
+  ],
+  "confirmation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selection": "Fixed lambda: feasible on every seed x day x reconstruction at <=0.005; minimize paired mean p95. If none feasible, minimize worst violation then mean violation then p95; lambda final tie-break.",
+  "selection_scope": "validation d08-d09 only; pilot results have already been inspected; criterion locked prospectively before paired and seed43 results",
+  "final_test": "disabled: d11 historically inspected; d12-d14 provenance unverified",
+  "requested_transitions": 2000000,
+  "realized_transitions": 2000128,
+  "optimizer_updates": 7695
+}

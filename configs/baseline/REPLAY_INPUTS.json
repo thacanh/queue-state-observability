@@ -1,0 +1,305 @@
+{
+  "files": {
+    "outputs/guard_evaluation/external/AzureFunctionsInvocationTraceForTwoWeeksJan2021.rar": {
+      "bytes": 18444269,
+      "sha256": "8bb5d1c82e89e467062b6582996232df24edfebadbaf3287a8c985ca178ba92d"
+    },
+    "outputs/guard_evaluation/external/AzureFunctionsInvocationTraceForTwoWeeksJan2021.txt": {
+      "bytes": 305388316,
+      "sha256": "d56368ef194baa8d418304bd2f87cca67668ced0d117bd89ad4ef3cf836457d2"
+    },
+    "outputs/shield_verified/inputs/fixed_seed42_lambda2_b9dc1b96bf6a/final.pt": {
+      "bytes": 293793,
+      "sha256": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f"
+    },
+    "outputs/shield_verified/inputs/fixed_seed43_lambda2_182daae8a18c/final.pt": {
+      "bytes": 293793,
+      "sha256": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c"
+    },
+    "outputs/shield_verified/inputs/fixed_seed44_lambda2_f58371051894/final.pt": {
+      "bytes": 293793,
+      "sha256": "57cf7d0f411c85d52316b5c1b4a6d73be61e86a922bbbc52e3cefbf3ed454dbc"
+    },
+    "outputs/shield_verified/inputs/fixed_seed45_lambda2_1da4d79fba82/final.pt": {
+      "bytes": 293793,
+      "sha256": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427"
+    },
+    "outputs/shield_verified/inputs/fixed_seed46_lambda2_4a6f48a4e744/final.pt": {
+      "bytes": 293793,
+      "sha256": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566"
+    },
+    "outputs/shield_verified/inputs/train_d01_d07.csv": {
+      "bytes": 56027190,
+      "sha256": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d01.csv": {
+      "bytes": 12156002,
+      "sha256": "6bb4e9a918dff8bf021158cbb9470107b47f0a2003412f789d03cb23dce3a5d2"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d02.csv": {
+      "bytes": 12249024,
+      "sha256": "4986df9ca6284d21c79767ebabbf2ce7851cf26bfbb6bedbd39e44e5fa127af6"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d03.csv": {
+      "bytes": 12303513,
+      "sha256": "8c197c00304cebbb0e8c4392877fa84c990619c07e33369d25671d6e426cba83"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d04.csv": {
+      "bytes": 12449184,
+      "sha256": "ff54d6a15b78fcb19e790effc0a379b064058433f27d4e66177a360993d1c927"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d05.csv": {
+      "bytes": 12210188,
+      "sha256": "63fee5d1c8bf208d8d4719aa683ba495b3a10e4bf578652ba38d1e385129053b"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d06.csv": {
+      "bytes": 9607668,
+      "sha256": "36959f76b9e12f2d130563eeaf65d4beda6f6f71c4fc9704a9070da21e84df0a"
+    },
+    "outputs/shield_verified/source_data/data/function_durations_percentiles.anon.d07.csv": {
+      "bytes": 9490215,
+      "sha256": "cbb94daec594584c66ae4946fa939a141f7fd484c01a57369e1d37ecdbd11065"
+    },
+    "outputs/shield_verified/source_data/processed/selected_functions_d01_v2.csv": {
+      "bytes": 244232,
+      "sha256": "de049e036d8262eb25059019e66b8e2ee74c96faa09b88c209360e70330c1dec"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675309.csv.gz": {
+      "bytes": 2586186,
+      "sha256": "6c6dd49da3cedebd86d419028ae6df36ebb28d63bad6cda4d4ca701bd0ea5b59"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675319.csv.gz": {
+      "bytes": 2563694,
+      "sha256": "b523ed42327c68ca4e4d4fd6d98b5b8694fd3e3125c12edf23fa6a89c58f2613"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675320.csv.gz": {
+      "bytes": 2563149,
+      "sha256": "b9deec6ecfadec7a2fd2be06e9162ffa13dd5c2e760b163cc5a88ba9add69c11"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675321.csv.gz": {
+      "bytes": 2545093,
+      "sha256": "f6ef5fde84136343ec30b5b9f11c05e6c1088a16c52966d6bd6398d00c24fc5f"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675325.csv.gz": {
+      "bytes": 2597236,
+      "sha256": "b083efcbcf044b605e1c008f85910bf024f47f3ada003a0fa5a1bc97c8ac734d"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675326.csv.gz": {
+      "bytes": 2584440,
+      "sha256": "bcc9311f71fc138ff690f8f9135a65b2b20311b3eeb29da31502bde776c6e261"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675327.csv.gz": {
+      "bytes": 2586892,
+      "sha256": "ab1d7c6eb60afaf9243ddc5e37cd0229beaeac3dcc7e11357cf134c891f59014"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675331.csv.gz": {
+      "bytes": 2604887,
+      "sha256": "99d543217cfc2c4a1ca55de4f14e76a50164942010d0f4e028698c5236eecdd4"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675332.csv.gz": {
+      "bytes": 2534844,
+      "sha256": "f81d813984e4a9002d78b3dccf827fb8208735d039eef4caaa502b5ebeeb40ab"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675333.csv.gz": {
+      "bytes": 2551671,
+      "sha256": "a0c32865466f36fce05e0ec6a14d0a002523c6e8dd5f403b0fb2e36e3a2527cb"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675336.csv.gz": {
+      "bytes": 2535366,
+      "sha256": "53fd441bc8c2ce9dffee57db645fd57f27a62c9c54f99233889ff10d123e679d"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675337.csv.gz": {
+      "bytes": 2560537,
+      "sha256": "c585c1e0c57b41f6e42cd8b1f0b11818fed67da21a08f6cbf25489716e89f466"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675338.csv.gz": {
+      "bytes": 2593189,
+      "sha256": "2065b4e72463f158c3911e7c6df0cdf44ce00708f786e2b0e89ddc5d5524de5d"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675340.csv.gz": {
+      "bytes": 2593406,
+      "sha256": "d6cdaff94789ce33082797da366f19452c41f3a034065b014acf2f85a7801702"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675341.csv.gz": {
+      "bytes": 2548241,
+      "sha256": "d13086d6342e698de8b80246a26a1c48b877768da2c0ce80f99b0548bebb4cd2"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675342.csv.gz": {
+      "bytes": 2565386,
+      "sha256": "fea4bb284ed30b4c6f7eebf437516c299d2f5168fa8bd048d2ad25c49f260449"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675344.csv.gz": {
+      "bytes": 2566429,
+      "sha256": "9deb00e2cbf7acb90e05f29f1f60e40a45bd0b6533286978607f515b9aa424e2"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675348.csv.gz": {
+      "bytes": 2571125,
+      "sha256": "d1ecc761fb945492b03e6b15c244ac73021348e9ad5553dcd4b942f92d4045bf"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675350.csv.gz": {
+      "bytes": 2608900,
+      "sha256": "a59c5ec3103544c2aed688069493d20d97a08ccf4b657feb843b54624b4dc354"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675351.csv.gz": {
+      "bytes": 2552652,
+      "sha256": "d43229f43d9cd1be4bf6d8bf52f99f2f94e71237c7daa657cf0cb200bc7f4097"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675355.csv.gz": {
+      "bytes": 2578545,
+      "sha256": "87bf8777598df022d80bbbf41522dbb8bd3c3b3dd59c4fb5484aa490d2198902"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675357.csv.gz": {
+      "bytes": 2562599,
+      "sha256": "d7232c5136e18638ba07db207ae4989e8d5248894eb4a87bb3a8ca09daf5dbf6"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675358.csv.gz": {
+      "bytes": 2564089,
+      "sha256": "72d3b60f0ee038b375d2fe63b91ca5bd94e77280560c6dcab83edf1166173fa6"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675360.csv.gz": {
+      "bytes": 2590554,
+      "sha256": "05889f3f5e9f849255c9900ff6197fb022041509d65e204bedec4bf085716121"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675361.csv.gz": {
+      "bytes": 2557747,
+      "sha256": "ef5df1d9d3dac9b222592a7d084d92132951080b061ef2472a450c06336e661e"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675363.csv.gz": {
+      "bytes": 2562018,
+      "sha256": "37d14452a0b809df439e051c12d503e73614f9b964308577e84d433d4f607efa"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675364.csv.gz": {
+      "bytes": 2583872,
+      "sha256": "fa87a81677b8f2e2df29cceb1bdce72e8d240c16dd7f5af8963dca850681ed54"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d08_10675367.csv.gz": {
+      "bytes": 2579877,
+      "sha256": "a1e99cfc2a7274278b0a582deccc4a2599e220237105c48e0feed0abbd917232"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675310.csv.gz": {
+      "bytes": 2559541,
+      "sha256": "49c823149411d66568820fe86160d661651c03aee6eec7cde9a8606353304c3d"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675311.csv.gz": {
+      "bytes": 2563295,
+      "sha256": "a347c9c9d1269b39880469666c349df3e0e8867695161c7fb6c758da32012a67"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675312.csv.gz": {
+      "bytes": 2592085,
+      "sha256": "f9e378861f2c1ed2669a40b037e6243c95ab0089ee4dd44548c5b21d391eb966"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675313.csv.gz": {
+      "bytes": 2576326,
+      "sha256": "e3e07013aac041abffa97dc94d91f1a1d01de189a4fe1ccc65c70a9a9aec6889"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675314.csv.gz": {
+      "bytes": 2559791,
+      "sha256": "fbce4d7f7862adee8091d20269f51623be7c1b160f552e4df984f5e82713d7f4"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675315.csv.gz": {
+      "bytes": 2567831,
+      "sha256": "76f824d8ce3d39fe32f5f6c5e26f649bff2d409227b86ca45d35f5ed22e65686"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675316.csv.gz": {
+      "bytes": 2554014,
+      "sha256": "5fc82dd760d17a50f48228a95d035815902e259240eb520092bc7388fef3e25f"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675317.csv.gz": {
+      "bytes": 2573644,
+      "sha256": "36a73d1b413f5e9b9501e7fb8898f2d271b395c3a14a307f062dc7eb126cc8e3"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675318.csv.gz": {
+      "bytes": 2569800,
+      "sha256": "fb58bc2ce3d7dd6d1703d04a35c3ea366ee65224c0c1dcab891b9d6f56b15fab"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675322.csv.gz": {
+      "bytes": 2583747,
+      "sha256": "c3ad94e514150b3d1ea970e09f4089e220578e718aee8d4fa8a925317a45b47c"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675323.csv.gz": {
+      "bytes": 2579493,
+      "sha256": "0dd4fbc75f4746c46aa69871487580916a209be36829a185767f13ee1d16a585"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675324.csv.gz": {
+      "bytes": 2575802,
+      "sha256": "1ed9c9e438c4428db604b36edaae0f33806aad4a4ae4215b8a4b73bcbe75f692"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675328.csv.gz": {
+      "bytes": 2549364,
+      "sha256": "1cd0fd7109b9dc244d376c19793fb8a71d85019ed5d9890a0be58933ff410871"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675329.csv.gz": {
+      "bytes": 2583478,
+      "sha256": "48cef0aadef62ee0d017b27e0a71ac4182ac64e8c69b2d407df9f26162bff6c0"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675330.csv.gz": {
+      "bytes": 2606636,
+      "sha256": "17860c50a0b1acee20694af11def57109fb6fbacd5a92657eb2aaef44ca5a842"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675334.csv.gz": {
+      "bytes": 2559301,
+      "sha256": "84f925bbfe593cebe6cae66c3d9cbde0e065806909b3182bc9aa28829fbd1627"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675335.csv.gz": {
+      "bytes": 2554410,
+      "sha256": "0e114b9444ae62eec575899bd87a7133c2aa6b565fb92b1546bb6e1689c09210"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675339.csv.gz": {
+      "bytes": 2571075,
+      "sha256": "33c6c464b05ba0b22bede26abad9861bd7da17b20566105af19e88964a2b7a10"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675343.csv.gz": {
+      "bytes": 2554960,
+      "sha256": "aba61bdca3336c89366783311a5a64a0f9129b7cea461b65b3d1155cdba28c5d"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675345.csv.gz": {
+      "bytes": 2568858,
+      "sha256": "79a2041c585eb99f1747fe60d32063c302c45f9a9da570147f97d61d1ed66aed"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675346.csv.gz": {
+      "bytes": 2578119,
+      "sha256": "01bd24d9607b789dd6dfecf96d9290a9cb867d801cd892e9302bbb2c6817a91b"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675347.csv.gz": {
+      "bytes": 2565412,
+      "sha256": "2f8e5cf817d9961dacfeb1385d37ba95896501680eca8c494fd3b2439978fce5"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675349.csv.gz": {
+      "bytes": 2557703,
+      "sha256": "422b1953fbed651fd2dd6f7ef1dd678a8296f6d7bf9ac228b3a7133baf997865"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675352.csv.gz": {
+      "bytes": 2572156,
+      "sha256": "cc4d60445c98f8e19b68c80702e722a950af64175254950489da1cede9adfce1"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675353.csv.gz": {
+      "bytes": 2579093,
+      "sha256": "ca17d0f13765d9ca3a02b63a904bc589ba1c66fa5771b8af47aa38b9f142ad3c"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675354.csv.gz": {
+      "bytes": 2601960,
+      "sha256": "e4133b09a1b02675cb6e968d712432938cf4778cdd446adf65a05c3ba3dd5e0d"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675356.csv.gz": {
+      "bytes": 2591447,
+      "sha256": "e31342a00cf5bba959c9ae695ea8c7f4e5d4aa28418651520c15cf78163fe8b1"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675359.csv.gz": {
+      "bytes": 2578136,
+      "sha256": "db589412248638c2d9ae7706a2cddad56a737f7d1efd23f68fbd87cb9282477e"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675362.csv.gz": {
+      "bytes": 2568554,
+      "sha256": "d01690e830ae7e831c1bc8ef584a81327c86ae226416508146374b653923ec73"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675365.csv.gz": {
+      "bytes": 2541461,
+      "sha256": "4d9207b93702406fa0b0708439964c065fa9332c4104f2b33332fd3f517d7545"
+    },
+    "outputs/shield_verified/source_data/runs/deadline_guard_v1/inputs/d09_10675366.csv.gz": {
+      "bytes": 2545633,
+      "sha256": "d9dc727b246d8e7a12ab7e01dde720bc017fd504d0c9da9d10cbc50ae3e05eec"
+    }
+  },
+  "scope": "Exact private replay attachments omitted from the portable archive."
+}

@@ -1,0 +1,16 @@
+{
+  "code_sha256": "a5c4dede66bca8723c7df209e28e2487f21b7ef2339599b1b08f0ebcd1b38e29",
+  "plan": [
+    [
+      "d08",
+      10675309
+    ],
+    [
+      "d09",
+      10675310
+    ]
+  ],
+  "scope": "first workload per source day; proposed route outcome is local simulator diagnostic",
+  "rows": 36315,
+  "event_file_sha256": "17eb04e445a93e0343653ab806f82cf60494889207c6e07c863af779ee31eb1c"
+}

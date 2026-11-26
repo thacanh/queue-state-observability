@@ -1,0 +1,261 @@
+seed,setting,oracle,estimated,assessment
+42,stage1_sha256,"""038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd""","""038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd""",MATCH
+42,train_sha256,"""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""","""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""",MATCH
+42,validation_sha256,"""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""","""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""",MATCH
+42,feature_scales,"{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}","{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}",MATCH
+42,network_parameter_shapes,"{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}","{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}",MATCH
+42,amp_growth_interval,1000000000,1000000000,MATCH
+42,amp_init_scale,1024.0,1024.0,MATCH
+42,batch,4096,4096,MATCH
+42,buffer,600000,600000,MATCH
+42,checkpoint_every,2000,1000,PERSISTENCE_ONLY
+42,clip_reward,true,true,MATCH
+42,device,"""cuda""","""cuda""",MATCH
+42,dual_envs,128,128,MATCH
+42,dual_lr,100.0,100.0,MATCH
+42,dual_measure,512,512,MATCH
+42,dual_update,200,200,MATCH
+42,dual_warmup,512,512,MATCH
+42,ema,0.5,0.5,MATCH
+42,episode_len,3000,3000,MATCH
+42,eps_fraction,0.25,0.25,MATCH
+42,eps_start,0.2,0.2,MATCH
+42,fixed_lambda,2.0,2.0,MATCH
+42,gamma,0.99,0.99,MATCH
+42,lambda_init,10.0,10.0,MATCH
+42,lambda_max,80.0,80.0,MATCH
+42,learning_starts,30000,30000,MATCH
+42,lr,0.0001,0.0001,MATCH
+42,mask,"""full""","""full""",MATCH
+42,method,"""fixed""","""fixed""",MATCH
+42,nenv,256,256,MATCH
+42,seed,42,42,MATCH
+42,speeds,"[1.5, 1.0, 0.7]","[1.5, 1.0, 0.7]",MATCH
+42,target,0.005,0.005,MATCH
+42,target_update,500,500,MATCH
+42,transitions,2000000,2000000,MATCH
+42,workers,"[4, 3, 2]","[4, 3, 2]",MATCH
+42,torch,"""2.14.1+cu130""","""2.14.1+cu130""",MATCH
+42,numpy,"""2.4.6""","""2.4.6""",MATCH
+42,cuda,"""13.0""","""13.0""",MATCH
+42,gpu_model,"""historical audit describes T4, not per-job hardware metadata""","""Tesla T4""",HISTORICAL_DEVICE_NOT_RECORDED_PER_JOB
+42,realized_transitions,2000128,2000128,MATCH
+42,optimizer_updates,7695,7695,MATCH
+42,optimizer,"""AdamW, weight_decay=1e-5, fresh state""","""AdamW, weight_decay=1e-5, fresh state""",MATCH
+42,replay,"""new zeroed replay, identical buffer and warm-up""","""new zeroed replay, identical buffer and warm-up""",MATCH
+42,amp_overflow,"""retry same minibatch, count applied optimizer steps only""","""retry same minibatch, count applied optimizer steps only""",MATCH
+42,rng,"""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""","""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""",MATCH
+42,checkpoint_selection,"""final requested batch, no best-validation selection""","""final requested batch, no best-validation selection""",MATCH
+42,validation_updates,"""inactive, dual measurement guarded by method == adaptive""","""inactive, dual measurement guarded by method == adaptive""",MATCH
+42,guard_bank,"""same frozen evaluation demand CDF, fit on d01\u2013d07 only""","""same frozen evaluation demand CDF, fit on d01\u2013d07 only""",MATCH
+42,calendar,"""exact future completion""","""completion events, elapsed service and prior bank""",INTERVENTION
+42,simulator_execution,"""Torch float32 dispatch on CUDA""","""Numba float32 dispatch on CPU, Torch learner on CUDA""",TESTED_IDENTICAL_DISPATCH_WITH_FIXED_ACTIONS
+42,source_identity,"""75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362""","""342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313""",AST_AUDITED
+43,stage1_sha256,"""99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e""","""99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e""",MATCH
+43,train_sha256,"""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""","""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""",MATCH
+43,validation_sha256,"""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""","""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""",MATCH
+43,feature_scales,"{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}","{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}",MATCH
+43,network_parameter_shapes,"{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}","{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}",MATCH
+43,amp_growth_interval,1000000000,1000000000,MATCH
+43,amp_init_scale,1024.0,1024.0,MATCH
+43,batch,4096,4096,MATCH
+43,buffer,600000,600000,MATCH
+43,checkpoint_every,2000,1000,PERSISTENCE_ONLY
+43,clip_reward,true,true,MATCH
+43,device,"""cuda""","""cuda""",MATCH
+43,dual_envs,128,128,MATCH
+43,dual_lr,100.0,100.0,MATCH
+43,dual_measure,512,512,MATCH
+43,dual_update,200,200,MATCH
+43,dual_warmup,512,512,MATCH
+43,ema,0.5,0.5,MATCH
+43,episode_len,3000,3000,MATCH
+43,eps_fraction,0.25,0.25,MATCH
+43,eps_start,0.2,0.2,MATCH
+43,fixed_lambda,2.0,2.0,MATCH
+43,gamma,0.99,0.99,MATCH
+43,lambda_init,10.0,10.0,MATCH
+43,lambda_max,80.0,80.0,MATCH
+43,learning_starts,30000,30000,MATCH
+43,lr,0.0001,0.0001,MATCH
+43,mask,"""full""","""full""",MATCH
+43,method,"""fixed""","""fixed""",MATCH
+43,nenv,256,256,MATCH
+43,seed,43,43,MATCH
+43,speeds,"[1.5, 1.0, 0.7]","[1.5, 1.0, 0.7]",MATCH
+43,target,0.005,0.005,MATCH
+43,target_update,500,500,MATCH
+43,transitions,2000000,2000000,MATCH
+43,workers,"[4, 3, 2]","[4, 3, 2]",MATCH
+43,torch,"""2.14.1+cu130""","""2.14.1+cu130""",MATCH
+43,numpy,"""2.4.6""","""2.4.6""",MATCH
+43,cuda,"""13.0""","""13.0""",MATCH
+43,gpu_model,"""historical audit describes T4, not per-job hardware metadata""","""Tesla T4""",HISTORICAL_DEVICE_NOT_RECORDED_PER_JOB
+43,realized_transitions,2000128,2000128,MATCH
+43,optimizer_updates,7695,7695,MATCH
+43,optimizer,"""AdamW, weight_decay=1e-5, fresh state""","""AdamW, weight_decay=1e-5, fresh state""",MATCH
+43,replay,"""new zeroed replay, identical buffer and warm-up""","""new zeroed replay, identical buffer and warm-up""",MATCH
+43,amp_overflow,"""retry same minibatch, count applied optimizer steps only""","""retry same minibatch, count applied optimizer steps only""",MATCH
+43,rng,"""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""","""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""",MATCH
+43,checkpoint_selection,"""final requested batch, no best-validation selection""","""final requested batch, no best-validation selection""",MATCH
+43,validation_updates,"""inactive, dual measurement guarded by method == adaptive""","""inactive, dual measurement guarded by method == adaptive""",MATCH
+43,guard_bank,"""same frozen evaluation demand CDF, fit on d01\u2013d07 only""","""same frozen evaluation demand CDF, fit on d01\u2013d07 only""",MATCH
+43,calendar,"""exact future completion""","""completion events, elapsed service and prior bank""",INTERVENTION
+43,simulator_execution,"""Torch float32 dispatch on CUDA""","""Numba float32 dispatch on CPU, Torch learner on CUDA""",TESTED_IDENTICAL_DISPATCH_WITH_FIXED_ACTIONS
+43,source_identity,"""75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362""","""342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313""",AST_AUDITED
+44,stage1_sha256,"""d749e3859cbe015fba297e410b6ba6f9cce99f4def829dafdca880de0ffe9081""","""d749e3859cbe015fba297e410b6ba6f9cce99f4def829dafdca880de0ffe9081""",MATCH
+44,train_sha256,"""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""","""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""",MATCH
+44,validation_sha256,"""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""","""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""",MATCH
+44,feature_scales,"{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}","{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}",MATCH
+44,network_parameter_shapes,"{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}","{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}",MATCH
+44,amp_growth_interval,1000000000,1000000000,MATCH
+44,amp_init_scale,1024.0,1024.0,MATCH
+44,batch,4096,4096,MATCH
+44,buffer,600000,600000,MATCH
+44,checkpoint_every,2000,1000,PERSISTENCE_ONLY
+44,clip_reward,true,true,MATCH
+44,device,"""cuda""","""cuda""",MATCH
+44,dual_envs,128,128,MATCH
+44,dual_lr,100.0,100.0,MATCH
+44,dual_measure,512,512,MATCH
+44,dual_update,200,200,MATCH
+44,dual_warmup,512,512,MATCH
+44,ema,0.5,0.5,MATCH
+44,episode_len,3000,3000,MATCH
+44,eps_fraction,0.25,0.25,MATCH
+44,eps_start,0.2,0.2,MATCH
+44,fixed_lambda,2.0,2.0,MATCH
+44,gamma,0.99,0.99,MATCH
+44,lambda_init,10.0,10.0,MATCH
+44,lambda_max,80.0,80.0,MATCH
+44,learning_starts,30000,30000,MATCH
+44,lr,0.0001,0.0001,MATCH
+44,mask,"""full""","""full""",MATCH
+44,method,"""fixed""","""fixed""",MATCH
+44,nenv,256,256,MATCH
+44,seed,44,44,MATCH
+44,speeds,"[1.5, 1.0, 0.7]","[1.5, 1.0, 0.7]",MATCH
+44,target,0.005,0.005,MATCH
+44,target_update,500,500,MATCH
+44,transitions,2000000,2000000,MATCH
+44,workers,"[4, 3, 2]","[4, 3, 2]",MATCH
+44,torch,"""2.14.1+cu130""","""2.14.1+cu130""",MATCH
+44,numpy,"""2.4.6""","""2.4.6""",MATCH
+44,cuda,"""13.0""","""13.0""",MATCH
+44,gpu_model,"""historical audit describes T4, not per-job hardware metadata""","""Tesla T4""",HISTORICAL_DEVICE_NOT_RECORDED_PER_JOB
+44,realized_transitions,2000128,2000128,MATCH
+44,optimizer_updates,7695,7695,MATCH
+44,optimizer,"""AdamW, weight_decay=1e-5, fresh state""","""AdamW, weight_decay=1e-5, fresh state""",MATCH
+44,replay,"""new zeroed replay, identical buffer and warm-up""","""new zeroed replay, identical buffer and warm-up""",MATCH
+44,amp_overflow,"""retry same minibatch, count applied optimizer steps only""","""retry same minibatch, count applied optimizer steps only""",MATCH
+44,rng,"""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""","""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""",MATCH
+44,checkpoint_selection,"""final requested batch, no best-validation selection""","""final requested batch, no best-validation selection""",MATCH
+44,validation_updates,"""inactive, dual measurement guarded by method == adaptive""","""inactive, dual measurement guarded by method == adaptive""",MATCH
+44,guard_bank,"""same frozen evaluation demand CDF, fit on d01\u2013d07 only""","""same frozen evaluation demand CDF, fit on d01\u2013d07 only""",MATCH
+44,calendar,"""exact future completion""","""completion events, elapsed service and prior bank""",INTERVENTION
+44,simulator_execution,"""Torch float32 dispatch on CUDA""","""Numba float32 dispatch on CPU, Torch learner on CUDA""",TESTED_IDENTICAL_DISPATCH_WITH_FIXED_ACTIONS
+44,source_identity,"""75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362""","""342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313""",AST_AUDITED
+45,stage1_sha256,"""b08afc589cfd717c1b27bf80bbff3c043fe83220a163d30d1045502f5e75bbdb""","""b08afc589cfd717c1b27bf80bbff3c043fe83220a163d30d1045502f5e75bbdb""",MATCH
+45,train_sha256,"""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""","""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""",MATCH
+45,validation_sha256,"""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""","""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""",MATCH
+45,feature_scales,"{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}","{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}",MATCH
+45,network_parameter_shapes,"{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}","{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}",MATCH
+45,amp_growth_interval,1000000000,1000000000,MATCH
+45,amp_init_scale,1024.0,1024.0,MATCH
+45,batch,4096,4096,MATCH
+45,buffer,600000,600000,MATCH
+45,checkpoint_every,2000,1000,PERSISTENCE_ONLY
+45,clip_reward,true,true,MATCH
+45,device,"""cuda""","""cuda""",MATCH
+45,dual_envs,128,128,MATCH
+45,dual_lr,100.0,100.0,MATCH
+45,dual_measure,512,512,MATCH
+45,dual_update,200,200,MATCH
+45,dual_warmup,512,512,MATCH
+45,ema,0.5,0.5,MATCH
+45,episode_len,3000,3000,MATCH
+45,eps_fraction,0.25,0.25,MATCH
+45,eps_start,0.2,0.2,MATCH
+45,fixed_lambda,2.0,2.0,MATCH
+45,gamma,0.99,0.99,MATCH
+45,lambda_init,10.0,10.0,MATCH
+45,lambda_max,80.0,80.0,MATCH
+45,learning_starts,30000,30000,MATCH
+45,lr,0.0001,0.0001,MATCH
+45,mask,"""full""","""full""",MATCH
+45,method,"""fixed""","""fixed""",MATCH
+45,nenv,256,256,MATCH
+45,seed,45,45,MATCH
+45,speeds,"[1.5, 1.0, 0.7]","[1.5, 1.0, 0.7]",MATCH
+45,target,0.005,0.005,MATCH
+45,target_update,500,500,MATCH
+45,transitions,2000000,2000000,MATCH
+45,workers,"[4, 3, 2]","[4, 3, 2]",MATCH
+45,torch,"""2.14.1+cu130""","""2.14.1+cu130""",MATCH
+45,numpy,"""2.4.6""","""2.4.6""",MATCH
+45,cuda,"""13.0""","""13.0""",MATCH
+45,gpu_model,"""historical audit describes T4, not per-job hardware metadata""","""Tesla T4""",HISTORICAL_DEVICE_NOT_RECORDED_PER_JOB
+45,realized_transitions,2000128,2000128,MATCH
+45,optimizer_updates,7695,7695,MATCH
+45,optimizer,"""AdamW, weight_decay=1e-5, fresh state""","""AdamW, weight_decay=1e-5, fresh state""",MATCH
+45,replay,"""new zeroed replay, identical buffer and warm-up""","""new zeroed replay, identical buffer and warm-up""",MATCH
+45,amp_overflow,"""retry same minibatch, count applied optimizer steps only""","""retry same minibatch, count applied optimizer steps only""",MATCH
+45,rng,"""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""","""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""",MATCH
+45,checkpoint_selection,"""final requested batch, no best-validation selection""","""final requested batch, no best-validation selection""",MATCH
+45,validation_updates,"""inactive, dual measurement guarded by method == adaptive""","""inactive, dual measurement guarded by method == adaptive""",MATCH
+45,guard_bank,"""same frozen evaluation demand CDF, fit on d01\u2013d07 only""","""same frozen evaluation demand CDF, fit on d01\u2013d07 only""",MATCH
+45,calendar,"""exact future completion""","""completion events, elapsed service and prior bank""",INTERVENTION
+45,simulator_execution,"""Torch float32 dispatch on CUDA""","""Numba float32 dispatch on CPU, Torch learner on CUDA""",TESTED_IDENTICAL_DISPATCH_WITH_FIXED_ACTIONS
+45,source_identity,"""75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362""","""342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313""",AST_AUDITED
+46,stage1_sha256,"""af94e14a26b780bc38d8082ae5c2f1214e1b7aecebb3bb2c925c245507c5f076""","""af94e14a26b780bc38d8082ae5c2f1214e1b7aecebb3bb2c925c245507c5f076""",MATCH
+46,train_sha256,"""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""","""fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62""",MATCH
+46,validation_sha256,"""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""","""f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb""",MATCH
+46,feature_scales,"{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}","{""p50"": 0.9954715371131897, ""p99"": 4.737631797790527, ""unc"": 176.679931640625, ""ia"": 0.4726361036300659, ""res"": 10.594494819641113, ""lat_ref"": 0.40400001406669617}",MATCH
+46,network_parameter_shapes,"{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}","{""net.0.weight"": [256, 22], ""net.0.bias"": [256], ""net.2.weight"": [256, 256], ""net.2.bias"": [256], ""net.4.weight"": [3, 256], ""net.4.bias"": [3]}",MATCH
+46,amp_growth_interval,1000000000,1000000000,MATCH
+46,amp_init_scale,1024.0,1024.0,MATCH
+46,batch,4096,4096,MATCH
+46,buffer,600000,600000,MATCH
+46,checkpoint_every,2000,1000,PERSISTENCE_ONLY
+46,clip_reward,true,true,MATCH
+46,device,"""cuda""","""cuda""",MATCH
+46,dual_envs,128,128,MATCH
+46,dual_lr,100.0,100.0,MATCH
+46,dual_measure,512,512,MATCH
+46,dual_update,200,200,MATCH
+46,dual_warmup,512,512,MATCH
+46,ema,0.5,0.5,MATCH
+46,episode_len,3000,3000,MATCH
+46,eps_fraction,0.25,0.25,MATCH
+46,eps_start,0.2,0.2,MATCH
+46,fixed_lambda,2.0,2.0,MATCH
+46,gamma,0.99,0.99,MATCH
+46,lambda_init,10.0,10.0,MATCH
+46,lambda_max,80.0,80.0,MATCH
+46,learning_starts,30000,30000,MATCH
+46,lr,0.0001,0.0001,MATCH
+46,mask,"""full""","""full""",MATCH
+46,method,"""fixed""","""fixed""",MATCH
+46,nenv,256,256,MATCH
+46,seed,46,46,MATCH
+46,speeds,"[1.5, 1.0, 0.7]","[1.5, 1.0, 0.7]",MATCH
+46,target,0.005,0.005,MATCH
+46,target_update,500,500,MATCH
+46,transitions,2000000,2000000,MATCH
+46,workers,"[4, 3, 2]","[4, 3, 2]",MATCH
+46,torch,"""2.14.1+cu130""","""2.14.1+cu130""",MATCH
+46,numpy,"""2.4.6""","""2.4.6""",MATCH
+46,cuda,"""13.0""","""13.0""",MATCH
+46,gpu_model,"""historical audit describes T4, not per-job hardware metadata""","""Tesla T4""",HISTORICAL_DEVICE_NOT_RECORDED_PER_JOB
+46,realized_transitions,2000128,2000128,MATCH
+46,optimizer_updates,7695,7695,MATCH
+46,optimizer,"""AdamW, weight_decay=1e-5, fresh state""","""AdamW, weight_decay=1e-5, fresh state""",MATCH
+46,replay,"""new zeroed replay, identical buffer and warm-up""","""new zeroed replay, identical buffer and warm-up""",MATCH
+46,amp_overflow,"""retry same minibatch, count applied optimizer steps only""","""retry same minibatch, count applied optimizer steps only""",MATCH
+46,rng,"""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""","""same Python/NumPy/PyTorch seed and separate train/dual/action/replay generators""",MATCH
+46,checkpoint_selection,"""final requested batch, no best-validation selection""","""final requested batch, no best-validation selection""",MATCH
+46,validation_updates,"""inactive, dual measurement guarded by method == adaptive""","""inactive, dual measurement guarded by method == adaptive""",MATCH
+46,guard_bank,"""same frozen evaluation demand CDF, fit on d01\u2013d07 only""","""same frozen evaluation demand CDF, fit on d01\u2013d07 only""",MATCH
+46,calendar,"""exact future completion""","""completion events, elapsed service and prior bank""",INTERVENTION
+46,simulator_execution,"""Torch float32 dispatch on CUDA""","""Numba float32 dispatch on CPU, Torch learner on CUDA""",TESTED_IDENTICAL_DISPATCH_WITH_FIXED_ACTIONS
+46,source_identity,"""75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362""","""342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313""",AST_AUDITED

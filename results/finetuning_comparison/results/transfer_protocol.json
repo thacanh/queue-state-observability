@@ -1,0 +1,82 @@
+{
+  "source_protocol": "73145a6d906828926948d07a33e97182edff82ceb0746008d26ca8dccad8ced5",
+  "source_sha256": "d56368ef194baa8d418304bd2f87cca67668ced0d117bd89ad4ef3cf836457d2",
+  "historical_pairs_sha256": "84bb13f4a1b1a546eea78de8db1b6ef5f159c05864d80fe8fdaeefb9fe7a94e6",
+  "bounds_sha256": "c5766124498e9dfc050cb023bfd1ab389eade09eb05c597bd5fc3800492a1a9c",
+  "extension_code_sha256": "95bed435e1f816453dfea55618aa7302dcad6a2889af17921be483cfa5eff71e",
+  "historical_code": {
+    "replay_transfer.py": "8c84b7beea8e521a57c8a4831d749747f975ce8ca1764fce2a260d2f6edcd2ee",
+    "replay_io.py": "c2454163e7dfc38575fb6f036f41f2eb2ef2355a153154e2f880fe8643a0d13a",
+    "routing_simulator.py": "08e48d84576f6bce60ed010f6d331b658a6afe4430b16153fbd2f984b608b49d"
+  },
+  "released_code": {
+    "replay_transfer.py": "1192b9d22559809a0f157b94bae6690185671e29e8dbc9db0001cd7276b66642",
+    "replay_io.py": "148182abbcfd5749aeb1c48f6e35312896e74eef92c185a47421f089fb9f5de3",
+    "routing_simulator.py": "cdc75cf365d79b8fd233a3d35265b420ceb749051945596938b25325d336329d"
+  },
+  "telemetry_code": {
+    "crossed_router.py": "dfcad4a2ef7378f1a84f0330108d540f5aa2a390f7e5193b1543125bc01d1431",
+    "replay_crossed.py": "76da91b208de2e3d32c81500dbf7a287e6fa2fdd0781a447bac117d05eb0046e"
+  },
+  "workloads": {
+    "9": {
+      "sha256": "8eb123f850063ab2c9e91ccaf38890bff94bf9d096e2a1db4100ab1be12a5c22",
+      "n": 22583,
+      "start_minute": 9
+    },
+    "10": {
+      "sha256": "7c1f7fef8a5d1ff68905dff557dab6e31f18a59920d73d8499e6e6795f0e3d29",
+      "n": 20595,
+      "start_minute": 1035
+    },
+    "11": {
+      "sha256": "8b6373c3a4ff06b276d8b86adb8ad6002144c4e7baf8e78e670ae11bbada2caa",
+      "n": 40311,
+      "start_minute": 879
+    },
+    "12": {
+      "sha256": "fb684b0a7c7aab1c2f6f0281ed921955836d962346f9e28bc2cb4c34d504f195",
+      "n": 16582,
+      "start_minute": 830
+    },
+    "13": {
+      "sha256": "6963b9acd4b462f0a51e1ce3558f61f7fb7b6039cc2f9147e1a9451ce21a28a1",
+      "n": 9460,
+      "start_minute": 681
+    }
+  },
+  "cohort_size": 30,
+  "excluded_invalid_source_records": 171333,
+  "profile_fit": "Only 2021 invocations starting on elapsed days 0\u20136 and ending before day 7",
+  "training": {
+    "oracle/42": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+    "estimated/42": "c997a5ea4667f5c2f0c5b663a74234621ef93ece5fdac55636308f4e03a6cdbe",
+    "oracle/43": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+    "estimated/43": "b0ab43d89aea0836729a44cd5072b7d9f75aa4616975bf4f7dda10c7b4ae2869",
+    "oracle/44": "57cf7d0f411c85d52316b5c1b4a6d73be61e86a922bbbc52e3cefbf3ed454dbc",
+    "estimated/44": "e7901d9f1cb1da696e9bc594b39066a8592bdc63f9465a9498d5c5b43dd60c09",
+    "oracle/45": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427",
+    "estimated/45": "21b83fa4223d054e984e9e510d853fe1ad4d30d0a4c9c4c9a91ac695f792d463",
+    "oracle/46": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566",
+    "estimated/46": "bfd5e596ace8086aec6912f74e8b716c6cc59685014a320a0411e5cee0683730"
+  },
+  "evaluation_observation": "estimated",
+  "guard_thresholds": [
+    0.005,
+    0.005
+  ],
+  "residual_scale": 1.0,
+  "budget": 0.005,
+  "speeds": [
+    1.5,
+    1.0,
+    0.7
+  ],
+  "workers": [
+    4,
+    3,
+    2
+  ],
+  "offered_load": 0.6,
+  "scope": "Frozen external-transfer extension on five previously inspected windows"
+}

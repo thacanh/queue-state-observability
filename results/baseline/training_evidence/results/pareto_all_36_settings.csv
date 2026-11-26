@@ -1,0 +1,757 @@
+servers,target,load,protocol,method,violation_mean_pct,violation_seed_SD_pp,p95_mean_ms,p95_seed_SD_ms,p99_mean_ms,p99_seed_SD_ms,paired_rows,feasible_rows,worst_violation_pct,policy,family,uncertainty_basis,on_mean_frontier,every_row_feasible
+3,0.003,0.4,distribution_shift,adaptive,0.01735811252050805,0.00258371415156628,1492.8284817786684,2.605447230218354,1879.514595268555,2.5563547237119923,50,50,0.02627279370109,adaptive,RL,SD of five training-seed means,True,True
+3,0.003,0.4,distribution_shift,fixed,0.01804909417238676,0.007341511680185622,1489.0155135620553,1.2608526536577591,1874.7320425030907,1.5438501972515881,50,50,0.03694611614216,fixed,RL,SD of five training-seed means,True,True
+3,0.003,0.4,distribution_shift,latency,0.022933161074059998,0.0052716401474968465,1487.3534791946972,4.977683444217062,1872.0882992645475,2.565119813666652,50,50,0.0402302153548,latency,RL,SD of five training-seed means,True,True
+3,0.003,0.4,distribution_shift,LeastWorkload,1.9638138146672122,,2113.719632873125,,,,10,0,2.09508328612828,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.4,distribution_shift,SED_alpha0.0,0.028194381667776002,,1487.9813768981735,,,,10,10,0.03940919055164,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.003,0.4,distribution_shift,SED_alpha0.1,0.024097325553074936,,1495.2545128266145,,,,10,10,0.04187226496112,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.003,0.4,distribution_shift,SED_alpha0.2,0.0204892235675732,,1500.7080285159711,,,,10,10,0.036125091339,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.003,0.4,distribution_shift,SED_alpha0.3,0.018355663039714,,1506.1139530821079,,,,10,10,0.02709381850425,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.003,0.4,distribution_shift,SED_alpha0.4,0.016307058381049566,,1511.656405943991,,,,10,10,0.02627279370109,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_alpha0.5,0.01507859974887658,,1515.9741693922658,,,,10,10,0.022167669685299998,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_alpha0.6,0.014013850464351298,,1519.9714020267998,,,,10,10,0.022988694488460002,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_alpha0.7,0.01270395365171937,,1524.0747223320675,,,,10,10,0.021346644882139998,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_alpha0.8,0.010489120353345803,,1527.8840926163816,,,,10,10,0.01970459527582,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_alpha0.9,0.009995145992767955,,1531.6371040844542,,,,10,10,0.016419148010400002,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_alpha1.0,0.00852078666265055,,1534.8834315694007,,,,10,10,0.01309114711176,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_q0.50,0.028194381667776002,,1487.9813768981735,,,,10,10,0.03940919055164,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.003,0.4,distribution_shift,SED_q0.75,0.022619177542949204,,1496.8782136662048,,,,10,10,0.03940919055164,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.003,0.4,distribution_shift,SED_q0.90,0.01384907916795372,,1521.1113680266849,,,,10,10,0.022988694488460002,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_q0.95,0.010407314411844714,,1528.8038625310273,,,,10,10,0.01970459527582,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,SED_q0.99,0.00852078666265055,,1534.8834315694007,,,,10,10,0.01309114711176,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.003,0.4,distribution_shift,WeightedRR,1.797295000534713,,1900.804252163444,,,,10,0,1.8888550973606901,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,adaptive,0.4705923103901726,0.04044883506122428,1704.8744683016168,9.319616658560228,2324.943546316997,15.833108912302697,50,0,0.64204139607057,adaptive,RL,SD of five training-seed means,True,False
+3,0.003,0.6,scenario_specific,fixed,0.46569868079174376,0.0660425686469539,1705.0096326795942,10.019364866822404,2316.497421182862,20.747045065488948,50,0,0.6962290330790799,fixed,RL,SD of five training-seed means,True,False
+3,0.003,0.6,scenario_specific,latency,0.5521717897516314,0.03517454309273862,1690.3832704568217,14.59167299206738,2284.0968929739665,20.033088997503956,50,0,0.74138539725285,latency,RL,SD of five training-seed means,True,False
+3,0.003,0.6,scenario_specific,LeastWorkload,6.846281341566399,,2188.8110406822943,,,,10,0,7.09858044811533,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.0,0.8684115028184201,,1653.9756084371456,,,,10,0,1.00165025985435,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.6,scenario_specific,SED_alpha0.1,0.8177599684225101,,1670.982615524481,,,,10,0,0.92452071763152,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.6,scenario_specific,SED_alpha0.2,0.7645676845355128,,1684.6808403127682,,,,10,0,0.87365977309456,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.6,scenario_specific,SED_alpha0.3,0.72241847525182,,1698.5938394669224,,,,10,0,0.82115815292737,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.4,0.678399391092489,,1713.4836936346535,,,,10,0,0.7785005865415301,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.5,0.635224082385896,,1728.2987639005544,,,,10,0,0.73338200671036,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.6,0.6023405913550021,,1744.1639147040496,,,,10,0,0.69540800827593,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.7,0.5821862833392221,,1760.178319211227,,,,10,0,0.66201261679559,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.8,0.545351010540832,,1775.6679162000473,,,,10,0,0.64204139607057,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha0.9,0.520219658052034,,1792.2823618788057,,,,10,0,0.6009901559126101,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_alpha1.0,0.48783131447236006,,1807.9779930664986,,,,10,0,0.58572119999015,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_q0.50,0.8684115028184201,,1653.9756084371456,,,,10,0,1.00165025985435,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.6,scenario_specific,SED_q0.75,0.799060103424289,,1673.5265997437339,,,,10,0,0.9278020688919599,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.6,scenario_specific,SED_q0.90,0.607373250556337,,1748.6887898778818,,,,10,0,0.6931854537698601,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_q0.95,0.5470880165443601,,1780.4504158243212,,,,10,0,0.64204139607057,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,SED_q0.99,0.48783131447236006,,1807.9779930664986,,,,10,0,0.58572119999015,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.6,scenario_specific,WeightedRR,8.13508017937186,,2207.1492675418394,,,,10,0,8.53870070364915,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,adaptive,6.413276385582482,0.443205092732684,2289.0286158611316,26.717737038762618,3423.670395206911,65.23573191336313,50,0,7.641957126493209,adaptive,RL,SD of five training-seed means,True,False
+3,0.003,0.8,distribution_shift,fixed,6.777624133627495,0.49472612239752356,2289.751892816347,45.00616319222455,3351.7085800182394,98.04929454824659,50,0,8.47807323989971,fixed,RL,SD of five training-seed means,False,False
+3,0.003,0.8,distribution_shift,latency,7.6057517198505264,0.1869488846574289,2227.0201679493402,36.40560081406964,3186.4506880038016,105.16722737125521,50,0,8.60301672763141,latency,RL,SD of five training-seed means,True,False
+3,0.003,0.8,distribution_shift,LeastWorkload,20.568838393040608,,2708.705652895952,,,,10,0,21.527269738194068,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha0.0,10.114184233279259,,2097.3553152427485,,,,10,0,11.09695450248654,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.8,distribution_shift,SED_alpha0.1,9.953943562607328,,2143.0828000913493,,,,10,0,10.8511775101722,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha0.2,9.736995663696877,,2166.5125605691237,,,,10,0,10.648144342608191,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.8,distribution_shift,SED_alpha0.3,9.498296543736718,,2189.2652852105166,,,,10,0,10.43031523570753,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.8,distribution_shift,SED_alpha0.4,9.30417510261708,,2211.4948078059747,,,,10,0,10.2017210687361,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.8,distribution_shift,SED_alpha0.5,9.096108071859199,,2235.7128328108547,,,,10,0,10.05301878262299,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha0.6,8.954420413809327,,2259.922492818961,,,,10,0,9.863137561136,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha0.7,8.787621401780292,,2284.786454367463,,,,10,0,9.69475229899672,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha0.8,8.65009250952859,,2309.951604799823,,,,10,0,9.54255887550861,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha0.9,8.513559402913158,,2335.8154274774297,,,,10,0,9.44638526982039,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_alpha1.0,8.364760218745234,,2362.0975160903977,,,,10,0,9.22033619662159,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_q0.50,10.114184233279259,,2097.3553152427485,,,,10,0,11.09695450248654,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.8,distribution_shift,SED_q0.75,9.789037764324478,,2126.214367497362,,,,10,0,10.63828038305042,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.003,0.8,distribution_shift,SED_q0.90,8.96240535922642,,2265.7776545729307,,,,10,0,9.83765566561177,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_q0.95,8.609791109547121,,2316.6782039033046,,,,10,0,9.58810838303213,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,SED_q0.99,8.364760218745234,,2362.0975160903977,,,,10,0,9.22033619662159,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.8,distribution_shift,WeightedRR,25.90382244672141,,3633.936360738181,,,,10,0,26.8041237113402,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,adaptive,22.954889430064007,1.301829519727708,3917.205070205785,131.27328288977532,7185.133741255796,752.7993340065515,50,0,28.890715548066247,adaptive,RL,SD of five training-seed means,True,False
+3,0.003,0.9,distribution_shift,fixed,23.4056814500083,0.6325823411203843,3457.9190058426234,240.14492161924872,5240.803831164698,553.6285830383085,50,0,27.75225021577411,fixed,RL,SD of five training-seed means,True,False
+3,0.003,0.9,distribution_shift,latency,24.87046348435832,0.4490319326691455,3142.5047208050664,306.12658009104234,5282.248127964469,890.8194758370595,50,0,28.41642349266368,latency,RL,SD of five training-seed means,True,False
+3,0.003,0.9,distribution_shift,LeastWorkload,39.363779431857544,,5395.956044822327,,,,10,0,41.902922198018985,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.0,30.03694520762885,,4729.466602043334,,,,10,0,33.788171468496984,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.1,29.867443436128777,,4806.124092469277,,,,10,0,33.56705437507706,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.2,29.5743576689383,,4810.442088863306,,,,10,0,33.218527804036,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.3,29.390527436365275,,4831.736828106676,,,,10,0,33.07714438370803,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.4,29.144148622806977,,4836.167998704279,,,,10,0,32.766429657638405,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.5,28.97396645157006,,4852.162549611267,,,,10,0,32.65463811598372,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.6,28.752682294511906,,4858.946416323689,,,,10,0,32.601208335045825,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.7,28.621834395868245,,4876.147698057267,,,,10,0,32.3915991944433,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.8,28.471352307192653,,4882.271769234168,,,,10,0,32.26418971682216,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha0.9,28.32796520161972,,4904.016154094795,,,,10,0,32.08088446837367,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_alpha1.0,28.192084188889098,,4919.224696083531,,,,10,0,32.02992067732522,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_q0.50,30.03694520762885,,4729.466602043334,,,,10,0,33.788171468496984,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_q0.75,29.70282800833518,,4740.645731135382,,,,10,0,33.4445768772348,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_q0.90,28.76074718705134,,4866.916064785275,,,,10,0,32.498458756319096,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_q0.95,28.470438034946977,,4891.592931727665,,,,10,0,32.22719986848054,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,SED_q0.99,28.192084188889098,,4919.224696083531,,,,10,0,32.02992067732522,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.003,0.9,distribution_shift,WeightedRR,46.702094709274505,,9300.580518743893,,,,10,0,50.37606345813982,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.4,distribution_shift,adaptive,0.019883917215160862,0.005777749033664744,1493.243579964984,3.4685849380019174,1879.8913504247453,3.196862503197628,50,50,0.036125091339,adaptive,RL,SD of five training-seed means,False,True
+3,0.005,0.4,distribution_shift,fixed,0.01804909417238676,0.007341511680185622,1489.0155135620553,1.2608526536577591,1874.7320425030907,1.5438501972515881,50,50,0.03694611614216,fixed,RL,SD of five training-seed means,True,True
+3,0.005,0.4,distribution_shift,latency,0.022933161074059998,0.0052716401474968465,1487.3534791946972,4.977683444217062,1872.0882992645475,2.565119813666652,50,50,0.0402302153548,latency,RL,SD of five training-seed means,True,True
+3,0.005,0.4,distribution_shift,LeastWorkload,1.9638138146672122,,2113.719632873125,,,,10,0,2.09508328612828,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.4,distribution_shift,SED_alpha0.0,0.028194381667776002,,1487.9813768981735,,,,10,10,0.03940919055164,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.005,0.4,distribution_shift,SED_alpha0.1,0.024097325553074936,,1495.2545128266145,,,,10,10,0.04187226496112,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.005,0.4,distribution_shift,SED_alpha0.2,0.0204892235675732,,1500.7080285159711,,,,10,10,0.036125091339,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.005,0.4,distribution_shift,SED_alpha0.3,0.018355663039714,,1506.1139530821079,,,,10,10,0.02709381850425,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.005,0.4,distribution_shift,SED_alpha0.4,0.016307058381049566,,1511.656405943991,,,,10,10,0.02627279370109,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_alpha0.5,0.01507859974887658,,1515.9741693922658,,,,10,10,0.022167669685299998,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_alpha0.6,0.014013850464351298,,1519.9714020267998,,,,10,10,0.022988694488460002,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_alpha0.7,0.01270395365171937,,1524.0747223320675,,,,10,10,0.021346644882139998,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_alpha0.8,0.010489120353345803,,1527.8840926163816,,,,10,10,0.01970459527582,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_alpha0.9,0.009995145992767955,,1531.6371040844542,,,,10,10,0.016419148010400002,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_alpha1.0,0.00852078666265055,,1534.8834315694007,,,,10,10,0.01309114711176,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_q0.50,0.028194381667776002,,1487.9813768981735,,,,10,10,0.03940919055164,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.005,0.4,distribution_shift,SED_q0.75,0.022619177542949204,,1496.8782136662048,,,,10,10,0.03940919055164,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.005,0.4,distribution_shift,SED_q0.90,0.01384907916795372,,1521.1113680266849,,,,10,10,0.022988694488460002,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_q0.95,0.010407314411844714,,1528.8038625310273,,,,10,10,0.01970459527582,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,SED_q0.99,0.00852078666265055,,1534.8834315694007,,,,10,10,0.01309114711176,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.005,0.4,distribution_shift,WeightedRR,1.797295000534713,,1900.804252163444,,,,10,0,1.8888550973606901,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,adaptive,0.46781587677596,0.048793107658800704,1706.4519854620562,9.908342749651112,2329.5450971376486,14.991502327706968,50,34,0.62808397441686,adaptive,RL,SD of five training-seed means,False,False
+3,0.005,0.6,scenario_specific,fixed,0.46569868079174376,0.0660425686469539,1705.0096326795942,10.019364866822404,2316.497421182862,20.747045065488948,50,33,0.6962290330790799,fixed,RL,SD of five training-seed means,True,False
+3,0.005,0.6,scenario_specific,latency,0.5521717897516314,0.03517454309273862,1690.3832704568217,14.59167299206738,2284.0968929739665,20.033088997503956,50,13,0.74138539725285,latency,RL,SD of five training-seed means,True,False
+3,0.005,0.6,scenario_specific,LeastWorkload,6.846281341566399,,2188.8110406822943,,,,10,0,7.09858044811533,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.0,0.8684115028184201,,1653.9756084371456,,,,10,0,1.00165025985435,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.6,scenario_specific,SED_alpha0.1,0.8177599684225101,,1670.982615524481,,,,10,0,0.92452071763152,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.6,scenario_specific,SED_alpha0.2,0.7645676845355128,,1684.6808403127682,,,,10,0,0.87365977309456,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.6,scenario_specific,SED_alpha0.3,0.72241847525182,,1698.5938394669224,,,,10,0,0.82115815292737,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.4,0.678399391092489,,1713.4836936346535,,,,10,0,0.7785005865415301,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.5,0.635224082385896,,1728.2987639005544,,,,10,0,0.73338200671036,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.6,0.6023405913550021,,1744.1639147040496,,,,10,0,0.69540800827593,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.7,0.5821862833392221,,1760.178319211227,,,,10,0,0.66201261679559,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.8,0.545351010540832,,1775.6679162000473,,,,10,3,0.64204139607057,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha0.9,0.520219658052034,,1792.2823618788057,,,,10,4,0.6009901559126101,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_alpha1.0,0.48783131447236006,,1807.9779930664986,,,,10,6,0.58572119999015,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_q0.50,0.8684115028184201,,1653.9756084371456,,,,10,0,1.00165025985435,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.6,scenario_specific,SED_q0.75,0.799060103424289,,1673.5265997437339,,,,10,0,0.9278020688919599,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.6,scenario_specific,SED_q0.90,0.607373250556337,,1748.6887898778818,,,,10,0,0.6931854537698601,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_q0.95,0.5470880165443601,,1780.4504158243212,,,,10,3,0.64204139607057,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,SED_q0.99,0.48783131447236006,,1807.9779930664986,,,,10,6,0.58572119999015,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.6,scenario_specific,WeightedRR,8.13508017937186,,2207.1492675418394,,,,10,0,8.53870070364915,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,adaptive,6.35038886802578,0.4671685172762937,2297.854810692662,23.54373202158902,3441.5374381465213,45.3036493005016,50,0,7.66441620659387,adaptive,RL,SD of five training-seed means,True,False
+3,0.005,0.8,distribution_shift,fixed,6.777624133627495,0.49472612239752356,2289.751892816347,45.00616319222455,3351.7085800182394,98.04929454824659,50,0,8.47807323989971,fixed,RL,SD of five training-seed means,True,False
+3,0.005,0.8,distribution_shift,latency,7.6057517198505264,0.1869488846574289,2227.0201679493402,36.40560081406964,3186.4506880038016,105.16722737125521,50,0,8.60301672763141,latency,RL,SD of five training-seed means,True,False
+3,0.005,0.8,distribution_shift,LeastWorkload,20.568838393040608,,2708.705652895952,,,,10,0,21.527269738194068,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha0.0,10.114184233279259,,2097.3553152427485,,,,10,0,11.09695450248654,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.8,distribution_shift,SED_alpha0.1,9.953943562607328,,2143.0828000913493,,,,10,0,10.8511775101722,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha0.2,9.736995663696877,,2166.5125605691237,,,,10,0,10.648144342608191,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.8,distribution_shift,SED_alpha0.3,9.498296543736718,,2189.2652852105166,,,,10,0,10.43031523570753,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.8,distribution_shift,SED_alpha0.4,9.30417510261708,,2211.4948078059747,,,,10,0,10.2017210687361,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.8,distribution_shift,SED_alpha0.5,9.096108071859199,,2235.7128328108547,,,,10,0,10.05301878262299,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha0.6,8.954420413809327,,2259.922492818961,,,,10,0,9.863137561136,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha0.7,8.787621401780292,,2284.786454367463,,,,10,0,9.69475229899672,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha0.8,8.65009250952859,,2309.951604799823,,,,10,0,9.54255887550861,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha0.9,8.513559402913158,,2335.8154274774297,,,,10,0,9.44638526982039,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_alpha1.0,8.364760218745234,,2362.0975160903977,,,,10,0,9.22033619662159,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_q0.50,10.114184233279259,,2097.3553152427485,,,,10,0,11.09695450248654,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.8,distribution_shift,SED_q0.75,9.789037764324478,,2126.214367497362,,,,10,0,10.63828038305042,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.005,0.8,distribution_shift,SED_q0.90,8.96240535922642,,2265.7776545729307,,,,10,0,9.83765566561177,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_q0.95,8.609791109547121,,2316.6782039033046,,,,10,0,9.58810838303213,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,SED_q0.99,8.364760218745234,,2362.0975160903977,,,,10,0,9.22033619662159,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.8,distribution_shift,WeightedRR,25.90382244672141,,3633.936360738181,,,,10,0,26.8041237113402,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,adaptive,22.808268675247934,1.196735988454312,3871.2867548968366,67.06456611286224,7314.147124177753,762.7516017736281,50,0,28.23887222062389,adaptive,RL,SD of five training-seed means,True,False
+3,0.005,0.9,distribution_shift,fixed,23.4056814500083,0.6325823411203843,3457.9190058426234,240.14492161924872,5240.803831164698,553.6285830383085,50,0,27.75225021577411,fixed,RL,SD of five training-seed means,True,False
+3,0.005,0.9,distribution_shift,latency,24.87046348435832,0.4490319326691455,3142.5047208050664,306.12658009104234,5282.248127964469,890.8194758370595,50,0,28.41642349266368,latency,RL,SD of five training-seed means,True,False
+3,0.005,0.9,distribution_shift,LeastWorkload,39.363779431857544,,5395.956044822327,,,,10,0,41.902922198018985,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.0,30.03694520762885,,4729.466602043334,,,,10,0,33.788171468496984,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.1,29.867443436128777,,4806.124092469277,,,,10,0,33.56705437507706,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.2,29.5743576689383,,4810.442088863306,,,,10,0,33.218527804036,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.3,29.390527436365275,,4831.736828106676,,,,10,0,33.07714438370803,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.4,29.144148622806977,,4836.167998704279,,,,10,0,32.766429657638405,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.5,28.97396645157006,,4852.162549611267,,,,10,0,32.65463811598372,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.6,28.752682294511906,,4858.946416323689,,,,10,0,32.601208335045825,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.7,28.621834395868245,,4876.147698057267,,,,10,0,32.3915991944433,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.8,28.471352307192653,,4882.271769234168,,,,10,0,32.26418971682216,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha0.9,28.32796520161972,,4904.016154094795,,,,10,0,32.08088446837367,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_alpha1.0,28.192084188889098,,4919.224696083531,,,,10,0,32.02992067732522,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_q0.50,30.03694520762885,,4729.466602043334,,,,10,0,33.788171468496984,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_q0.75,29.70282800833518,,4740.645731135382,,,,10,0,33.4445768772348,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_q0.90,28.76074718705134,,4866.916064785275,,,,10,0,32.498458756319096,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_q0.95,28.470438034946977,,4891.592931727665,,,,10,0,32.22719986848054,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,SED_q0.99,28.192084188889098,,4919.224696083531,,,,10,0,32.02992067732522,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.005,0.9,distribution_shift,WeightedRR,46.702094709274505,,9300.580518743893,,,,10,0,50.37606345813982,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.4,distribution_shift,adaptive,0.02026222122655495,0.008489016102286364,1491.2287799474757,1.2519822635272444,1878.8427946720872,2.6469018615397997,50,50,0.04090983472426,adaptive,RL,SD of five training-seed means,True,True
+3,0.01,0.4,distribution_shift,fixed,0.022933161074059998,0.0052716401474968465,1487.3534791946972,4.977683444217062,1872.0882992645475,2.565119813666652,50,50,0.0402302153548,fixed,RL,SD of five training-seed means,True,True
+3,0.01,0.4,distribution_shift,latency,0.022933161074059998,0.0052716401474968465,1487.3534791946972,4.977683444217062,1872.0882992645475,2.565119813666652,50,50,0.0402302153548,latency,RL,SD of five training-seed means,True,True
+3,0.01,0.4,distribution_shift,LeastWorkload,1.9638138146672122,,2113.719632873125,,,,10,0,2.09508328612828,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.4,distribution_shift,SED_alpha0.0,0.028194381667776002,,1487.9813768981735,,,,10,10,0.03940919055164,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.4,distribution_shift,SED_alpha0.1,0.024097325553074936,,1495.2545128266145,,,,10,10,0.04187226496112,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.4,distribution_shift,SED_alpha0.2,0.0204892235675732,,1500.7080285159711,,,,10,10,0.036125091339,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.4,distribution_shift,SED_alpha0.3,0.018355663039714,,1506.1139530821079,,,,10,10,0.02709381850425,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha0.4,0.016307058381049566,,1511.656405943991,,,,10,10,0.02627279370109,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha0.5,0.01507859974887658,,1515.9741693922658,,,,10,10,0.022167669685299998,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha0.6,0.014013850464351298,,1519.9714020267998,,,,10,10,0.022988694488460002,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha0.7,0.01270395365171937,,1524.0747223320675,,,,10,10,0.021346644882139998,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha0.8,0.010489120353345803,,1527.8840926163816,,,,10,10,0.01970459527582,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha0.9,0.009995145992767955,,1531.6371040844542,,,,10,10,0.016419148010400002,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_alpha1.0,0.00852078666265055,,1534.8834315694007,,,,10,10,0.01309114711176,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_q0.50,0.028194381667776002,,1487.9813768981735,,,,10,10,0.03940919055164,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.4,distribution_shift,SED_q0.75,0.022619177542949204,,1496.8782136662048,,,,10,10,0.03940919055164,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.4,distribution_shift,SED_q0.90,0.01384907916795372,,1521.1113680266849,,,,10,10,0.022988694488460002,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_q0.95,0.010407314411844714,,1528.8038625310273,,,,10,10,0.01970459527582,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,SED_q0.99,0.00852078666265055,,1534.8834315694007,,,,10,10,0.01309114711176,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.4,distribution_shift,WeightedRR,1.797295000534713,,1900.804252163444,,,,10,0,1.8888550973606901,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.6,scenario_specific,adaptive,0.46405958031711325,0.057837053793275986,1709.322575809052,15.435722278378975,2332.8313326312136,30.153047050937293,50,50,0.68145058662222,adaptive,RL,SD of five training-seed means,True,True
+3,0.01,0.6,scenario_specific,fixed,0.5521717897516314,0.03517454309273862,1690.3832704568217,14.59167299206738,2284.0968929739665,20.033088997503956,50,50,0.74138539725285,fixed,RL,SD of five training-seed means,True,True
+3,0.01,0.6,scenario_specific,latency,0.5521717897516314,0.03517454309273862,1690.3832704568217,14.59167299206738,2284.0968929739665,20.033088997503956,50,50,0.74138539725285,latency,RL,SD of five training-seed means,True,True
+3,0.01,0.6,scenario_specific,LeastWorkload,6.846281341566399,,2188.8110406822943,,,,10,0,7.09858044811533,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.6,scenario_specific,SED_alpha0.0,0.8684115028184201,,1653.9756084371456,,,,10,9,1.00165025985435,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.6,scenario_specific,SED_alpha0.1,0.8177599684225101,,1670.982615524481,,,,10,10,0.92452071763152,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.6,scenario_specific,SED_alpha0.2,0.7645676845355128,,1684.6808403127682,,,,10,10,0.87365977309456,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.6,scenario_specific,SED_alpha0.3,0.72241847525182,,1698.5938394669224,,,,10,10,0.82115815292737,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha0.4,0.678399391092489,,1713.4836936346535,,,,10,10,0.7785005865415301,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha0.5,0.635224082385896,,1728.2987639005544,,,,10,10,0.73338200671036,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha0.6,0.6023405913550021,,1744.1639147040496,,,,10,10,0.69540800827593,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha0.7,0.5821862833392221,,1760.178319211227,,,,10,10,0.66201261679559,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha0.8,0.545351010540832,,1775.6679162000473,,,,10,10,0.64204139607057,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha0.9,0.520219658052034,,1792.2823618788057,,,,10,10,0.6009901559126101,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_alpha1.0,0.48783131447236006,,1807.9779930664986,,,,10,10,0.58572119999015,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_q0.50,0.8684115028184201,,1653.9756084371456,,,,10,9,1.00165025985435,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.6,scenario_specific,SED_q0.75,0.799060103424289,,1673.5265997437339,,,,10,10,0.9278020688919599,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+3,0.01,0.6,scenario_specific,SED_q0.90,0.607373250556337,,1748.6887898778818,,,,10,10,0.6931854537698601,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_q0.95,0.5470880165443601,,1780.4504158243212,,,,10,10,0.64204139607057,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,SED_q0.99,0.48783131447236006,,1807.9779930664986,,,,10,10,0.58572119999015,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+3,0.01,0.6,scenario_specific,WeightedRR,8.13508017937186,,2207.1492675418394,,,,10,0,8.53870070364915,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,adaptive,6.770521780684115,0.355857936414156,2308.6261774031973,58.26105854641753,3383.5580791607595,99.94304967772196,50,0,8.00321572423524,adaptive,RL,SD of five training-seed means,True,False
+3,0.01,0.8,distribution_shift,fixed,7.6057517198505264,0.1869488846574289,2227.0201679493402,36.40560081406964,3186.4506880038016,105.16722737125521,50,0,8.60301672763141,fixed,RL,SD of five training-seed means,True,False
+3,0.01,0.8,distribution_shift,latency,7.6057517198505264,0.1869488846574289,2227.0201679493402,36.40560081406964,3186.4506880038016,105.16722737125521,50,0,8.60301672763141,latency,RL,SD of five training-seed means,True,False
+3,0.01,0.8,distribution_shift,LeastWorkload,20.568838393040608,,2708.705652895952,,,,10,0,21.527269738194068,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha0.0,10.114184233279259,,2097.3553152427485,,,,10,0,11.09695450248654,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.8,distribution_shift,SED_alpha0.1,9.953943562607328,,2143.0828000913493,,,,10,0,10.8511775101722,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha0.2,9.736995663696877,,2166.5125605691237,,,,10,0,10.648144342608191,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.8,distribution_shift,SED_alpha0.3,9.498296543736718,,2189.2652852105166,,,,10,0,10.43031523570753,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.8,distribution_shift,SED_alpha0.4,9.30417510261708,,2211.4948078059747,,,,10,0,10.2017210687361,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.8,distribution_shift,SED_alpha0.5,9.096108071859199,,2235.7128328108547,,,,10,0,10.05301878262299,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha0.6,8.954420413809327,,2259.922492818961,,,,10,0,9.863137561136,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha0.7,8.787621401780292,,2284.786454367463,,,,10,0,9.69475229899672,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha0.8,8.65009250952859,,2309.951604799823,,,,10,0,9.54255887550861,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha0.9,8.513559402913158,,2335.8154274774297,,,,10,0,9.44638526982039,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_alpha1.0,8.364760218745234,,2362.0975160903977,,,,10,0,9.22033619662159,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_q0.50,10.114184233279259,,2097.3553152427485,,,,10,0,11.09695450248654,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.8,distribution_shift,SED_q0.75,9.789037764324478,,2126.214367497362,,,,10,0,10.63828038305042,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+3,0.01,0.8,distribution_shift,SED_q0.90,8.96240535922642,,2265.7776545729307,,,,10,0,9.83765566561177,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_q0.95,8.609791109547121,,2316.6782039033046,,,,10,0,9.58810838303213,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,SED_q0.99,8.364760218745234,,2362.0975160903977,,,,10,0,9.22033619662159,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.8,distribution_shift,WeightedRR,25.90382244672141,,3633.936360738181,,,,10,0,26.8041237113402,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,adaptive,23.65865160026059,0.9256379005909052,3610.245953106513,261.04189802437634,5614.937576583683,801.4034986074895,50,0,27.84595783157289,adaptive,RL,SD of five training-seed means,True,False
+3,0.01,0.9,distribution_shift,fixed,24.87046348435832,0.4490319326691455,3142.5047208050664,306.12658009104234,5282.248127964469,890.8194758370595,50,0,28.41642349266368,fixed,RL,SD of five training-seed means,True,False
+3,0.01,0.9,distribution_shift,latency,24.87046348435832,0.4490319326691455,3142.5047208050664,306.12658009104234,5282.248127964469,890.8194758370595,50,0,28.41642349266368,latency,RL,SD of five training-seed means,True,False
+3,0.01,0.9,distribution_shift,LeastWorkload,39.363779431857544,,5395.956044822327,,,,10,0,41.902922198018985,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.0,30.03694520762885,,4729.466602043334,,,,10,0,33.788171468496984,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.1,29.867443436128777,,4806.124092469277,,,,10,0,33.56705437507706,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.2,29.5743576689383,,4810.442088863306,,,,10,0,33.218527804036,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.3,29.390527436365275,,4831.736828106676,,,,10,0,33.07714438370803,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.4,29.144148622806977,,4836.167998704279,,,,10,0,32.766429657638405,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.5,28.97396645157006,,4852.162549611267,,,,10,0,32.65463811598372,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.6,28.752682294511906,,4858.946416323689,,,,10,0,32.601208335045825,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.7,28.621834395868245,,4876.147698057267,,,,10,0,32.3915991944433,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.8,28.471352307192653,,4882.271769234168,,,,10,0,32.26418971682216,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha0.9,28.32796520161972,,4904.016154094795,,,,10,0,32.08088446837367,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_alpha1.0,28.192084188889098,,4919.224696083531,,,,10,0,32.02992067732522,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_q0.50,30.03694520762885,,4729.466602043334,,,,10,0,33.788171468496984,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_q0.75,29.70282800833518,,4740.645731135382,,,,10,0,33.4445768772348,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_q0.90,28.76074718705134,,4866.916064785275,,,,10,0,32.498458756319096,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_q0.95,28.470438034946977,,4891.592931727665,,,,10,0,32.22719986848054,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,SED_q0.99,28.192084188889098,,4919.224696083531,,,,10,0,32.02992067732522,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+3,0.01,0.9,distribution_shift,WeightedRR,46.702094709274505,,9300.580518743893,,,,10,0,50.37606345813982,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.4,distribution_shift,adaptive,0.006359705654134644,0.005453970160812904,1501.3092571320049,3.8760011577271327,1948.1823281218706,5.843775835691949,50,50,0.022283294956540002,adaptive,RL,SD of five training-seed means,True,True
+5,0.003,0.4,distribution_shift,fixed,0.008192969281543047,0.003173352476405104,1501.0143270768374,2.1520322237930074,1947.597460603259,4.065477550960628,50,50,0.025584523838989997,fixed,RL,SD of five training-seed means,True,True
+5,0.003,0.4,distribution_shift,latency,0.010277915255034402,0.007498706225200192,1500.4934841238455,5.007087662284286,1946.7379964869215,5.74609928237757,50,50,0.024630744094769997,latency,RL,SD of five training-seed means,True,True
+5,0.003,0.4,distribution_shift,LeastWorkload,1.539811647008181,,2125.0435372955026,,,,10,0,1.69121256750122,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.4,distribution_shift,SED_alpha0.0,0.0012289091870538458,,1502.913411621707,,,,10,10,0.0032838296020819484,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.1,0.0013113779505743105,,1509.001265850649,,,,10,10,0.00247592166183862,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.003,0.4,distribution_shift,SED_alpha0.2,0.0010650641736187952,,1514.718772364367,,,,10,10,0.0024628722015614607,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.3,0.0009833770291298373,,1520.148273516687,,,,10,10,0.0024628722015614607,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.4,0.0009819874764750837,,1525.6771566550397,,,,10,10,0.0024628722015614607,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.5,0.0005723453733663669,,1531.3867156705496,,,,10,10,0.002434235082196005,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.6,0.0004086734818985461,,1537.4168244997904,,,,10,10,0.0016419148010409737,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.7,0.0004096280525440613,,1543.7394265277123,,,,10,10,0.0024628722015614607,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.003,0.4,distribution_shift,SED_alpha0.8,0.00016323690945858218,,1550.0271291083416,,,,10,10,0.0008209574005204869,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha0.9,8.11411694065335e-05,,1557.278656913361,,,,10,10,0.0008114116940653349,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_alpha1.0,8.11411694065335e-05,,1564.217438662541,,,,10,10,0.0008114116940653349,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.003,0.4,distribution_shift,SED_q0.50,0.0012289091870538458,,1502.913411621707,,,,10,10,0.0032838296020819484,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_q0.75,0.001146744748197093,,1510.0804591417018,,,,10,10,0.0024628722015614607,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.4,distribution_shift,SED_q0.90,0.00040956609400323894,,1539.0674533164565,,,,10,10,0.0016419148010409737,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.003,0.4,distribution_shift,SED_q0.95,0.00024533264951063084,,1551.9087125997407,,,,10,10,0.0016419148010409737,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.003,0.4,distribution_shift,SED_q0.99,8.11411694065335e-05,,1564.217438662541,,,,10,10,0.0008114116940653349,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.003,0.4,distribution_shift,WeightedRR,1.789576132511176,,2022.3266020934382,,,,10,0,1.9548600563223,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.6,scenario_specific,adaptive,0.1364958191437388,0.01323493589272788,1718.784439258689,12.432085409324758,2263.266587213004,11.599217603371333,50,50,0.19540390315191,adaptive,RL,SD of five training-seed means,False,True
+5,0.003,0.6,scenario_specific,fixed,0.1305434290053626,0.020682457468812285,1711.709327072395,4.775839141078978,2255.7415299914073,6.228607269854451,50,50,0.20123839009287,fixed,RL,SD of five training-seed means,True,True
+5,0.003,0.6,scenario_specific,latency,0.1711044947183502,0.04361167551981205,1702.538238006322,13.95319157231624,2242.6953608204485,9.7027226751195,50,50,0.2742222842552,latency,RL,SD of five training-seed means,False,True
+5,0.003,0.6,scenario_specific,LeastWorkload,6.2055488083861565,,2171.325811865178,,,,10,0,6.538641532360689,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.6,scenario_specific,SED_alpha0.0,0.18011647468960296,,1664.9214810410936,,,,10,10,0.23317104409724,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.1,0.165922834327011,,1682.9535046915917,,,,10,10,0.22003464724669,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.2,0.152650750502632,,1697.1702984701915,,,,10,10,0.20279312638034,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.3,0.138860977969611,,1711.354804907686,,,,10,10,0.19294082874243,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.4,0.12895842828684398,,1726.1633019454955,,,,10,10,0.17980443189188,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.5,0.116089741228136,,1740.9322934560216,,,,10,10,0.16256291102554,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.6,0.104933813302673,,1756.1723489553412,,,,10,10,0.14039524134024,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.7,0.09675393375536501,,1771.099847947243,,,,10,10,0.14191844201442,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.8,0.08865240904492401,,1786.7308636204518,,,,10,10,0.10837527401702,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha0.9,0.084048599104852,,1801.7782390698158,,,,10,10,0.10919629882018,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_alpha1.0,0.07955900752440401,,1816.806645388607,,,,10,10,0.10344912519807,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_q0.50,0.18011647468960296,,1664.9214810410936,,,,10,10,0.23317104409724,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_q0.75,0.161615554702315,,1684.1900691141625,,,,10,10,0.22003464724669,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_q0.90,0.102728855415227,,1759.8885509896456,,,,10,10,0.13546909252128,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_q0.95,0.08857149373047501,,1790.5416298467728,,,,10,10,0.11566763193082,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,SED_q0.99,0.07955900752440401,,1816.806645388607,,,,10,10,0.10344912519807,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.003,0.6,scenario_specific,WeightedRR,8.335255075022955,,2252.7015744890355,,,,10,0,8.82109048514355,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,adaptive,3.8829726603553687,0.5671545363858117,2235.1544537715395,40.21567617662924,3066.1053985017243,31.981247855892338,50,0,5.32646048109965,adaptive,RL,SD of five training-seed means,False,False
+5,0.003,0.8,distribution_shift,fixed,3.79737516037292,0.35254295514368555,2221.647026182368,35.52869441190684,3057.267317553926,61.2363295072223,50,0,4.80936017018491,fixed,RL,SD of five training-seed means,True,False
+5,0.003,0.8,distribution_shift,latency,4.637671526558153,0.5934920378456152,2149.143839162367,36.00801610163202,2910.3413257689613,46.14939448269803,50,0,5.91548370676278,latency,RL,SD of five training-seed means,True,False
+5,0.003,0.8,distribution_shift,LeastWorkload,19.172798164707494,,2553.2302957024845,,,,10,0,19.989171540840513,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,SED_alpha0.0,5.437435355065358,,1983.5031473708455,,,,10,0,6.12054043855259,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.1,5.279005195031326,,2023.9868725614058,,,,10,0,5.9876457125044,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,SED_alpha0.2,5.123775393940394,,2050.8657536809505,,,,10,0,5.76369348897876,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.3,4.955214246530846,,2077.0877460479196,,,,10,0,5.6283377494852305,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.4,4.805352364295023,,2102.573619250259,,,,10,0,5.48067694276503,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.5,4.643793943984354,,2128.143337678699,,,,10,0,5.33055512259948,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.6,4.511366156392399,,2153.2604079013977,,,,10,0,5.1562755686467,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.7,4.3902375789792325,,2178.336942155157,,,,10,0,5.03927344133529,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.8,4.229219555565149,,2204.5356549657063,,,,10,0,4.92063492063492,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_alpha0.9,4.147649711486974,,2228.2540090364882,,,,10,0,4.78399607265586,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,SED_alpha1.0,4.032724792751563,,2255.501155626086,,,,10,0,4.67920689740034,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,SED_q0.50,5.437435355065358,,1983.5031473708455,,,,10,0,6.12054043855259,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_q0.75,5.175066546206978,,2020.2392177426514,,,,10,0,5.858032337716669,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_q0.90,4.473062518103337,,2155.9217986995345,,,,10,0,5.164457535591549,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.003,0.8,distribution_shift,SED_q0.95,4.2480418433368765,,2209.1099888449326,,,,10,0,4.910542161262,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,SED_q0.99,4.032724792751563,,2255.501155626086,,,,10,0,4.67920689740034,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.8,distribution_shift,WeightedRR,26.410535679815734,,3782.147728014842,,,,10,0,27.58314928693995,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,adaptive,18.566475416348734,1.979773398441858,3368.2907441674333,172.45661454514936,5441.501536683388,307.215934535691,50,0,24.75771649336237,adaptive,RL,SD of five training-seed means,False,False
+5,0.003,0.9,distribution_shift,fixed,18.56624317419614,1.3889566151629946,3343.2739336546283,132.94175611499824,5396.511834920413,378.34070633564653,50,0,23.87653610620196,fixed,RL,SD of five training-seed means,True,False
+5,0.003,0.9,distribution_shift,latency,20.811307824242114,1.4076882949648304,3184.142734206721,340.7175440565203,12426.632951665862,16600.977555958,50,0,25.50080144671406,latency,RL,SD of five training-seed means,True,False
+5,0.003,0.9,distribution_shift,LeastWorkload,36.748851341560915,,4379.84227340241,,,,10,0,39.21371297659957,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.0,22.465270021436055,,3470.103232567423,,,,10,0,26.35321195183099,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.1,22.3432252651399,,3530.790672275464,,,,10,0,26.350745961941556,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.2,22.07985878442593,,3561.6961248297184,,,,10,0,26.065513131396163,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.3,21.82057467083139,,3577.712663647037,,,,10,0,25.918375734659488,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.4,21.55255882998842,,3596.086043787668,,,,10,0,25.50080144671406,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.5,21.317436166638295,,3621.3666717144893,,,,10,0,25.30187826229912,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.6,21.117100306509254,,3625.5880310849307,,,,10,0,25.09884509473511,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.7,20.901498372664364,,3645.901522140539,,,,10,0,24.99445152274875,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.8,20.698613451336715,,3676.9205759405945,,,,10,0,24.70346471579466,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha0.9,20.517385422811895,,3688.6700713329205,,,,10,0,24.65250092474621,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_alpha1.0,20.33684241853467,,3706.695701206002,,,,10,0,24.30397435370515,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_q0.50,22.465270021436055,,3470.103232567423,,,,10,0,26.35321195183099,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_q0.75,22.101718275064307,,3489.37432644062,,,,10,0,26.227446467469477,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_q0.90,21.0700741658936,,3630.9074083145474,,,,10,0,24.94513172495992,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_q0.95,20.64373332522879,,3674.1411815120773,,,,10,0,24.712506678722608,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,SED_q0.99,20.33684241853467,,3706.695701206002,,,,10,0,24.30397435370515,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.003,0.9,distribution_shift,WeightedRR,47.42592794730848,,9170.575355244871,,,,10,0,50.101311720166365,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.4,distribution_shift,adaptive,0.007699145413502866,0.0042644699229181056,1504.1754634441018,2.3916343860040485,1952.2504389331511,3.3800626750793326,50,50,0.02851556134919,adaptive,RL,SD of five training-seed means,False,True
+5,0.005,0.4,distribution_shift,fixed,0.008192969281543047,0.003173352476405104,1501.0143270768374,2.1520322237930074,1947.597460603259,4.065477550960628,50,50,0.025584523838989997,fixed,RL,SD of five training-seed means,True,True
+5,0.005,0.4,distribution_shift,latency,0.010277915255034402,0.007498706225200192,1500.4934841238455,5.007087662284286,1946.7379964869215,5.74609928237757,50,50,0.024630744094769997,latency,RL,SD of five training-seed means,True,True
+5,0.005,0.4,distribution_shift,LeastWorkload,1.539811647008181,,2125.0435372955026,,,,10,0,1.69121256750122,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.4,distribution_shift,SED_alpha0.0,0.0012289091870538458,,1502.913411621707,,,,10,10,0.0032838296020819484,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.1,0.0013113779505743105,,1509.001265850649,,,,10,10,0.00247592166183862,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.005,0.4,distribution_shift,SED_alpha0.2,0.0010650641736187952,,1514.718772364367,,,,10,10,0.0024628722015614607,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.3,0.0009833770291298373,,1520.148273516687,,,,10,10,0.0024628722015614607,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.4,0.0009819874764750837,,1525.6771566550397,,,,10,10,0.0024628722015614607,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.5,0.0005723453733663669,,1531.3867156705496,,,,10,10,0.002434235082196005,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.6,0.0004086734818985461,,1537.4168244997904,,,,10,10,0.0016419148010409737,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.7,0.0004096280525440613,,1543.7394265277123,,,,10,10,0.0024628722015614607,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.005,0.4,distribution_shift,SED_alpha0.8,0.00016323690945858218,,1550.0271291083416,,,,10,10,0.0008209574005204869,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha0.9,8.11411694065335e-05,,1557.278656913361,,,,10,10,0.0008114116940653349,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_alpha1.0,8.11411694065335e-05,,1564.217438662541,,,,10,10,0.0008114116940653349,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.005,0.4,distribution_shift,SED_q0.50,0.0012289091870538458,,1502.913411621707,,,,10,10,0.0032838296020819484,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_q0.75,0.001146744748197093,,1510.0804591417018,,,,10,10,0.0024628722015614607,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.4,distribution_shift,SED_q0.90,0.00040956609400323894,,1539.0674533164565,,,,10,10,0.0016419148010409737,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.005,0.4,distribution_shift,SED_q0.95,0.00024533264951063084,,1551.9087125997407,,,,10,10,0.0016419148010409737,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.005,0.4,distribution_shift,SED_q0.99,8.11411694065335e-05,,1564.217438662541,,,,10,10,0.0008114116940653349,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.005,0.4,distribution_shift,WeightedRR,1.789576132511176,,2022.3266020934382,,,,10,0,1.9548600563223,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.6,scenario_specific,adaptive,0.1844728021148498,0.043360684519136404,1732.3745196446048,6.275106724256303,2280.645060836391,9.270801103006193,50,50,0.27996945787732,adaptive,RL,SD of five training-seed means,False,True
+5,0.005,0.6,scenario_specific,fixed,0.1305434290053626,0.020682457468812285,1711.709327072395,4.775839141078978,2255.7415299914073,6.228607269854451,50,50,0.20123839009287,fixed,RL,SD of five training-seed means,True,True
+5,0.005,0.6,scenario_specific,latency,0.1711044947183502,0.04361167551981205,1702.538238006322,13.95319157231624,2242.6953608204485,9.7027226751195,50,50,0.2742222842552,latency,RL,SD of five training-seed means,False,True
+5,0.005,0.6,scenario_specific,LeastWorkload,6.2055488083861565,,2171.325811865178,,,,10,0,6.538641532360689,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.6,scenario_specific,SED_alpha0.0,0.18011647468960296,,1664.9214810410936,,,,10,10,0.23317104409724,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.1,0.165922834327011,,1682.9535046915917,,,,10,10,0.22003464724669,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.2,0.152650750502632,,1697.1702984701915,,,,10,10,0.20279312638034,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.3,0.138860977969611,,1711.354804907686,,,,10,10,0.19294082874243,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.4,0.12895842828684398,,1726.1633019454955,,,,10,10,0.17980443189188,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.5,0.116089741228136,,1740.9322934560216,,,,10,10,0.16256291102554,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.6,0.104933813302673,,1756.1723489553412,,,,10,10,0.14039524134024,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.7,0.09675393375536501,,1771.099847947243,,,,10,10,0.14191844201442,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.8,0.08865240904492401,,1786.7308636204518,,,,10,10,0.10837527401702,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha0.9,0.084048599104852,,1801.7782390698158,,,,10,10,0.10919629882018,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_alpha1.0,0.07955900752440401,,1816.806645388607,,,,10,10,0.10344912519807,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_q0.50,0.18011647468960296,,1664.9214810410936,,,,10,10,0.23317104409724,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_q0.75,0.161615554702315,,1684.1900691141625,,,,10,10,0.22003464724669,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_q0.90,0.102728855415227,,1759.8885509896456,,,,10,10,0.13546909252128,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_q0.95,0.08857149373047501,,1790.5416298467728,,,,10,10,0.11566763193082,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,SED_q0.99,0.07955900752440401,,1816.806645388607,,,,10,10,0.10344912519807,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.005,0.6,scenario_specific,WeightedRR,8.335255075022955,,2252.7015744890355,,,,10,0,8.82109048514355,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,adaptive,4.646040259561561,0.9532368757411023,2295.8448412863154,62.85026050384078,3159.7649497326665,76.0352601164089,50,0,6.81614791582853,adaptive,RL,SD of five training-seed means,False,False
+5,0.005,0.8,distribution_shift,fixed,3.79737516037292,0.35254295514368555,2221.647026182368,35.52869441190684,3057.267317553926,61.2363295072223,50,0,4.80936017018491,fixed,RL,SD of five training-seed means,True,False
+5,0.005,0.8,distribution_shift,latency,4.637671526558153,0.5934920378456152,2149.143839162367,36.00801610163202,2910.3413257689613,46.14939448269803,50,0,5.91548370676278,latency,RL,SD of five training-seed means,True,False
+5,0.005,0.8,distribution_shift,LeastWorkload,19.172798164707494,,2553.2302957024845,,,,10,0,19.989171540840513,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,SED_alpha0.0,5.437435355065358,,1983.5031473708455,,,,10,0,6.12054043855259,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.1,5.279005195031326,,2023.9868725614058,,,,10,0,5.9876457125044,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,SED_alpha0.2,5.123775393940394,,2050.8657536809505,,,,10,0,5.76369348897876,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.3,4.955214246530846,,2077.0877460479196,,,,10,0,5.6283377494852305,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.4,4.805352364295023,,2102.573619250259,,,,10,0,5.48067694276503,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.5,4.643793943984354,,2128.143337678699,,,,10,0,5.33055512259948,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.6,4.511366156392399,,2153.2604079013977,,,,10,0,5.1562755686467,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.7,4.3902375789792325,,2178.336942155157,,,,10,0,5.03927344133529,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.8,4.229219555565149,,2204.5356549657063,,,,10,0,4.92063492063492,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_alpha0.9,4.147649711486974,,2228.2540090364882,,,,10,0,4.78399607265586,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,SED_alpha1.0,4.032724792751563,,2255.501155626086,,,,10,0,4.67920689740034,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,SED_q0.50,5.437435355065358,,1983.5031473708455,,,,10,0,6.12054043855259,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_q0.75,5.175066546206978,,2020.2392177426514,,,,10,0,5.858032337716669,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_q0.90,4.473062518103337,,2155.9217986995345,,,,10,0,5.164457535591549,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.005,0.8,distribution_shift,SED_q0.95,4.2480418433368765,,2209.1099888449326,,,,10,0,4.910542161262,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,SED_q0.99,4.032724792751563,,2255.501155626086,,,,10,0,4.67920689740034,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.8,distribution_shift,WeightedRR,26.410535679815734,,3782.147728014842,,,,10,0,27.58314928693995,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,adaptive,19.961205700525177,1.8494856018088743,3513.0663030314317,326.12734863586803,5657.961091579694,651.482322085718,50,0,26.38362582713411,adaptive,RL,SD of five training-seed means,False,False
+5,0.005,0.9,distribution_shift,fixed,18.56624317419614,1.3889566151629946,3343.2739336546283,132.94175611499824,5396.511834920413,378.34070633564653,50,0,23.87653610620196,fixed,RL,SD of five training-seed means,True,False
+5,0.005,0.9,distribution_shift,latency,20.811307824242114,1.4076882949648304,3184.142734206721,340.7175440565203,12426.632951665862,16600.977555958,50,0,25.50080144671406,latency,RL,SD of five training-seed means,True,False
+5,0.005,0.9,distribution_shift,LeastWorkload,36.748851341560915,,4379.84227340241,,,,10,0,39.21371297659957,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.0,22.465270021436055,,3470.103232567423,,,,10,0,26.35321195183099,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.1,22.3432252651399,,3530.790672275464,,,,10,0,26.350745961941556,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.2,22.07985878442593,,3561.6961248297184,,,,10,0,26.065513131396163,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.3,21.82057467083139,,3577.712663647037,,,,10,0,25.918375734659488,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.4,21.55255882998842,,3596.086043787668,,,,10,0,25.50080144671406,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.5,21.317436166638295,,3621.3666717144893,,,,10,0,25.30187826229912,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.6,21.117100306509254,,3625.5880310849307,,,,10,0,25.09884509473511,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.7,20.901498372664364,,3645.901522140539,,,,10,0,24.99445152274875,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.8,20.698613451336715,,3676.9205759405945,,,,10,0,24.70346471579466,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha0.9,20.517385422811895,,3688.6700713329205,,,,10,0,24.65250092474621,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_alpha1.0,20.33684241853467,,3706.695701206002,,,,10,0,24.30397435370515,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_q0.50,22.465270021436055,,3470.103232567423,,,,10,0,26.35321195183099,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_q0.75,22.101718275064307,,3489.37432644062,,,,10,0,26.227446467469477,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_q0.90,21.0700741658936,,3630.9074083145474,,,,10,0,24.94513172495992,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_q0.95,20.64373332522879,,3674.1411815120773,,,,10,0,24.712506678722608,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,SED_q0.99,20.33684241853467,,3706.695701206002,,,,10,0,24.30397435370515,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.005,0.9,distribution_shift,WeightedRR,47.42592794730848,,9170.575355244871,,,,10,0,50.101311720166365,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.4,distribution_shift,adaptive,0.006980957454020283,0.0034309521802304,1501.070005013655,2.944642148465787,1947.8141287381109,4.519870189315641,50,50,0.0186624689635,adaptive,RL,SD of five training-seed means,True,True
+5,0.01,0.4,distribution_shift,fixed,0.008192969281543047,0.003173352476405104,1501.0143270768374,2.1520322237930074,1947.597460603259,4.065477550960628,50,50,0.025584523838989997,fixed,RL,SD of five training-seed means,True,True
+5,0.01,0.4,distribution_shift,latency,0.010277915255034402,0.007498706225200192,1500.4934841238455,5.007087662284286,1946.7379964869215,5.74609928237757,50,50,0.024630744094769997,latency,RL,SD of five training-seed means,True,True
+5,0.01,0.4,distribution_shift,LeastWorkload,1.539811647008181,,2125.0435372955026,,,,10,0,1.69121256750122,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.4,distribution_shift,SED_alpha0.0,0.0012289091870538458,,1502.913411621707,,,,10,10,0.0032838296020819484,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.1,0.0013113779505743105,,1509.001265850649,,,,10,10,0.00247592166183862,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.01,0.4,distribution_shift,SED_alpha0.2,0.0010650641736187952,,1514.718772364367,,,,10,10,0.0024628722015614607,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.3,0.0009833770291298373,,1520.148273516687,,,,10,10,0.0024628722015614607,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.4,0.0009819874764750837,,1525.6771566550397,,,,10,10,0.0024628722015614607,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.5,0.0005723453733663669,,1531.3867156705496,,,,10,10,0.002434235082196005,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.6,0.0004086734818985461,,1537.4168244997904,,,,10,10,0.0016419148010409737,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.7,0.0004096280525440613,,1543.7394265277123,,,,10,10,0.0024628722015614607,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.01,0.4,distribution_shift,SED_alpha0.8,0.00016323690945858218,,1550.0271291083416,,,,10,10,0.0008209574005204869,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha0.9,8.11411694065335e-05,,1557.278656913361,,,,10,10,0.0008114116940653349,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_alpha1.0,8.11411694065335e-05,,1564.217438662541,,,,10,10,0.0008114116940653349,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.01,0.4,distribution_shift,SED_q0.50,0.0012289091870538458,,1502.913411621707,,,,10,10,0.0032838296020819484,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_q0.75,0.001146744748197093,,1510.0804591417018,,,,10,10,0.0024628722015614607,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.4,distribution_shift,SED_q0.90,0.00040956609400323894,,1539.0674533164565,,,,10,10,0.0016419148010409737,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.01,0.4,distribution_shift,SED_q0.95,0.00024533264951063084,,1551.9087125997407,,,,10,10,0.0016419148010409737,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.01,0.4,distribution_shift,SED_q0.99,8.11411694065335e-05,,1564.217438662541,,,,10,10,0.0008114116940653349,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+5,0.01,0.4,distribution_shift,WeightedRR,1.789576132511176,,2022.3266020934382,,,,10,0,1.9548600563223,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.6,scenario_specific,adaptive,0.200567953120589,0.022170284034677995,1710.4719204641885,8.558991410300358,2253.4089013733605,10.243995645637195,50,50,0.27914843307416,adaptive,RL,SD of five training-seed means,False,True
+5,0.01,0.6,scenario_specific,fixed,0.1305434290053626,0.020682457468812285,1711.709327072395,4.775839141078978,2255.7415299914073,6.228607269854451,50,50,0.20123839009287,fixed,RL,SD of five training-seed means,True,True
+5,0.01,0.6,scenario_specific,latency,0.1711044947183502,0.04361167551981205,1702.538238006322,13.95319157231624,2242.6953608204485,9.7027226751195,50,50,0.2742222842552,latency,RL,SD of five training-seed means,False,True
+5,0.01,0.6,scenario_specific,LeastWorkload,6.2055488083861565,,2171.325811865178,,,,10,0,6.538641532360689,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.6,scenario_specific,SED_alpha0.0,0.18011647468960296,,1664.9214810410936,,,,10,10,0.23317104409724,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.1,0.165922834327011,,1682.9535046915917,,,,10,10,0.22003464724669,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.2,0.152650750502632,,1697.1702984701915,,,,10,10,0.20279312638034,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.3,0.138860977969611,,1711.354804907686,,,,10,10,0.19294082874243,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.4,0.12895842828684398,,1726.1633019454955,,,,10,10,0.17980443189188,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.5,0.116089741228136,,1740.9322934560216,,,,10,10,0.16256291102554,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.6,0.104933813302673,,1756.1723489553412,,,,10,10,0.14039524134024,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.7,0.09675393375536501,,1771.099847947243,,,,10,10,0.14191844201442,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.8,0.08865240904492401,,1786.7308636204518,,,,10,10,0.10837527401702,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha0.9,0.084048599104852,,1801.7782390698158,,,,10,10,0.10919629882018,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_alpha1.0,0.07955900752440401,,1816.806645388607,,,,10,10,0.10344912519807,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_q0.50,0.18011647468960296,,1664.9214810410936,,,,10,10,0.23317104409724,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_q0.75,0.161615554702315,,1684.1900691141625,,,,10,10,0.22003464724669,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_q0.90,0.102728855415227,,1759.8885509896456,,,,10,10,0.13546909252128,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_q0.95,0.08857149373047501,,1790.5416298467728,,,,10,10,0.11566763193082,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,SED_q0.99,0.07955900752440401,,1816.806645388607,,,,10,10,0.10344912519807,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,True
+5,0.01,0.6,scenario_specific,WeightedRR,8.335255075022955,,2252.7015744890355,,,,10,0,8.82109048514355,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,adaptive,4.836448190826847,0.4030195973286055,2186.427676934135,41.59104161548032,2962.456550418761,67.73314882497596,50,0,5.8476517754868205,adaptive,RL,SD of five training-seed means,False,False
+5,0.01,0.8,distribution_shift,fixed,3.79737516037292,0.35254295514368555,2221.647026182368,35.52869441190684,3057.267317553926,61.2363295072223,50,0,4.80936017018491,fixed,RL,SD of five training-seed means,True,False
+5,0.01,0.8,distribution_shift,latency,4.637671526558153,0.5934920378456152,2149.143839162367,36.00801610163202,2910.3413257689613,46.14939448269803,50,0,5.91548370676278,latency,RL,SD of five training-seed means,True,False
+5,0.01,0.8,distribution_shift,LeastWorkload,19.172798164707494,,2553.2302957024845,,,,10,0,19.989171540840513,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,SED_alpha0.0,5.437435355065358,,1983.5031473708455,,,,10,0,6.12054043855259,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.1,5.279005195031326,,2023.9868725614058,,,,10,0,5.9876457125044,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,SED_alpha0.2,5.123775393940394,,2050.8657536809505,,,,10,0,5.76369348897876,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.3,4.955214246530846,,2077.0877460479196,,,,10,0,5.6283377494852305,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.4,4.805352364295023,,2102.573619250259,,,,10,0,5.48067694276503,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.5,4.643793943984354,,2128.143337678699,,,,10,0,5.33055512259948,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.6,4.511366156392399,,2153.2604079013977,,,,10,0,5.1562755686467,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.7,4.3902375789792325,,2178.336942155157,,,,10,0,5.03927344133529,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.8,4.229219555565149,,2204.5356549657063,,,,10,0,4.92063492063492,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_alpha0.9,4.147649711486974,,2228.2540090364882,,,,10,0,4.78399607265586,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,SED_alpha1.0,4.032724792751563,,2255.501155626086,,,,10,0,4.67920689740034,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,SED_q0.50,5.437435355065358,,1983.5031473708455,,,,10,0,6.12054043855259,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_q0.75,5.175066546206978,,2020.2392177426514,,,,10,0,5.858032337716669,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_q0.90,4.473062518103337,,2155.9217986995345,,,,10,0,5.164457535591549,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+5,0.01,0.8,distribution_shift,SED_q0.95,4.2480418433368765,,2209.1099888449326,,,,10,0,4.910542161262,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,SED_q0.99,4.032724792751563,,2255.501155626086,,,,10,0,4.67920689740034,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.8,distribution_shift,WeightedRR,26.410535679815734,,3782.147728014842,,,,10,0,27.58314928693995,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,adaptive,20.693587245001375,1.1625342803174195,3178.565903028749,239.15148573129224,4956.020251586197,630.0582266447154,50,0,25.513953392791088,adaptive,RL,SD of five training-seed means,True,False
+5,0.01,0.9,distribution_shift,fixed,18.56624317419614,1.3889566151629946,3343.2739336546283,132.94175611499824,5396.511834920413,378.34070633564653,50,0,23.87653610620196,fixed,RL,SD of five training-seed means,True,False
+5,0.01,0.9,distribution_shift,latency,20.811307824242114,1.4076882949648304,3184.142734206721,340.7175440565203,12426.632951665862,16600.977555958,50,0,25.50080144671406,latency,RL,SD of five training-seed means,False,False
+5,0.01,0.9,distribution_shift,LeastWorkload,36.748851341560915,,4379.84227340241,,,,10,0,39.21371297659957,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.0,22.465270021436055,,3470.103232567423,,,,10,0,26.35321195183099,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.1,22.3432252651399,,3530.790672275464,,,,10,0,26.350745961941556,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.2,22.07985878442593,,3561.6961248297184,,,,10,0,26.065513131396163,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.3,21.82057467083139,,3577.712663647037,,,,10,0,25.918375734659488,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.4,21.55255882998842,,3596.086043787668,,,,10,0,25.50080144671406,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.5,21.317436166638295,,3621.3666717144893,,,,10,0,25.30187826229912,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.6,21.117100306509254,,3625.5880310849307,,,,10,0,25.09884509473511,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.7,20.901498372664364,,3645.901522140539,,,,10,0,24.99445152274875,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.8,20.698613451336715,,3676.9205759405945,,,,10,0,24.70346471579466,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha0.9,20.517385422811895,,3688.6700713329205,,,,10,0,24.65250092474621,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_alpha1.0,20.33684241853467,,3706.695701206002,,,,10,0,24.30397435370515,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_q0.50,22.465270021436055,,3470.103232567423,,,,10,0,26.35321195183099,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_q0.75,22.101718275064307,,3489.37432644062,,,,10,0,26.227446467469477,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_q0.90,21.0700741658936,,3630.9074083145474,,,,10,0,24.94513172495992,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_q0.95,20.64373332522879,,3674.1411815120773,,,,10,0,24.712506678722608,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,SED_q0.99,20.33684241853467,,3706.695701206002,,,,10,0,24.30397435370515,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,False
+5,0.01,0.9,distribution_shift,WeightedRR,47.42592794730848,,9170.575355244871,,,,10,0,50.101311720166365,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.4,distribution_shift,adaptive,0.010510867919609358,0.007652652941737853,1497.7936866849518,2.9867578000649084,1969.495170881267,5.513928623893392,50,50,0.03466290326574,adaptive,RL,SD of five training-seed means,True,True
+8,0.003,0.4,distribution_shift,fixed,0.01912286808367749,0.011690100477348694,1499.4896406226544,5.351586847210184,1970.402506362451,3.948450932908409,50,50,0.03961474658941,fixed,RL,SD of five training-seed means,False,True
+8,0.003,0.4,distribution_shift,latency,0.015750104705874683,0.008482625115110545,1500.7202918949022,1.742740715680177,1975.4287526658813,3.6754847690155645,50,50,0.0391070555646,latency,RL,SD of five training-seed means,False,True
+8,0.003,0.4,distribution_shift,LeastWorkload,1.2962350080118021,,2180.527097443094,,,,10,0,1.39993454426444,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.4,distribution_shift,SED_alpha0.0,0.0,,1509.6409084680859,,,,10,10,0.0,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.4,distribution_shift,SED_alpha0.1,0.0,,1516.201152010769,,,,10,10,0.0,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.2,0.0,,1521.656485821452,,,,10,10,0.0,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.3,0.0,,1527.4113022351044,,,,10,10,0.0,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.4,0.0,,1532.6854361973415,,,,10,10,0.0,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.5,0.0,,1538.6521004999051,,,,10,10,0.0,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.6,0.0,,1544.7475946846648,,,,10,10,0.0,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.7,0.0,,1551.1576738520678,,,,10,10,0.0,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.8,0.0,,1558.1378286525273,,,,10,10,0.0,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha0.9,0.0,,1564.7939743927516,,,,10,10,0.0,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_alpha1.0,0.0,,1570.569843785793,,,,10,10,0.0,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_q0.50,0.0,,1509.6409084680859,,,,10,10,0.0,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.4,distribution_shift,SED_q0.75,0.0,,1516.7680665724897,,,,10,10,0.0,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_q0.90,0.0,,1545.4660014802514,,,,10,10,0.0,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_q0.95,0.0,,1559.5179026909166,,,,10,10,0.0,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,SED_q0.99,0.0,,1570.569843785793,,,,10,10,0.0,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.4,distribution_shift,WeightedRR,1.9082554893537336,,2092.642106809636,,,,10,0,2.06314960500734,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.6,scenario_specific,adaptive,0.06600907679355801,0.019242662571376155,1693.1981360535005,10.947594191211765,2202.8312816895527,12.019896732614752,50,50,0.09981999672721001,adaptive,RL,SD of five training-seed means,False,True
+8,0.003,0.6,scenario_specific,fixed,0.0670199393589152,0.02016302401351419,1689.8396223489096,12.601439725439628,2197.684109253211,11.147677954647023,50,50,0.11493403607286,fixed,RL,SD of five training-seed means,False,True
+8,0.003,0.6,scenario_specific,latency,0.08721540363701981,0.038348903234370665,1706.2736682738846,11.6529552374888,2218.3957711629837,12.47162355944238,50,50,0.18333606154853,latency,RL,SD of five training-seed means,False,True
+8,0.003,0.6,scenario_specific,LeastWorkload,5.898583352797928,,2215.553945448823,,,,10,0,6.18698780157668,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.6,scenario_specific,SED_alpha0.0,0.02228403098117005,,1670.9650860604258,,,,10,10,0.03027327769595,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.1,0.018342185985141615,,1690.2515597656056,,,,10,10,0.024630744094769997,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.2,0.015725687681638262,,1705.4240953144993,,,,10,10,0.0238379022646,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.3,0.014577620997540515,,1720.0854421966385,,,,10,10,0.02127311405661,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.4,0.01032399725820289,,1735.0769629862407,,,,10,10,0.01479593933664,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.5,0.009256226316526135,,1748.9330329238505,,,,10,10,0.01479593933664,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.6,0.007049276975297447,,1763.3753667159956,,,,10,10,0.01315194607702,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.7,0.005902124416995151,,1778.7069211873809,,,,10,10,0.009863959557765811,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.8,0.004592826605207834,,1794.5836762125277,,,,10,10,0.009818360333824251,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha0.9,0.004099434601023667,,1809.6664259132085,,,,10,10,0.008219966298138178,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_alpha1.0,0.004913857400858691,,1823.527132129336,,,,10,10,0.006575973038510542,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.6,scenario_specific,SED_q0.50,0.02228403098117005,,1670.9650860604258,,,,10,10,0.03027327769595,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_q0.75,0.017697116182969614,,1690.4470262078935,,,,10,10,0.02380971929161,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_q0.90,0.008114901268523397,,1767.6473458778885,,,,10,10,0.01231537204738,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.6,scenario_specific,SED_q0.95,0.004338690104832943,,1798.8651220853008,,,,10,10,0.007363770250368188,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.003,0.6,scenario_specific,SED_q0.99,0.004913857400858691,,1823.527132129336,,,,10,10,0.006575973038510542,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.003,0.6,scenario_specific,WeightedRR,8.792156950957859,,2377.1767525600967,,,,10,0,9.32395960656598,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.8,distribution_shift,adaptive,2.35259608526973,0.41439395459853234,2139.107829729671,35.355284019422555,2842.53483200465,55.375267577312286,50,0,3.3897889052528196,adaptive,RL,SD of five training-seed means,False,False
+8,0.003,0.8,distribution_shift,fixed,2.2982333901498473,0.3008697340692593,2115.7935709547305,42.20302734303394,2808.083051698114,80.40053874253034,50,0,3.2531500572737597,fixed,RL,SD of five training-seed means,False,False
+8,0.003,0.8,distribution_shift,latency,2.7886410696003927,0.8260116752502977,2146.635747709325,30.780555054427083,2838.7490379262317,87.1016574877689,50,0,4.888393040253971,latency,RL,SD of five training-seed means,False,False
+8,0.003,0.8,distribution_shift,LeastWorkload,18.399579040750375,,2511.0787323797726,,,,10,0,19.27753231876943,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.8,distribution_shift,SED_alpha0.0,2.552659158400923,,1955.0213088822748,,,,10,0,3.21878579610538,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.1,2.469218891063343,,1996.744144089167,,,,10,0,3.09360170184912,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.8,distribution_shift,SED_alpha0.2,2.3459844832910113,,2026.7031565300379,,,,10,0,2.95941744395352,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.3,2.2426310205977815,,2057.642387311739,,,,10,0,2.88414334806087,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.4,2.102356739606433,,2087.0664683583955,,,,10,0,2.74504990999836,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.5,2.0366656513327213,,2115.639670007365,,,,10,0,2.6763213876615897,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.6,1.9364425228709872,,2143.573451284466,,,,10,0,2.54459171984945,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.7,1.8390762375214138,,2172.958394539028,,,,10,0,2.41122565864833,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.8,1.7685089040404027,,2203.1975167712485,,,,10,0,2.3621338569792103,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha0.9,1.708683259350375,,2231.2911681504825,,,,10,0,2.22229514113912,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_alpha1.0,1.6129988077463902,,2263.70850528869,,,,10,0,2.19113074783177,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_q0.50,2.552659158400923,,1955.0213088822748,,,,10,0,3.21878579610538,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_q0.75,2.3583256625187032,,1995.8770371589853,,,,10,0,2.94141711667484,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_q0.90,1.9098018554280412,,2149.9858513581084,,,,10,0,2.55195549009982,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_q0.95,1.750758249981071,,2211.1006113802528,,,,10,0,2.37767959417443,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,SED_q0.99,1.6129988077463902,,2263.70850528869,,,,10,0,2.19113074783177,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.8,distribution_shift,WeightedRR,27.312606755734258,,4073.959324555127,,,,10,0,28.543654276831198,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.9,distribution_shift,adaptive,15.673270199642761,1.529582962450998,3308.585274830932,444.5033082714631,5040.1681733574815,820.6894096782819,50,0,21.372734371789072,adaptive,RL,SD of five training-seed means,False,False
+8,0.003,0.9,distribution_shift,fixed,17.513081975976505,5.36630418453591,3631.210549410907,1222.722711679318,5429.620788966606,1999.6364352848968,50,0,37.46564835399217,fixed,RL,SD of five training-seed means,False,False
+8,0.003,0.9,distribution_shift,latency,19.324820468454533,6.0695791977230655,3376.366604758342,667.0915822575781,8159.1750525677635,5781.939265542006,50,0,35.36886489856523,latency,RL,SD of five training-seed means,False,False
+8,0.003,0.9,distribution_shift,LeastWorkload,35.39830274146819,,3856.21062422069,,,,10,0,38.15215157617854,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.9,distribution_shift,SED_alpha0.0,16.23544619646625,,2805.5847311090197,,,,10,0,19.60153820978563,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.1,16.145622041384772,,2881.2734335350992,,,,10,0,19.54132588056389,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.9,distribution_shift,SED_alpha0.2,15.913402480405761,,2908.441488761132,,,,10,0,19.27253298261477,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.003,0.9,distribution_shift,SED_alpha0.3,15.669803510356056,,2934.60106932953,,,,10,0,19.08182976449796,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.4,15.436709545998074,,2960.201931057691,,,,10,0,18.97003822284328,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.5,15.207028726963317,,2988.249134700101,,,,10,0,18.75631909909169,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.6,15.007838469031626,,3014.2981921255137,,,,10,0,18.64452755743701,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.7,14.781532346009692,,3036.303595530417,,,,10,0,18.527804036003452,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.8,14.626172642065391,,3072.85005387322,,,,10,0,18.34367679092515,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha0.9,14.487364990007404,,3098.1309485055035,,,,10,0,18.20393736385681,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_alpha1.0,14.273043987289958,,3129.544460824124,,,,10,0,17.97460030413875,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_q0.50,16.23544619646625,,2805.5847311090197,,,,10,0,19.60153820978563,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_q0.75,15.911234728654517,,2841.922392917486,,,,10,0,19.29554888824955,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_q0.90,14.955433391225947,,3018.5642822279287,,,,10,0,18.615757675393528,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_q0.95,14.570725929125583,,3075.8960010291607,,,,10,0,18.277917060540048,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,SED_q0.99,14.273043987289958,,3129.544460824124,,,,10,0,17.97460030413875,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.003,0.9,distribution_shift,WeightedRR,48.20159565993368,,10041.987864867482,,,,10,0,50.783773786527476,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.4,distribution_shift,adaptive,0.00703495583517708,0.001986068414517527,1501.2317548986766,2.8645271562483394,1971.9326267522515,3.606574328508315,50,50,0.01403022275041,adaptive,RL,SD of five training-seed means,True,True
+8,0.005,0.4,distribution_shift,fixed,0.01912286808367749,0.011690100477348694,1499.4896406226544,5.351586847210184,1970.402506362451,3.948450932908409,50,50,0.03961474658941,fixed,RL,SD of five training-seed means,True,True
+8,0.005,0.4,distribution_shift,latency,0.015750104705874683,0.008482625115110545,1500.7202918949022,1.742740715680177,1975.4287526658813,3.6754847690155645,50,50,0.0391070555646,latency,RL,SD of five training-seed means,True,True
+8,0.005,0.4,distribution_shift,LeastWorkload,1.2962350080118021,,2180.527097443094,,,,10,0,1.39993454426444,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.4,distribution_shift,SED_alpha0.0,0.0,,1509.6409084680859,,,,10,10,0.0,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.4,distribution_shift,SED_alpha0.1,0.0,,1516.201152010769,,,,10,10,0.0,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.2,0.0,,1521.656485821452,,,,10,10,0.0,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.3,0.0,,1527.4113022351044,,,,10,10,0.0,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.4,0.0,,1532.6854361973415,,,,10,10,0.0,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.5,0.0,,1538.6521004999051,,,,10,10,0.0,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.6,0.0,,1544.7475946846648,,,,10,10,0.0,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.7,0.0,,1551.1576738520678,,,,10,10,0.0,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.8,0.0,,1558.1378286525273,,,,10,10,0.0,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha0.9,0.0,,1564.7939743927516,,,,10,10,0.0,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_alpha1.0,0.0,,1570.569843785793,,,,10,10,0.0,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_q0.50,0.0,,1509.6409084680859,,,,10,10,0.0,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.4,distribution_shift,SED_q0.75,0.0,,1516.7680665724897,,,,10,10,0.0,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_q0.90,0.0,,1545.4660014802514,,,,10,10,0.0,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_q0.95,0.0,,1559.5179026909166,,,,10,10,0.0,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,SED_q0.99,0.0,,1570.569843785793,,,,10,10,0.0,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.4,distribution_shift,WeightedRR,1.9082554893537336,,2092.642106809636,,,,10,0,2.06314960500734,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.6,scenario_specific,adaptive,0.08086310645807619,0.03019343475484952,1703.8575934634064,9.113320297370041,2213.7694606261616,10.217192470253542,50,50,0.17568488371138,adaptive,RL,SD of five training-seed means,False,True
+8,0.005,0.6,scenario_specific,fixed,0.0670199393589152,0.02016302401351419,1689.8396223489096,12.601439725439628,2197.684109253211,11.147677954647023,50,50,0.11493403607286,fixed,RL,SD of five training-seed means,False,True
+8,0.005,0.6,scenario_specific,latency,0.08721540363701981,0.038348903234370665,1706.2736682738846,11.6529552374888,2218.3957711629837,12.47162355944238,50,50,0.18333606154853,latency,RL,SD of five training-seed means,False,True
+8,0.005,0.6,scenario_specific,LeastWorkload,5.898583352797928,,2215.553945448823,,,,10,0,6.18698780157668,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.6,scenario_specific,SED_alpha0.0,0.02228403098117005,,1670.9650860604258,,,,10,10,0.03027327769595,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.1,0.018342185985141615,,1690.2515597656056,,,,10,10,0.024630744094769997,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.2,0.015725687681638262,,1705.4240953144993,,,,10,10,0.0238379022646,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.3,0.014577620997540515,,1720.0854421966385,,,,10,10,0.02127311405661,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.4,0.01032399725820289,,1735.0769629862407,,,,10,10,0.01479593933664,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.5,0.009256226316526135,,1748.9330329238505,,,,10,10,0.01479593933664,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.6,0.007049276975297447,,1763.3753667159956,,,,10,10,0.01315194607702,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.7,0.005902124416995151,,1778.7069211873809,,,,10,10,0.009863959557765811,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.8,0.004592826605207834,,1794.5836762125277,,,,10,10,0.009818360333824251,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha0.9,0.004099434601023667,,1809.6664259132085,,,,10,10,0.008219966298138178,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_alpha1.0,0.004913857400858691,,1823.527132129336,,,,10,10,0.006575973038510542,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.6,scenario_specific,SED_q0.50,0.02228403098117005,,1670.9650860604258,,,,10,10,0.03027327769595,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_q0.75,0.017697116182969614,,1690.4470262078935,,,,10,10,0.02380971929161,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_q0.90,0.008114901268523397,,1767.6473458778885,,,,10,10,0.01231537204738,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.6,scenario_specific,SED_q0.95,0.004338690104832943,,1798.8651220853008,,,,10,10,0.007363770250368188,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.005,0.6,scenario_specific,SED_q0.99,0.004913857400858691,,1823.527132129336,,,,10,10,0.006575973038510542,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.005,0.6,scenario_specific,WeightedRR,8.792156950957859,,2377.1767525600967,,,,10,0,9.32395960656598,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.8,distribution_shift,adaptive,2.7970901782127298,0.4579767941278667,2154.6871755541856,18.59044137484911,2849.333313220624,61.86100040642621,50,0,3.9015266486739195,adaptive,RL,SD of five training-seed means,False,False
+8,0.005,0.8,distribution_shift,fixed,2.2982333901498473,0.3008697340692593,2115.7935709547305,42.20302734303394,2808.083051698114,80.40053874253034,50,0,3.2531500572737597,fixed,RL,SD of five training-seed means,False,False
+8,0.005,0.8,distribution_shift,latency,2.7886410696003927,0.8260116752502977,2146.635747709325,30.780555054427083,2838.7490379262317,87.1016574877689,50,0,4.888393040253971,latency,RL,SD of five training-seed means,False,False
+8,0.005,0.8,distribution_shift,LeastWorkload,18.399579040750375,,2511.0787323797726,,,,10,0,19.27753231876943,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.8,distribution_shift,SED_alpha0.0,2.552659158400923,,1955.0213088822748,,,,10,0,3.21878579610538,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.1,2.469218891063343,,1996.744144089167,,,,10,0,3.09360170184912,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.8,distribution_shift,SED_alpha0.2,2.3459844832910113,,2026.7031565300379,,,,10,0,2.95941744395352,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.3,2.2426310205977815,,2057.642387311739,,,,10,0,2.88414334806087,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.4,2.102356739606433,,2087.0664683583955,,,,10,0,2.74504990999836,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.5,2.0366656513327213,,2115.639670007365,,,,10,0,2.6763213876615897,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.6,1.9364425228709872,,2143.573451284466,,,,10,0,2.54459171984945,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.7,1.8390762375214138,,2172.958394539028,,,,10,0,2.41122565864833,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.8,1.7685089040404027,,2203.1975167712485,,,,10,0,2.3621338569792103,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha0.9,1.708683259350375,,2231.2911681504825,,,,10,0,2.22229514113912,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_alpha1.0,1.6129988077463902,,2263.70850528869,,,,10,0,2.19113074783177,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_q0.50,2.552659158400923,,1955.0213088822748,,,,10,0,3.21878579610538,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_q0.75,2.3583256625187032,,1995.8770371589853,,,,10,0,2.94141711667484,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_q0.90,1.9098018554280412,,2149.9858513581084,,,,10,0,2.55195549009982,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_q0.95,1.750758249981071,,2211.1006113802528,,,,10,0,2.37767959417443,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,SED_q0.99,1.6129988077463902,,2263.70850528869,,,,10,0,2.19113074783177,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.8,distribution_shift,WeightedRR,27.312606755734258,,4073.959324555127,,,,10,0,28.543654276831198,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.9,distribution_shift,adaptive,18.77092333896049,6.064641615394162,3595.7618972617847,977.2563249944218,5471.445827376648,1471.2909958807936,50,0,38.892215814472394,adaptive,RL,SD of five training-seed means,False,False
+8,0.005,0.9,distribution_shift,fixed,17.513081975976505,5.36630418453591,3631.210549410907,1222.722711679318,5429.620788966606,1999.6364352848968,50,0,37.46564835399217,fixed,RL,SD of five training-seed means,False,False
+8,0.005,0.9,distribution_shift,latency,19.324820468454533,6.0695791977230655,3376.366604758342,667.0915822575781,8159.1750525677635,5781.939265542006,50,0,35.36886489856523,latency,RL,SD of five training-seed means,False,False
+8,0.005,0.9,distribution_shift,LeastWorkload,35.39830274146819,,3856.21062422069,,,,10,0,38.15215157617854,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.9,distribution_shift,SED_alpha0.0,16.23544619646625,,2805.5847311090197,,,,10,0,19.60153820978563,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.1,16.145622041384772,,2881.2734335350992,,,,10,0,19.54132588056389,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.9,distribution_shift,SED_alpha0.2,15.913402480405761,,2908.441488761132,,,,10,0,19.27253298261477,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.005,0.9,distribution_shift,SED_alpha0.3,15.669803510356056,,2934.60106932953,,,,10,0,19.08182976449796,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.4,15.436709545998074,,2960.201931057691,,,,10,0,18.97003822284328,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.5,15.207028726963317,,2988.249134700101,,,,10,0,18.75631909909169,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.6,15.007838469031626,,3014.2981921255137,,,,10,0,18.64452755743701,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.7,14.781532346009692,,3036.303595530417,,,,10,0,18.527804036003452,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.8,14.626172642065391,,3072.85005387322,,,,10,0,18.34367679092515,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha0.9,14.487364990007404,,3098.1309485055035,,,,10,0,18.20393736385681,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_alpha1.0,14.273043987289958,,3129.544460824124,,,,10,0,17.97460030413875,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_q0.50,16.23544619646625,,2805.5847311090197,,,,10,0,19.60153820978563,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_q0.75,15.911234728654517,,2841.922392917486,,,,10,0,19.29554888824955,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_q0.90,14.955433391225947,,3018.5642822279287,,,,10,0,18.615757675393528,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_q0.95,14.570725929125583,,3075.8960010291607,,,,10,0,18.277917060540048,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,SED_q0.99,14.273043987289958,,3129.544460824124,,,,10,0,17.97460030413875,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.005,0.9,distribution_shift,WeightedRR,48.20159565993368,,10041.987864867482,,,,10,0,50.783773786527476,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.4,distribution_shift,adaptive,0.017081322961487393,0.009190147252553588,1499.5393427103413,2.261010619961688,1969.6580758154219,1.571938635290252,50,50,0.036313517706959994,adaptive,RL,SD of five training-seed means,True,True
+8,0.01,0.4,distribution_shift,fixed,0.01912286808367749,0.011690100477348694,1499.4896406226544,5.351586847210184,1970.402506362451,3.948450932908409,50,50,0.03961474658941,fixed,RL,SD of five training-seed means,True,True
+8,0.01,0.4,distribution_shift,latency,0.015750104705874683,0.008482625115110545,1500.7202918949022,1.742740715680177,1975.4287526658813,3.6754847690155645,50,50,0.0391070555646,latency,RL,SD of five training-seed means,True,True
+8,0.01,0.4,distribution_shift,LeastWorkload,1.2962350080118021,,2180.527097443094,,,,10,0,1.39993454426444,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.4,distribution_shift,SED_alpha0.0,0.0,,1509.6409084680859,,,,10,10,0.0,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.4,distribution_shift,SED_alpha0.1,0.0,,1516.201152010769,,,,10,10,0.0,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.2,0.0,,1521.656485821452,,,,10,10,0.0,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.3,0.0,,1527.4113022351044,,,,10,10,0.0,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.4,0.0,,1532.6854361973415,,,,10,10,0.0,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.5,0.0,,1538.6521004999051,,,,10,10,0.0,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.6,0.0,,1544.7475946846648,,,,10,10,0.0,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.7,0.0,,1551.1576738520678,,,,10,10,0.0,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.8,0.0,,1558.1378286525273,,,,10,10,0.0,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha0.9,0.0,,1564.7939743927516,,,,10,10,0.0,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_alpha1.0,0.0,,1570.569843785793,,,,10,10,0.0,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_q0.50,0.0,,1509.6409084680859,,,,10,10,0.0,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.4,distribution_shift,SED_q0.75,0.0,,1516.7680665724897,,,,10,10,0.0,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_q0.90,0.0,,1545.4660014802514,,,,10,10,0.0,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_q0.95,0.0,,1559.5179026909166,,,,10,10,0.0,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,SED_q0.99,0.0,,1570.569843785793,,,,10,10,0.0,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.4,distribution_shift,WeightedRR,1.9082554893537336,,2092.642106809636,,,,10,0,2.06314960500734,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.6,scenario_specific,adaptive,0.0836642179706228,0.01675496966404861,1704.2473808702707,5.466349858996593,2212.196821054708,6.421185447778854,50,50,0.13545797108588,adaptive,RL,SD of five training-seed means,False,True
+8,0.01,0.6,scenario_specific,fixed,0.0670199393589152,0.02016302401351419,1689.8396223489096,12.601439725439628,2197.684109253211,11.147677954647023,50,50,0.11493403607286,fixed,RL,SD of five training-seed means,False,True
+8,0.01,0.6,scenario_specific,latency,0.08721540363701981,0.038348903234370665,1706.2736682738846,11.6529552374888,2218.3957711629837,12.47162355944238,50,50,0.18333606154853,latency,RL,SD of five training-seed means,False,True
+8,0.01,0.6,scenario_specific,LeastWorkload,5.898583352797928,,2215.553945448823,,,,10,0,6.18698780157668,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.6,scenario_specific,SED_alpha0.0,0.02228403098117005,,1670.9650860604258,,,,10,10,0.03027327769595,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.1,0.018342185985141615,,1690.2515597656056,,,,10,10,0.024630744094769997,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.2,0.015725687681638262,,1705.4240953144993,,,,10,10,0.0238379022646,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.3,0.014577620997540515,,1720.0854421966385,,,,10,10,0.02127311405661,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.4,0.01032399725820289,,1735.0769629862407,,,,10,10,0.01479593933664,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.5,0.009256226316526135,,1748.9330329238505,,,,10,10,0.01479593933664,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.6,0.007049276975297447,,1763.3753667159956,,,,10,10,0.01315194607702,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.7,0.005902124416995151,,1778.7069211873809,,,,10,10,0.009863959557765811,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.8,0.004592826605207834,,1794.5836762125277,,,,10,10,0.009818360333824251,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha0.9,0.004099434601023667,,1809.6664259132085,,,,10,10,0.008219966298138178,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_alpha1.0,0.004913857400858691,,1823.527132129336,,,,10,10,0.006575973038510542,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.6,scenario_specific,SED_q0.50,0.02228403098117005,,1670.9650860604258,,,,10,10,0.03027327769595,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_q0.75,0.017697116182969614,,1690.4470262078935,,,,10,10,0.02380971929161,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_q0.90,0.008114901268523397,,1767.6473458778885,,,,10,10,0.01231537204738,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.6,scenario_specific,SED_q0.95,0.004338690104832943,,1798.8651220853008,,,,10,10,0.007363770250368188,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,True
+8,0.01,0.6,scenario_specific,SED_q0.99,0.004913857400858691,,1823.527132129336,,,,10,10,0.006575973038510542,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,False,True
+8,0.01,0.6,scenario_specific,WeightedRR,8.792156950957859,,2377.1767525600967,,,,10,0,9.32395960656598,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.8,distribution_shift,adaptive,2.7584439440633757,0.3340369822786247,2142.8780211310595,17.4538828040304,2822.551946529264,39.55952990149476,50,0,3.7236131566028403,adaptive,RL,SD of five training-seed means,False,False
+8,0.01,0.8,distribution_shift,fixed,2.2982333901498473,0.3008697340692593,2115.7935709547305,42.20302734303394,2808.083051698114,80.40053874253034,50,0,3.2531500572737597,fixed,RL,SD of five training-seed means,False,False
+8,0.01,0.8,distribution_shift,latency,2.7886410696003927,0.8260116752502977,2146.635747709325,30.780555054427083,2838.7490379262317,87.1016574877689,50,0,4.888393040253971,latency,RL,SD of five training-seed means,False,False
+8,0.01,0.8,distribution_shift,LeastWorkload,18.399579040750375,,2511.0787323797726,,,,10,0,19.27753231876943,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.8,distribution_shift,SED_alpha0.0,2.552659158400923,,1955.0213088822748,,,,10,0,3.21878579610538,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.1,2.469218891063343,,1996.744144089167,,,,10,0,3.09360170184912,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.8,distribution_shift,SED_alpha0.2,2.3459844832910113,,2026.7031565300379,,,,10,0,2.95941744395352,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.3,2.2426310205977815,,2057.642387311739,,,,10,0,2.88414334806087,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.4,2.102356739606433,,2087.0664683583955,,,,10,0,2.74504990999836,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.5,2.0366656513327213,,2115.639670007365,,,,10,0,2.6763213876615897,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.6,1.9364425228709872,,2143.573451284466,,,,10,0,2.54459171984945,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.7,1.8390762375214138,,2172.958394539028,,,,10,0,2.41122565864833,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.8,1.7685089040404027,,2203.1975167712485,,,,10,0,2.3621338569792103,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha0.9,1.708683259350375,,2231.2911681504825,,,,10,0,2.22229514113912,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_alpha1.0,1.6129988077463902,,2263.70850528869,,,,10,0,2.19113074783177,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_q0.50,2.552659158400923,,1955.0213088822748,,,,10,0,3.21878579610538,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_q0.75,2.3583256625187032,,1995.8770371589853,,,,10,0,2.94141711667484,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_q0.90,1.9098018554280412,,2149.9858513581084,,,,10,0,2.55195549009982,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_q0.95,1.750758249981071,,2211.1006113802528,,,,10,0,2.37767959417443,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,SED_q0.99,1.6129988077463902,,2263.70850528869,,,,10,0,2.19113074783177,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.8,distribution_shift,WeightedRR,27.312606755734258,,4073.959324555127,,,,10,0,28.543654276831198,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.9,distribution_shift,adaptive,16.77109829329303,3.105929910711359,3294.039053509108,288.73513068183814,7896.0900861715445,6962.080646025408,50,0,28.55770572829005,adaptive,RL,SD of five training-seed means,False,False
+8,0.01,0.9,distribution_shift,fixed,17.513081975976505,5.36630418453591,3631.210549410907,1222.722711679318,5429.620788966606,1999.6364352848968,50,0,37.46564835399217,fixed,RL,SD of five training-seed means,False,False
+8,0.01,0.9,distribution_shift,latency,19.324820468454533,6.0695791977230655,3376.366604758342,667.0915822575781,8159.1750525677635,5781.939265542006,50,0,35.36886489856523,latency,RL,SD of five training-seed means,False,False
+8,0.01,0.9,distribution_shift,LeastWorkload,35.39830274146819,,3856.21062422069,,,,10,0,38.15215157617854,LeastWorkload,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.9,distribution_shift,SED_alpha0.0,16.23544619646625,,2805.5847311090197,,,,10,0,19.60153820978563,SED_alpha0.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.1,16.145622041384772,,2881.2734335350992,,,,10,0,19.54132588056389,SED_alpha0.1,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.9,distribution_shift,SED_alpha0.2,15.913402480405761,,2908.441488761132,,,,10,0,19.27253298261477,SED_alpha0.2,heuristic,deterministic policy; ten reconstructions on two days,False,False
+8,0.01,0.9,distribution_shift,SED_alpha0.3,15.669803510356056,,2934.60106932953,,,,10,0,19.08182976449796,SED_alpha0.3,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.4,15.436709545998074,,2960.201931057691,,,,10,0,18.97003822284328,SED_alpha0.4,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.5,15.207028726963317,,2988.249134700101,,,,10,0,18.75631909909169,SED_alpha0.5,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.6,15.007838469031626,,3014.2981921255137,,,,10,0,18.64452755743701,SED_alpha0.6,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.7,14.781532346009692,,3036.303595530417,,,,10,0,18.527804036003452,SED_alpha0.7,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.8,14.626172642065391,,3072.85005387322,,,,10,0,18.34367679092515,SED_alpha0.8,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha0.9,14.487364990007404,,3098.1309485055035,,,,10,0,18.20393736385681,SED_alpha0.9,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_alpha1.0,14.273043987289958,,3129.544460824124,,,,10,0,17.97460030413875,SED_alpha1.0,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_q0.50,16.23544619646625,,2805.5847311090197,,,,10,0,19.60153820978563,SED_q0.50,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_q0.75,15.911234728654517,,2841.922392917486,,,,10,0,19.29554888824955,SED_q0.75,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_q0.90,14.955433391225947,,3018.5642822279287,,,,10,0,18.615757675393528,SED_q0.90,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_q0.95,14.570725929125583,,3075.8960010291607,,,,10,0,18.277917060540048,SED_q0.95,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,SED_q0.99,14.273043987289958,,3129.544460824124,,,,10,0,17.97460030413875,SED_q0.99,heuristic,deterministic policy; ten reconstructions on two days,True,False
+8,0.01,0.9,distribution_shift,WeightedRR,48.20159565993368,,10041.987864867482,,,,10,0,50.783773786527476,WeightedRR,heuristic,deterministic policy; ten reconstructions on two days,False,False

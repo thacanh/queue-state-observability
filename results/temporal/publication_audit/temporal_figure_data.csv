@@ -1,0 +1,15 @@
+panel,group,variable,value,unit
+a,historical,oracle_on,3.7288135593220337,percent
+a,new,oracle_on,16.666666666666668,percent
+a,historical,estimated_on,94.57627118644068,percent
+a,new,estimated_on,26.0,percent
+b,d08–d09,EE_minus_OO,0.23068851973916626,percentage points
+b,d12,EE_minus_OO,0.23703036544305728,percentage points
+b,d13,EE_minus_OO,-0.15310168788308853,percentage points
+b,d14,EE_minus_OO,0.12943892848272331,percentage points
+c,9–13,miss_delta_pp,13.700781654624889,percentage points
+c,7,miss_delta_pp,15.49664981779711,percentage points
+c,8,miss_delta_pp,22.949832524180497,percentage points
+c,9–13,p95_delta_ms,-930.9722679162626,seconds
+c,7,p95_delta_ms,-1938.434497497478,seconds
+c,8,p95_delta_ms,293.0919965531166,seconds

@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE",
+  "origin": "recovered historical checkpoint",
+  "seed": 42,
+  "lambda": 80,
+  "model_sha256": "75fa9135bd35ba19961df7461fe08df5084bafb30c87f82dd4a2553650a346f8",
+  "identity": "e413ec3943a62ef550b808facc686a6f69099bfb9e0aad6fbbbd4e6e18636165",
+  "observation": "oracle",
+  "metadata_sha256": "7f05905398c19b4b20cee3580a6d51e47907dd320d5d909b963a58ff4342ace1",
+  "registry_sha256": "bfc0a2eeb97891221affefdb642f652a2600623e1a0406e1b5e474994c3abab5",
+  "provenance": {
+    "manifest_drive_id": "1RejcEwIc6VSf_ERwP_3fLzk-QMgFy5BQ",
+    "checkpoint_drive_id": "1t00qPvxqGTkbW8FnahvfwGvZ8RrqqUS5"
+  },
+  "history": {
+    "seed": 42,
+    "method": "fixed",
+    "fixed_lambda": 80.0,
+    "stage2_transitions": 2000000,
+    "train_days": "d01-d07",
+    "validation_days": "d08-d09",
+    "holdout_used": false,
+    "identity": "e413ec3943a62ef550b808facc686a6f69099bfb9e0aad6fbbbd4e6e18636165",
+    "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+    "input_sha256": {
+      "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+      "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+      "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+    },
+    "runtime": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "cuda": "13.0"
+    },
+    "model_path": "runs/e2_complete_v2/fixed_seed42_lambda80_e413ec3943a6/final.pt",
+    "model_sha256": "75fa9135bd35ba19961df7461fe08df5084bafb30c87f82dd4a2553650a346f8",
+    "actual_optimizer_updates": 7695,
+    "realized_transitions": 2000128,
+    "session_train_seconds": 56.04553784100017,
+    "lambda_final": 10.0,
+    "provenance": "canonical-source-v2"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "version": "reviewer-study-v1",
+  "loads": [
+    0.4,
+    0.6,
+    0.8,
+    0.9
+  ],
+  "budgets": [
+    0.003,
+    0.005,
+    0.01
+  ],
+  "topologies": {
+    "3": [
+      [
+        1.5,
+        1.0,
+        0.7
+      ],
+      [
+        4,
+        3,
+        2
+      ]
+    ],
+    "5": [
+      [
+        1.5,
+        1.2,
+        1.0,
+        0.8,
+        0.7
+      ],
+      [
+        4,
+        3,
+        3,
+        2,
+        2
+      ]
+    ],
+    "8": [
+      [
+        1.5,
+        1.3,
+        1.2,
+        1.0,
+        0.9,
+        0.8,
+        0.7,
+        0.6
+      ],
+      [
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  "scenario_training_load": 0.6,
+  "screen_seeds": [
+    42
+  ],
+  "screen_fixed_grid": [
+    0.0,
+    2.0,
+    5.0,
+    20.0,
+    80.0
+  ],
+  "confirmation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "screen_selection": "every paired validation trace feasible, minimize mean p95; otherwise minimum worst violation, then mean violation, then p95, then lambda",
+  "confirmation_scenarios": "all 3 topologies x all 3 targets at train load .6; no performance-based filtering",
+  "shift_protocol": "same architecture and trained target, evaluate all four loads; no retraining at shifted loads",
+  "fixed_latency_reuse": "training target is unused for fixed/latency rewards; identical checkpoint reused across budget thresholds",
+  "ablations": [
+    "full_retrained",
+    "profile_only_removed",
+    "busy_all_removed",
+    "no_interarrival"
+  ],
+  "ablation_pretraining": "retrain from random seed, same 2M latency pretraining and 2M adaptive fine_tuning; include freshly retrained full-state control",
+  "scientific_branch_rule": "Descriptive rule locked after matched_training inspection, before topology confirmation: all paired rows feasible; >1% mean P95 gain over feasible RL and heuristic comparators; adaptive mean violation no worse than feasible RL comparator. Not a significance test.",
+  "reward_sensitivity": "unclipped latency cost; all three compute-matched methods, five seeds, same pretraining",
+  "tail_sensitivity": {
+    "name": "R3",
+    "distribution": "independent 1% per-function mixture above R0 bounded maximum; Pareto multiplier shape4",
+    "finite_mean": true,
+    "finite_variance": true,
+    "matched_load": 0.6,
+    "seed_offset": 30000
+  },
+  "R2": "audit only; invalid for primary evidence",
+  "holdout": "BLOCKED independent provenance; d11 historical, d12-d14 unverified",
+  "grouping": "training seed, day, reconstruction nested within day; only two observed days; no day-level generalization claim"
+}

@@ -1,0 +1,16 @@
+{
+  "protocol": "19a471ef33894fadaeea300c3e153875baadf9ac9127b3b2a8e4e880b0fe4273",
+  "scale": 0.6394282480309195,
+  "loss_before": 0.0074610190891579165,
+  "loss_after": 0.0049367986488845035,
+  "elapsed_s": 8.874690399999963,
+  "witness_files": {
+    "d01_witness.npz": "63d74ff5a8f80c08b0023a7635f53524e927dd6955efa0b6e4a5c42a9c11723f",
+    "d02_witness.npz": "570d752c97e767aa2d9b76073f404796c42c64770b12af0b4c4d8e791473e827",
+    "d03_witness.npz": "ccb13706379bb0ad058b54eeabe7381a86cb8a3fa738b712f0d0280f259cfff8",
+    "d04_witness.npz": "4e84afb7da30eb1541a523d5e083246fb50966c31e9a6cab8637c3f9e64d0078",
+    "d05_witness.npz": "e717ffce81fba0dff0c7fe22de37294627a66406cc5a51d94d2ff4fd17d0ed9e",
+    "d06_witness.npz": "b6fc2b259bc4dd1c3ae006e8054588048a7c1333e4b15aea5fa026b6a0f1a188",
+    "d07_witness.npz": "d510e92a5dac9dcd8066a0c0f8496ee7d6c78841972e09abad1f8c564a02a291"
+  }
+}

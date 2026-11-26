@@ -1,0 +1,845 @@
+{
+  "protocol_sha256": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "traces": {
+    "d12_r00": {
+      "day": "d12",
+      "draw_index": 0,
+      "reconstruction_seed": 2026112700,
+      "key": "d12_r00",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 120685,
+        "input_rps": 11.217366594043066,
+        "util": 0.6000000000000001,
+        "mean_service": 0.556280295173176,
+        "p95_service": 2.026470228307532
+      },
+      "trace_sha256": "9938936549a44401d695876ed15bbb82718583a52a52795b1108924655b03084",
+      "file_sha256": "a053c2230cba2a540ebeca23ba46e40e8cb487fe66bbb533c886cb9f723c1c5a",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r00.csv.gz"
+    },
+    "d12_r01": {
+      "day": "d12",
+      "draw_index": 1,
+      "reconstruction_seed": 2026112701,
+      "key": "d12_r01",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 120262,
+        "input_rps": 11.167404219574008,
+        "util": 0.5999999999999999,
+        "mean_service": 0.558769063724106,
+        "p95_service": 2.027311087172235
+      },
+      "trace_sha256": "6d0232378ff8d871723969fc7ab490aea3d09d757c29246eaeba770207a5ceae",
+      "file_sha256": "877af7aedb7aad61397cb0a10a7522fdd0de7af3afa21310da81820c64c3f4b4",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r01.csv.gz"
+    },
+    "d12_r02": {
+      "day": "d12",
+      "draw_index": 2,
+      "reconstruction_seed": 2026112702,
+      "key": "d12_r02",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 121919,
+        "input_rps": 11.247146837807986,
+        "util": 0.6,
+        "mean_service": 0.5548073738153619,
+        "p95_service": 2.021465760502574
+      },
+      "trace_sha256": "1bd706673e22ad9b598a4d1fd6a798282c856ce7103a4590c4427b64dc91a774",
+      "file_sha256": "e64ae1105c0881429d13c9eec7a15052c095678a136a315fc0fdda3374250e62",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r02.csv.gz"
+    },
+    "d12_r03": {
+      "day": "d12",
+      "draw_index": 3,
+      "reconstruction_seed": 2026112703,
+      "key": "d12_r03",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 121364,
+        "input_rps": 11.199118722039904,
+        "util": 0.6,
+        "mean_service": 0.5571866996748288,
+        "p95_service": 2.0310486157419883
+      },
+      "trace_sha256": "499088fae6473a34733b61586ddc55d83219d727d525cf6b0606ab00d37724a2",
+      "file_sha256": "9b72e2cfa2543fed2c11b27dc8825f466257163282c5455b3c59961809dedabc",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r03.csv.gz"
+    },
+    "d12_r04": {
+      "day": "d12",
+      "draw_index": 4,
+      "reconstruction_seed": 2026112704,
+      "key": "d12_r04",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 120564,
+        "input_rps": 11.217283118556754,
+        "util": 0.6,
+        "mean_service": 0.5562844348358442,
+        "p95_service": 2.0299694290449204
+      },
+      "trace_sha256": "f1a597d6f1e4907392f5317f95a174cf885b0a65d6d1e4b807a72404c37c94d8",
+      "file_sha256": "88c726372b665ecb4c745895e3293e13fe020edc0ee92229b5e29f3bf4b48b05",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r04.csv.gz"
+    },
+    "d12_r05": {
+      "day": "d12",
+      "draw_index": 5,
+      "reconstruction_seed": 2026112705,
+      "key": "d12_r05",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 119764,
+        "input_rps": 11.236368182789123,
+        "util": 0.6,
+        "mean_service": 0.5553395811253214,
+        "p95_service": 2.0307001468610086
+      },
+      "trace_sha256": "ce8351313ddd159a5d8cb60f043f159ce9ba87223e2b41739bbf0c8798cbd915",
+      "file_sha256": "eeeaf330497c4a7b62b92c7388b80fcba640d3d60773bc7a7d57ea7d6fd40459",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r05.csv.gz"
+    },
+    "d12_r06": {
+      "day": "d12",
+      "draw_index": 6,
+      "reconstruction_seed": 2026112706,
+      "key": "d12_r06",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 121567,
+        "input_rps": 11.177473340440747,
+        "util": 0.6000000000000001,
+        "mean_service": 0.5582657019116583,
+        "p95_service": 2.02449739694596
+      },
+      "trace_sha256": "2c018dd4bd488148da0b6a53828200a365debc56c1a125ad13609f7f36f53115",
+      "file_sha256": "6cc0e61fde16eac02a2e2200cfe42d56e0d2ab09f985d00a9d8315753b32f1d4",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r06.csv.gz"
+    },
+    "d12_r07": {
+      "day": "d12",
+      "draw_index": 7,
+      "reconstruction_seed": 2026112707,
+      "key": "d12_r07",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 121241,
+        "input_rps": 11.224764000002683,
+        "util": 0.6,
+        "mean_service": 0.555913692261014,
+        "p95_service": 2.0218360335986816
+      },
+      "trace_sha256": "3cde070fd2a312a745a98de3643e6f3298c8317e889562d232500a252cd9046f",
+      "file_sha256": "f87848480adfde0fcd2b42d02dd46d7335974011b24ef8f3c085006fa26fee59",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r07.csv.gz"
+    },
+    "d12_r08": {
+      "day": "d12",
+      "draw_index": 8,
+      "reconstruction_seed": 2026112708,
+      "key": "d12_r08",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 120281,
+        "input_rps": 11.279228474331797,
+        "util": 0.6,
+        "mean_service": 0.5532293289563557,
+        "p95_service": 2.0250619506524985
+      },
+      "trace_sha256": "33fe2fe0b1c2361af85d9b598a49385a1526729b11cd87d343f0dad93f1d9104",
+      "file_sha256": "d05c4100e13721894c24f9d69c2e76fdab06f33430130d3e4b6c17fc8c6bda1f",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r08.csv.gz"
+    },
+    "d12_r09": {
+      "day": "d12",
+      "draw_index": 9,
+      "reconstruction_seed": 2026112709,
+      "key": "d12_r09",
+      "meta": {
+        "day": "d12",
+        "window_start": 1123,
+        "window_end": 1302,
+        "requests": 122058,
+        "input_rps": 11.258879819454885,
+        "util": 0.6,
+        "mean_service": 0.5542292039761837,
+        "p95_service": 2.02246618519548
+      },
+      "trace_sha256": "f7c1b95f981b8324c046803e110b746dcc01921139bc5da52f4136b1fee7a996",
+      "file_sha256": "e3271c40ae65197dbe289b8b73276f5f0571f202123b04a6593699ebac49d2c9",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d12_r09.csv.gz"
+    },
+    "d13_r00": {
+      "day": "d13",
+      "draw_index": 0,
+      "reconstruction_seed": 2026112800,
+      "key": "d13_r00",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 141482,
+        "input_rps": 13.557810137124463,
+        "util": 0.6,
+        "mean_service": 0.46025131912073447,
+        "p95_service": 1.8222893591898182
+      },
+      "trace_sha256": "cc7c3a55415d2b2a1fdef999c86ad3985f1602247faed883c007220f18ebcb49",
+      "file_sha256": "17728119b8fa9ef57b07071124599164fbdc02d24e1ed3734f3b773a7720360f",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r00.csv.gz"
+    },
+    "d13_r01": {
+      "day": "d13",
+      "draw_index": 1,
+      "reconstruction_seed": 2026112801,
+      "key": "d13_r01",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 135575,
+        "input_rps": 12.801763353933344,
+        "util": 0.6000000000000001,
+        "mean_service": 0.4874328502629882,
+        "p95_service": 1.8273116720184464
+      },
+      "trace_sha256": "7079209512ce20585ece2f7c4ae764fac0f5776a02530dfa0143c9b91013fbbb",
+      "file_sha256": "580a97ebdb7e2b621d3182a91c255736e1b014af6b5b9b430abc25e20b9f0539",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r01.csv.gz"
+    },
+    "d13_r02": {
+      "day": "d13",
+      "draw_index": 2,
+      "reconstruction_seed": 2026112802,
+      "key": "d13_r02",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 145573,
+        "input_rps": 12.955502112052285,
+        "util": 0.5999999999999999,
+        "mean_service": 0.4816486421004889,
+        "p95_service": 1.8200199652775424
+      },
+      "trace_sha256": "e5f30973181a144102b4c953831c023e7ca4f4d5e6aed39afe3ae8f183c892a8",
+      "file_sha256": "facfb83c297692dd6c406d9cde0e02d36ed886516e21e217472999a6ea7c619e",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r02.csv.gz"
+    },
+    "d13_r03": {
+      "day": "d13",
+      "draw_index": 3,
+      "reconstruction_seed": 2026112803,
+      "key": "d13_r03",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 145336,
+        "input_rps": 13.056454774012684,
+        "util": 0.6,
+        "mean_service": 0.4779245291317499,
+        "p95_service": 1.8183610108184434
+      },
+      "trace_sha256": "5772a329a275205d519a3bad4fc7526ecac336f818eb118473f88acda904ce80",
+      "file_sha256": "6dd771dbc5d9ab71a670cc4dc6a81a7266c09e01700aa90fdb8344f405dd8020",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r03.csv.gz"
+    },
+    "d13_r04": {
+      "day": "d13",
+      "draw_index": 4,
+      "reconstruction_seed": 2026112804,
+      "key": "d13_r04",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 140481,
+        "input_rps": 12.999490624761956,
+        "util": 0.6,
+        "mean_service": 0.4800188084380626,
+        "p95_service": 1.8240759448292705
+      },
+      "trace_sha256": "7a53a6f149780b9fd14be49dd3c44ee510c58a8614231b653fb346860c184167",
+      "file_sha256": "e73dfcc6a2408560a224b439b61927a8c62cd9a2a9ccdfa89b0208ef071d9171",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r04.csv.gz"
+    },
+    "d13_r05": {
+      "day": "d13",
+      "draw_index": 5,
+      "reconstruction_seed": 2026112805,
+      "key": "d13_r05",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 144162,
+        "input_rps": 13.077857970048237,
+        "util": 0.5999999999999999,
+        "mean_service": 0.4771423588091608,
+        "p95_service": 1.8203162607242274
+      },
+      "trace_sha256": "d2f8a4e0254002e6899fdc05a2ba371f9586a22f3469d707f73c8a1f0edc4b61",
+      "file_sha256": "9780b251be864ed2a93b6fe639783888a2edd42189ee217d1365c1f8fb82feb8",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r05.csv.gz"
+    },
+    "d13_r06": {
+      "day": "d13",
+      "draw_index": 6,
+      "reconstruction_seed": 2026112806,
+      "key": "d13_r06",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 139860,
+        "input_rps": 13.152856568150563,
+        "util": 0.6,
+        "mean_service": 0.4744216564415415,
+        "p95_service": 1.8247683089273836
+      },
+      "trace_sha256": "46261c84d19c1636f21579ff36af3e32b25a6e493195bd5f31453c6ddccf2f86",
+      "file_sha256": "b6fdc7c2984e98e135a4e506510f734be24c85edbb8c907bda9ebe46de547d74",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r06.csv.gz"
+    },
+    "d13_r07": {
+      "day": "d13",
+      "draw_index": 7,
+      "reconstruction_seed": 2026112807,
+      "key": "d13_r07",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 144953,
+        "input_rps": 13.222286767856197,
+        "util": 0.6,
+        "mean_service": 0.4719304693322519,
+        "p95_service": 1.8257057856825356
+      },
+      "trace_sha256": "79b06455bb522ad9cce6f8643e7c156714d40ee891e513d431ed73049795c292",
+      "file_sha256": "4383606c2118de707ee9836e2e30380c96ff75f5d81f1da6ae2d499f849ed956",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r07.csv.gz"
+    },
+    "d13_r08": {
+      "day": "d13",
+      "draw_index": 8,
+      "reconstruction_seed": 2026112808,
+      "key": "d13_r08",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 144142,
+        "input_rps": 13.013193076597425,
+        "util": 0.5999999999999999,
+        "mean_service": 0.4795133648805877,
+        "p95_service": 1.822415022387728
+      },
+      "trace_sha256": "ff01aa725cc4038dcf86be342ba69616ddb28b0a9f7b21d264d645ec1f9a30aa",
+      "file_sha256": "31e7fea96c7fb5f59523d00af6a5ec4c308b8331cef066ea31b80d568af26729",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r08.csv.gz"
+    },
+    "d13_r09": {
+      "day": "d13",
+      "draw_index": 9,
+      "reconstruction_seed": 2026112809,
+      "key": "d13_r09",
+      "meta": {
+        "day": "d13",
+        "window_start": 892,
+        "window_end": 1071,
+        "requests": 142734,
+        "input_rps": 13.103755645115642,
+        "util": 0.6,
+        "mean_service": 0.4761993560469001,
+        "p95_service": 1.8223680757666598
+      },
+      "trace_sha256": "5b145e04a4c3442b574f54c8ed0f7293df9b1b3d9e52af49fe8ed754499206bf",
+      "file_sha256": "b36a0df76212918d4d681c649aa8df52331742b53b132d84f09ab3d3ea2abc93",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d13_r09.csv.gz"
+    },
+    "d14_r00": {
+      "day": "d14",
+      "draw_index": 0,
+      "reconstruction_seed": 2026112900,
+      "key": "d14_r00",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 159584,
+        "input_rps": 14.454101291520171,
+        "util": 0.6,
+        "mean_service": 0.43171137894687633,
+        "p95_service": 1.7271408105740265
+      },
+      "trace_sha256": "4e28b93a04e21166fb519569839924da476f0ab017468824d9bc8f14f0e38d2b",
+      "file_sha256": "8d586e75b7a388eeb2b4929e54b8196e88e6fbd6fc4d652fe7312d67f043c83a",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r00.csv.gz"
+    },
+    "d14_r01": {
+      "day": "d14",
+      "draw_index": 1,
+      "reconstruction_seed": 2026112901,
+      "key": "d14_r01",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 155704,
+        "input_rps": 14.463391715975638,
+        "util": 0.5999999999999999,
+        "mean_service": 0.4314340731785315,
+        "p95_service": 1.7427750142305936
+      },
+      "trace_sha256": "43126613610e9b4e3d62ca3162af91dfbdffcb8067fb1ae4f81527c15def303c",
+      "file_sha256": "00eab9e5aa900d45db6c9537dee6da4f308658810b4f068dc7cb44ffc8a40dd3",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r01.csv.gz"
+    },
+    "d14_r02": {
+      "day": "d14",
+      "draw_index": 2,
+      "reconstruction_seed": 2026112902,
+      "key": "d14_r02",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 156323,
+        "input_rps": 14.26397764286021,
+        "util": 0.6,
+        "mean_service": 0.4374656323948609,
+        "p95_service": 1.7366755530522173
+      },
+      "trace_sha256": "46d19dca7a58646b5717ce18f161d81930b4d05f28637bf6af0f120a6d853b96",
+      "file_sha256": "58b4650372c931f6369c9effb8268163b23a81688ba84dd17cad26f82d39c20f",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r02.csv.gz"
+    },
+    "d14_r03": {
+      "day": "d14",
+      "draw_index": 3,
+      "reconstruction_seed": 2026112903,
+      "key": "d14_r03",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 159677,
+        "input_rps": 14.648996446811942,
+        "util": 0.6,
+        "mean_service": 0.4259677461631175,
+        "p95_service": 1.710599267153017
+      },
+      "trace_sha256": "77ddea530fb87d2614e6785e6206e7914084b9422e885b1d0129084eda4e51ce",
+      "file_sha256": "38b130fb39e537a9bbdcc03af6f746db5c1eddee1f9e52b52ae0578d8a5c315b",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r03.csv.gz"
+    },
+    "d14_r04": {
+      "day": "d14",
+      "draw_index": 4,
+      "reconstruction_seed": 2026112904,
+      "key": "d14_r04",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 154494,
+        "input_rps": 14.457205983637015,
+        "util": 0.6,
+        "mean_service": 0.43161866871528076,
+        "p95_service": 1.7341826102396263
+      },
+      "trace_sha256": "c15945be0ede8e9118391070e47f96263fd153df89dc2a964e1718fc0c8c6db0",
+      "file_sha256": "5996323bbba77fa612d68fe9235777dfcd705a35b5d9f5538700e76b3b6275e9",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r04.csv.gz"
+    },
+    "d14_r05": {
+      "day": "d14",
+      "draw_index": 5,
+      "reconstruction_seed": 2026112905,
+      "key": "d14_r05",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 156416,
+        "input_rps": 14.51134028773332,
+        "util": 0.6,
+        "mean_service": 0.4300085227327194,
+        "p95_service": 1.7236344832891928
+      },
+      "trace_sha256": "3f1cba0374ff87d66221f0b846fe095364b413cd479a87f51aaf88f0112d9e74",
+      "file_sha256": "d7ce6121566fdd9c7cacad15db38310e58f67155511c5ee0725237a9da30c8be",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r05.csv.gz"
+    },
+    "d14_r06": {
+      "day": "d14",
+      "draw_index": 6,
+      "reconstruction_seed": 2026112906,
+      "key": "d14_r06",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 155358,
+        "input_rps": 14.541439347378402,
+        "util": 0.6,
+        "mean_service": 0.4291184559474146,
+        "p95_service": 1.7363083092198404
+      },
+      "trace_sha256": "a18171d61a21d831798a4bc77afd08b70c1a05e2a391918d1b950568d2aff3c0",
+      "file_sha256": "d07a049f37c9f73a5fcfd2aff1d7b55e594a54f7368e4d2bfb65aa36c07339f6",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r06.csv.gz"
+    },
+    "d14_r07": {
+      "day": "d14",
+      "draw_index": 7,
+      "reconstruction_seed": 2026112907,
+      "key": "d14_r07",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 156666,
+        "input_rps": 14.638959727184009,
+        "util": 0.6,
+        "mean_service": 0.42625979689065946,
+        "p95_service": 1.7271231389655306
+      },
+      "trace_sha256": "1940e2b0d03f265aec6f7ee239f574f1f808e1968193fdd0fd5f62051d5e8478",
+      "file_sha256": "dd4decc3a0d0cb2a757d317120d3ce498ceb60f8bd6218cef4e369fe1a4cf9cf",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r07.csv.gz"
+    },
+    "d14_r08": {
+      "day": "d14",
+      "draw_index": 8,
+      "reconstruction_seed": 2026112908,
+      "key": "d14_r08",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 154812,
+        "input_rps": 14.709662553978264,
+        "util": 0.6,
+        "mean_service": 0.4242109550169373,
+        "p95_service": 1.7287902742123085
+      },
+      "trace_sha256": "10de341cb04770704d1665779a8c0f77a1eb4a893c8c79bf3df83c1b79b5599a",
+      "file_sha256": "e23b88ee37024265c05fdff35c22d7c360985c9c31a5b1921a2bf9aa0f0f7410",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r08.csv.gz"
+    },
+    "d14_r09": {
+      "day": "d14",
+      "draw_index": 9,
+      "reconstruction_seed": 2026112909,
+      "key": "d14_r09",
+      "meta": {
+        "day": "d14",
+        "window_start": 807,
+        "window_end": 986,
+        "requests": 157830,
+        "input_rps": 14.512813628296264,
+        "util": 0.5999999999999999,
+        "mean_service": 0.42996486827568703,
+        "p95_service": 1.7297367055973787
+      },
+      "trace_sha256": "9128d7e1d10b0c581b48df65956dcfc3721aa1c5b08a5f0f213cc49743d51cd6",
+      "file_sha256": "1e4649efa0c29e534f37eccc7d3a8ba37762c8661c36079849f10a13e9530674",
+      "dtypes": {
+        "arrival": "float64",
+        "func_id": "int64",
+        "complexity": "object",
+        "est_p50": "float64",
+        "est_p99": "float64",
+        "service_demand": "float64",
+        "slo": "float64"
+      },
+      "filename": "d14_r09.csv.gz"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "phase": "B",
+  "protocol_sha256": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "scope": "additional temporal evaluation on three later Azure 2019 days, with prior-use provenance unverified",
+  "rows": 600,
+  "output": {
+    "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\replays.csv",
+    "sha256": "42bfe3bc582ec97b2a0d670b36aa1facead49a4fcead6c848bc6ee1f8bce9c21",
+    "bytes": 262145
+  },
+  "shards": [
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r00.json",
+      "sha256": "bfa52087c5713313495486f4290c5c0cc18cac32d190f5988597b3ca4f093a51",
+      "bytes": 20696
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r01.json",
+      "sha256": "191e8ca065edfba25650706a09f32c488329e94b9c90379e35e273214b98a0ab",
+      "bytes": 20708
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r02.json",
+      "sha256": "2d71f91872282d52c8e8f6593e32b1789817ca93d01266c5028247c8bab1554d",
+      "bytes": 20693
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r03.json",
+      "sha256": "a5cc0c0b14d12752fda770a4a96c6691059edfb93dec7ba260414a430f6c7e78",
+      "bytes": 20664
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r04.json",
+      "sha256": "c093be1a1125c73c6a195c9cf869f146cf4c42e39f0f059be748590e38979420",
+      "bytes": 20677
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r05.json",
+      "sha256": "8f722610c73b2844009e9393c90e37370fba858059f42c516cb4f6a6e1c82f46",
+      "bytes": 20679
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r06.json",
+      "sha256": "19817595c9507b69401e7cf355452f41feb843f8dd59e60151e29b6315f61c48",
+      "bytes": 20686
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r07.json",
+      "sha256": "d7129addaf20c201ee769452d7db065c4e317395ad7f2193b75bd18cb83a47af",
+      "bytes": 20684
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r08.json",
+      "sha256": "9eb61f3da807d17c808f68625c8833f6570f3ff9934426e180fa182b8dc3a652",
+      "bytes": 20681
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d12_r09.json",
+      "sha256": "bce6d365cdcbcab7ddee9b65d1dae2f4bb9ac4c84fe4262f87849bc10578d75a",
+      "bytes": 20704
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r00.json",
+      "sha256": "9d6bb5db76e4b0a1f36efa10abee3f508dc100d9276760ac0ceed1140abc4caf",
+      "bytes": 20692
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r01.json",
+      "sha256": "76a1389c3c111560c8576cdd8b4b745b92f51acee0f99ab682f5ce485fa1618d",
+      "bytes": 20668
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r02.json",
+      "sha256": "2137159fe2486c56b96a71bd36ab45cc9ba0263b9410a5e4cb769858ed06d9a5",
+      "bytes": 20676
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r03.json",
+      "sha256": "195d2e4ee9be81fd48076de87573361ffef64a8399401f57fa2b0f9db877591f",
+      "bytes": 20680
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r04.json",
+      "sha256": "1d11bf9847ec911f181ab7a7536426547906a08a715c2f9678aa2cde0fd41dad",
+      "bytes": 20665
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r05.json",
+      "sha256": "1fdb33d17b91ab87349e8de647d1d09fb0cf1c7acc856c69cc55cd04ca71a07c",
+      "bytes": 20672
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r06.json",
+      "sha256": "8da993282fbcaeaac03a566e87555e13be2d4730078358245fac95a5fe4fefea",
+      "bytes": 20689
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r07.json",
+      "sha256": "0938b8cad2d18e68cba53dc3bebe412b22bba5484dd7b462445604872432e922",
+      "bytes": 20698
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r08.json",
+      "sha256": "f50c39b106a647f3f7c59a2f9daf4b4760e8a4e772af267b4e6645aef16267c4",
+      "bytes": 20676
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d13_r09.json",
+      "sha256": "b9196864ac3026439f890ddb122c4cae4fac87c147d44d4c6ac9da87a68deb1a",
+      "bytes": 20681
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r00.json",
+      "sha256": "d8a377014058ebdd944b5da3ddf05a3e7afc864bd3a8381b89427b802eca7e7d",
+      "bytes": 20690
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r01.json",
+      "sha256": "4f0a799919fb7d7a8ac4dfa0fef1ac07ad93a3eab9b127fbf5ecda3e9884e5a2",
+      "bytes": 20674
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r02.json",
+      "sha256": "88ad9704db436d74dbae4121ae68e5f7e381b380ab7e9ed6acfba6b83c598ebc",
+      "bytes": 20672
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r03.json",
+      "sha256": "1d72584dbb69397105461eb558f28672f187b51348d92d465c73169449b4005b",
+      "bytes": 20664
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r04.json",
+      "sha256": "f08687911232ad8a9f1ed2f560b2225330ae1069a44ab971c8b43790e731cb9a",
+      "bytes": 20682
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r05.json",
+      "sha256": "8aef687e8510b4178126032fdd5e02ce70601a79ab80804948a31bcb19073016",
+      "bytes": 20687
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r06.json",
+      "sha256": "8208c05924ffdfc2f326437f309890db4f6484bd2068ca058ee2b62f6adc7c09",
+      "bytes": 20671
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r07.json",
+      "sha256": "9a14bbdec2f0fe773d6cf061852306a6ff137ca8dd9691d7b761bfc01f36fa98",
+      "bytes": 20671
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r08.json",
+      "sha256": "1e8f126b943c9bffa1d118613459d7ccb9d20ef4b822546e246f2fa2328b7257",
+      "bytes": 20671
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\B\\shards\\d14_r09.json",
+      "sha256": "c87123260e39c674be26a65d0cd11ab10364b844c8ed34795ef934ca3713acfe",
+      "bytes": 20674
+    }
+  ],
+  "measurement": {
+    "startup_s": 4.311652599993977,
+    "preprocessing_s": 81.46785019999515,
+    "jit_s": 5.070217499996943,
+    "workloads_replay_s": 209.903639199998,
+    "workloads_cpu_s": 772.890625,
+    "child_wall_s": 301.1598712999985,
+    "peak_rss_bytes": 579678208,
+    "peak_commit_bytes": 685760512,
+    "native_pools": {
+      "openblas": 1,
+      "openmp": 1,
+      "mkl": 1
+    }
+  },
+  "completed_utc": "2026-11-26T17:04:53.410018+00:00"
+}

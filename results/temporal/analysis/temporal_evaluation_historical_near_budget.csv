@@ -1,0 +1,13 @@
+day,arm,pairs,at_budget,near_above,passes
+d08,estimated_off,140,0,26,81
+d08,estimated_on,140,0,6,134
+d08,oracle_off,140,0,1,0
+d08,oracle_on,140,0,21,3
+d09,estimated_off,155,0,38,76
+d09,estimated_on,155,0,7,145
+d09,oracle_off,155,0,4,2
+d09,oracle_on,155,0,23,8
+all,estimated_off,295,0,64,157
+all,estimated_on,295,0,13,279
+all,oracle_off,295,0,5,2
+all,oracle_on,295,0,44,11

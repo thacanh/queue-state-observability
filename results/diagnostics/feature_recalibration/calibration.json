@@ -1,0 +1,13 @@
+{
+  "protocol": "a4a4177d9846f0dca5fb9fc0281514681bb51d4854adc3fc7dc6ab3ad67a314f",
+  "scales": {
+    "p50": 0.6518042170255629,
+    "p99": 3.1900647430140756,
+    "unc": 58.21363636363606,
+    "ia": 0.5488002347793905,
+    "res": 6486.255458984016
+  },
+  "prefix_run_count": 16,
+  "fit_only_elapsed_0_to_6": true,
+  "fit_preparation_wall_s": 17.39126789999864
+}

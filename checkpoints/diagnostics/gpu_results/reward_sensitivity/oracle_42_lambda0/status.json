@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE",
+  "origin": "recovered historical checkpoint",
+  "seed": 42,
+  "lambda": 0,
+  "model_sha256": "d6692776d4e74508745cb2c47c13ec53a8260ff3d8386c96d984dc788a2bb900",
+  "identity": "ed12e7bd0f6a7df05066b010447deee96baebd4fd26af5376f4f01421a8bd178",
+  "observation": "oracle",
+  "metadata_sha256": "9ee58c9d2fcde8e7417404371a765736041d2c1bdfbe9929ae4377bf7ff166d5",
+  "registry_sha256": "bfc0a2eeb97891221affefdb642f652a2600623e1a0406e1b5e474994c3abab5",
+  "provenance": {
+    "manifest_drive_id": "1j2Zno4xr68bk88GYalsLsS_4R0ydF1KO",
+    "checkpoint_drive_id": "1HNyau-T7gOD9OOaIVDrndYCNPsAvnvv5"
+  },
+  "history": {
+    "seed": 42,
+    "method": "fixed",
+    "fixed_lambda": 0.0,
+    "stage2_transitions": 2000000,
+    "train_days": "d01-d07",
+    "validation_days": "d08-d09",
+    "holdout_used": false,
+    "identity": "ed12e7bd0f6a7df05066b010447deee96baebd4fd26af5376f4f01421a8bd178",
+    "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+    "input_sha256": {
+      "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+      "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+      "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+    },
+    "runtime": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "cuda": "13.0"
+    },
+    "model_path": "runs/e2_complete_v2/fixed_seed42_lambda0_ed12e7bd0f6a/final.pt",
+    "model_sha256": "d6692776d4e74508745cb2c47c13ec53a8260ff3d8386c96d984dc788a2bb900",
+    "actual_optimizer_updates": 7695,
+    "realized_transitions": 2000128,
+    "session_train_seconds": 61.29659635200005,
+    "lambda_final": 10.0,
+    "provenance": "canonical-source-v2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "archive_sha256": "e32886812f9273bc4f38817300fd63f55492af329ce88f9a831a36dae3b980f7",
+  "archive_bytes": 1647094,
+  "files": [
+    "batch_status.json",
+    "T4/estimated_42_lambda2/final.pt",
+    "T4/estimated_42_lambda2/status.json",
+    "T4/estimated_43_lambda2/final.pt",
+    "T4/estimated_43_lambda2/status.json",
+    "T4/oracle_42_lambda2/final.pt",
+    "T4/oracle_42_lambda2/status.json",
+    "T4/oracle_43_lambda2/final.pt",
+    "T4/oracle_43_lambda2/status.json",
+    "T4/training_protocol.json",
+    "T8/estimated_42_lambda2/final.pt",
+    "T8/estimated_42_lambda2/status.json",
+    "T8/estimated_43_lambda2/final.pt",
+    "T8/estimated_43_lambda2/status.json",
+    "T8/training_protocol.json"
+  ],
+  "imported_utc": "2026-11-26T19:22:22.198464+00:00"
+}

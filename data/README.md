@@ -1,0 +1,6 @@
+# Workload inputs
+
+- [Microsoft Azure Functions Trace 2019](https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsDataset2019.md). Cite Shahrad et al., *Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider*, USENIX ATC 2020. The archived replay uses reconstructed arrivals and service demands from the published aggregates.
+- [Microsoft Azure Functions Invocation Trace 2021](https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsInvocationTrace2021.md). Cite Zhang et al., *Faster and Cheaper Serverless Computing on Harvested Resources*, SOSP 2021. The replay uses selected and transformed invocation windows.
+
+The Microsoft Azure Public Dataset is distributed under [CC BY 4.0](https://github.com/Azure/AzurePublicDataset/blob/master/LICENSE). Preserve Microsoft attribution, the license notice, and the description of transformations when using the supplied derived data. Raw source archives are obtained directly from Microsoft. See [Release inventory](../configs/release_assets.json) for the SHA-256 identity of the derived workloads and [source inputs](../configs/baseline/REPLAY_INPUTS.json) for the files needed when regenerating the original replay.

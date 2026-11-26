@@ -1,0 +1,31 @@
+bank,day,guard,contrast,pairs,fail_to_pass,pass_to_fail,delta_violation_rate,delta_p95_ms,delta_p99_ms,delta_met_budget,delta_override_rate
+Later,d12,False,Estimated Numba minus Oracle Numba,20,0,0,-0.0008657109516329147,14.262833849413516,64.15711897417017,0.0,0.0
+Later,d12,False,Estimated Numba minus archived Estimated Numba,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d12,False,Oracle Numba minus archived Oracle Torch,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d12,True,Estimated Numba minus Oracle Numba,20,0,0,-0.0010151817215910803,13.338772884816184,62.237078042004825,0.0,0.004779327697287001
+Later,d12,True,Estimated Numba minus archived Estimated Numba,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d12,True,Oracle Numba minus archived Oracle Torch,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d13,False,Estimated Numba minus Oracle Numba,20,0,0,-0.0006857137412184099,21.07832223612337,255.48073578611147,0.0,0.0
+Later,d13,False,Estimated Numba minus archived Estimated Numba,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d13,False,Oracle Numba minus archived Oracle Torch,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d13,True,Estimated Numba minus Oracle Numba,20,0,0,-0.0006270148970655352,25.037874656491613,485.6049185629787,0.0,0.0061768149535
+Later,d13,True,Estimated Numba minus archived Estimated Numba,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d13,True,Oracle Numba minus archived Oracle Torch,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d14,False,Estimated Numba minus Oracle Numba,20,3,1,-0.0003735087149529501,16.358437938543375,81.06543319959384,0.1,0.0
+Later,d14,False,Estimated Numba minus archived Estimated Numba,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d14,False,Oracle Numba minus archived Oracle Torch,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d14,True,Estimated Numba minus Oracle Numba,20,2,0,-0.0006228643529439551,14.243414169840014,76.78451442524637,0.1,0.005664348323317445
+Later,d14,True,Estimated Numba minus archived Estimated Numba,20,0,0,0.0,0.0,0.0,0.0,0.0
+Later,d14,True,Oracle Numba minus archived Oracle Torch,20,0,0,0.0,0.0,0.0,0.0,0.0
+Original,d08,False,Estimated Numba minus Oracle Numba,56,25,0,-0.0013296472405090376,20.791881756015005,77.32494909173793,0.44642857142857145,0.0
+Original,d08,False,Estimated Numba minus archived Estimated Numba,56,0,0,0.0,0.0,-8.120488408686859e-15,0.0,0.0
+Original,d08,False,Oracle Numba minus archived Oracle Torch,56,0,0,0.0,0.0,0.0,0.0,0.0
+Original,d08,True,Estimated Numba minus Oracle Numba,56,50,0,-0.001459308135724241,19.196420524427992,74.17171376478713,0.8928571428571429,0.005518715221940388
+Original,d08,True,Estimated Numba minus archived Estimated Numba,56,0,0,0.0,0.0,0.0,0.0,0.0
+Original,d08,True,Oracle Numba minus archived Oracle Torch,56,0,0,0.0,0.0,0.0,0.0,0.0
+Original,d09,False,Estimated Numba minus Oracle Numba,62,21,0,-0.0012886702377239176,18.077387169028952,78.86531628522819,0.3387096774193548,0.0
+Original,d09,False,Estimated Numba minus archived Estimated Numba,62,0,0,0.0,0.0,0.0,0.0,0.0
+Original,d09,False,Oracle Numba minus archived Oracle Torch,62,0,0,0.0,0.0,-7.334634691717163e-15,0.0,0.0
+Original,d09,True,Estimated Numba minus Oracle Numba,62,50,0,-0.001505347663528229,16.57893982171261,73.67340974714593,0.8064516129032258,0.006044525007641872
+Original,d09,True,Estimated Numba minus archived Estimated Numba,62,0,0,0.0,0.0,0.0,0.0,0.0
+Original,d09,True,Oracle Numba minus archived Oracle Torch,62,0,0,0.0,0.0,-7.334634691717163e-15,0.0,0.0

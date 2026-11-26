@@ -1,0 +1,60 @@
+Frozen R0 input d12_r00 (120,685 requests)
+Frozen R0 input d12_r01 (120,262 requests)
+Frozen R0 input d12_r02 (121,919 requests)
+Frozen R0 input d12_r03 (121,364 requests)
+Frozen R0 input d12_r04 (120,564 requests)
+Frozen R0 input d12_r05 (119,764 requests)
+Frozen R0 input d12_r06 (121,567 requests)
+Frozen R0 input d12_r07 (121,241 requests)
+Frozen R0 input d12_r08 (120,281 requests)
+Frozen R0 input d12_r09 (122,058 requests)
+Frozen R0 input d13_r00 (141,482 requests)
+Frozen R0 input d13_r01 (135,575 requests)
+Frozen R0 input d13_r02 (145,573 requests)
+Frozen R0 input d13_r03 (145,336 requests)
+Frozen R0 input d13_r04 (140,481 requests)
+Frozen R0 input d13_r05 (144,162 requests)
+Frozen R0 input d13_r06 (139,860 requests)
+Frozen R0 input d13_r07 (144,953 requests)
+Frozen R0 input d13_r08 (144,142 requests)
+Frozen R0 input d13_r09 (142,734 requests)
+Frozen R0 input d14_r00 (159,584 requests)
+Frozen R0 input d14_r01 (155,704 requests)
+Frozen R0 input d14_r02 (156,323 requests)
+Frozen R0 input d14_r03 (159,677 requests)
+Frozen R0 input d14_r04 (154,494 requests)
+Frozen R0 input d14_r05 (156,416 requests)
+Frozen R0 input d14_r06 (155,358 requests)
+Frozen R0 input d14_r07 (156,666 requests)
+Frozen R0 input d14_r08 (154,812 requests)
+Frozen R0 input d14_r09 (157,830 requests)
+B verified d12_r00: 20/600 rows
+B verified d12_r01: 40/600 rows
+B verified d12_r02: 60/600 rows
+B verified d12_r03: 80/600 rows
+B verified d12_r04: 100/600 rows
+B verified d12_r05: 120/600 rows
+B verified d12_r06: 140/600 rows
+B verified d12_r07: 160/600 rows
+B verified d12_r08: 180/600 rows
+B verified d12_r09: 200/600 rows
+B verified d13_r00: 220/600 rows
+B verified d13_r01: 240/600 rows
+B verified d13_r02: 260/600 rows
+B verified d13_r03: 280/600 rows
+B verified d13_r04: 300/600 rows
+B verified d13_r05: 320/600 rows
+B verified d13_r06: 340/600 rows
+B verified d13_r07: 360/600 rows
+B verified d13_r08: 380/600 rows
+B verified d13_r09: 400/600 rows
+B verified d14_r00: 420/600 rows
+B verified d14_r01: 440/600 rows
+B verified d14_r02: 460/600 rows
+B verified d14_r03: 480/600 rows
+B verified d14_r04: 500/600 rows
+B verified d14_r05: 520/600 rows
+B verified d14_r06: 540/600 rows
+B verified d14_r07: 560/600 rows
+B verified d14_r08: 580/600 rows
+B verified d14_r09: 600/600 rows

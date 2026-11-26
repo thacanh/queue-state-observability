@@ -1,0 +1,92 @@
+{
+  "identity": "b25e08d43f785cc79abd0523e20ca3de8d8b60547d19ec58f302ff075b5ce640",
+  "stage": "Crossed observation replay with frozen checkpoints",
+  "data": {
+    "2019": "c407fcd7c519ef890cbbce472a4469e5e5fb6b1a869dcb21130afe24b3675917",
+    "2021": "73145a6d906828926948d07a33e97182edff82ceb0746008d26ca8dccad8ced5"
+  },
+  "factorial_inputs": [
+    [
+      "d08",
+      10675309
+    ],
+    [
+      "d09",
+      10675310
+    ],
+    [
+      "d09",
+      10675311
+    ],
+    [
+      "d09",
+      10675312
+    ],
+    [
+      "d09",
+      10675313
+    ],
+    [
+      "d09",
+      10675314
+    ],
+    [
+      "d08",
+      10675319
+    ],
+    [
+      "d08",
+      10675320
+    ],
+    [
+      "d08",
+      10675321
+    ],
+    [
+      "d08",
+      10675325
+    ]
+  ],
+  "armlist": [
+    [
+      "O",
+      "-"
+    ],
+    [
+      "E",
+      "-"
+    ],
+    [
+      "O",
+      "O"
+    ],
+    [
+      "O",
+      "E"
+    ],
+    [
+      "E",
+      "O"
+    ],
+    [
+      "E",
+      "E"
+    ]
+  ],
+  "queue_telemetry": "Estimated-mode frozen Fixed-DDQN, all five seeds, 10 R0 draws and five 2021 days",
+  "saturation": "share of clipped input features exactly at boundary; per-server residual features averaged over servers",
+  "feasibility": "intrinsic fastest-server floor plus max of valid disjoint pooled capacity relaxations",
+  "pooled_partitions": [
+    30,
+    180,
+    720
+  ],
+  "training": "Frozen-checkpoint evaluation.",
+  "files": {
+    "routing_simulator.py": "08e48d84576f6bce60ed010f6d331b658a6afe4430b16153fbd2f984b608b49d",
+    "crossed_router.py": "a22734a8e27f2618475c22fc1c7004aa14295a13e9ee8150a57c39cbb2b0dc1e",
+    "replay_crossed.py": "b13621f00fe8e9d4154731a81d4b142dcbe63e3f1f70921bafda4396f3311c8f",
+    "risk_feasibility.py": "0ca22de0b859a5aeb7cfee0d28e874d05564c00991583ed5f1b9e7fa91332213",
+    "replay_transfer.py": "8c84b7beea8e521a57c8a4831d749747f975ce8ca1764fce2a260d2f6edcd2ee"
+  }
+}

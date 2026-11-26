@@ -1,0 +1,141 @@
+{
+  "analysis_verified": true,
+  "replay_phases": {
+    "T1": {
+      "rows": 240,
+      "replayed": 192,
+      "archive_reused": 48,
+      "protocol_sha256": "85ac675628ae16ef16257a4b1e641d8f7927b63e30b340fa9982307ec4e0d68e",
+      "gpu_new_jobs": 0,
+      "wall_s": 65.13292760000331,
+      "cpu_s": 228.890625,
+      "peak_rss_bytes": 463380480,
+      "study_output_bytes": 367366
+    },
+    "T2": {
+      "rows": 144,
+      "replayed": 96,
+      "archive_reused": 48,
+      "protocol_sha256": "fad03e4f79b6ca6813ce9055b3f65a39050077a104a2da452718f7b84fc3a635",
+      "gpu_new_jobs": 0,
+      "wall_s": 30.34462060000078,
+      "cpu_s": 109.359375,
+      "peak_rss_bytes": 426635264,
+      "study_output_bytes": 248246
+    },
+    "T3": {
+      "rows": 96,
+      "replayed": 48,
+      "archive_reused": 48,
+      "protocol_sha256": "19a471ef33894fadaeea300c3e153875baadf9ac9127b3b2a8e4e880b0fe4273",
+      "gpu_new_jobs": 0,
+      "wall_s": 22.81343559999368,
+      "cpu_s": 81.5,
+      "peak_rss_bytes": 795676672,
+      "study_output_bytes": 10515345
+    },
+    "T5": {
+      "rows": 384,
+      "replayed": 336,
+      "archive_reused": 48,
+      "protocol_sha256": "072adf3882309caf0b7db1ec0b77fb51c4e356df69c026ef709c91242ed0cc49",
+      "gpu_new_jobs": 0,
+      "wall_s": 142.67352130000654,
+      "cpu_s": 519.515625,
+      "peak_rss_bytes": 712523776,
+      "study_output_bytes": 1156297
+    },
+    "T6": {
+      "rows": 40,
+      "replayed": 40,
+      "archive_reused": 0,
+      "protocol_sha256": "b94869ecfcded02a276cbbebff6e4a9162924e294b7e521e9de379c91ca65fdf",
+      "gpu_new_jobs": 0,
+      "wall_s": 9.427641299997049,
+      "cpu_s": 17.6875,
+      "peak_rss_bytes": 452550656,
+      "study_output_bytes": 35966110
+    },
+    "T7": {
+      "rows": 32,
+      "replayed": 16,
+      "archive_reused": 16,
+      "protocol_sha256": "a4a4177d9846f0dca5fb9fc0281514681bb51d4854adc3fc7dc6ab3ad67a314f",
+      "gpu_new_jobs": 0,
+      "wall_s": 0.9548231000007945,
+      "cpu_s": 3.296875,
+      "peak_rss_bytes": 789434368,
+      "study_output_bytes": 118346
+    },
+    "T4": {
+      "rows": 1424,
+      "replayed": 712,
+      "archive_reused": 712,
+      "protocol_sha256": "8d172a4ef2c97a678d64b8678e13b015afe7c01351ab53809db05e7bcc92331d",
+      "gpu_new_jobs": 4,
+      "wall_s": 257.26843440000084,
+      "cpu_s": 884.15625,
+      "peak_rss_bytes": 429461504,
+      "study_output_bytes": 1901710
+    },
+    "T8": {
+      "rows": 16,
+      "replayed": 8,
+      "archive_reused": 8,
+      "protocol_sha256": "69198fcb374ff75ea7e2ad6cddb6de556f109f28efd544232413f1e43c9083b8",
+      "gpu_new_jobs": 2,
+      "wall_s": 0.9426456000001053,
+      "cpu_s": 1.765625,
+      "peak_rss_bytes": 353075200,
+      "study_output_bytes": 70616
+    }
+  },
+  "gpu_phases_pending": [],
+  "gpu_training_resources": {
+    "T4": {
+      "active_s": 257.19496479200006,
+      "peak_sampled_rss_mib": 2104.546875,
+      "peak_sampled_gpu_mib": 337.0,
+      "checkpoints": {
+        "oracle/42": "4ed536fed7cf570b1c06df4c2cf50638a0c1b563b1668a037fad649cf4d5effb",
+        "estimated/42": "68fc3a25fffb5940f24b8a93369e21e0d0da9547bca520ff43a085b387eb165e",
+        "oracle/43": "abd9899fc842e379006cce8b3e6608c634b9c44d2c1960c269bbaac9e0d68516",
+        "estimated/43": "62e891c73aefd9ac7ecdaac6aec54bf2b308083eaf02d33c5dc153b8edc004b3"
+      },
+      "verified_contrast_summary_rows": 12,
+      "checkpoints_with_archived_tensor_identity": 4
+    },
+    "T8": {
+      "active_s": 128.91681209700005,
+      "peak_sampled_rss_mib": 2046.03125,
+      "peak_sampled_gpu_mib": 315.0,
+      "checkpoints": {
+        "estimated/42": "2cc1c8b687479fcfdacc6659b405c16ff859d28e66c8c266a7dee1b02d9ee1c0",
+        "estimated/43": "a32538da1ed811d6df9481c4fe7d7128d74b1c2e25b69588735e91a30fc64350"
+      },
+      "verified_contrast_summary_rows": 4,
+      "checkpoints_with_archived_tensor_identity": 0
+    }
+  },
+  "gpu_checkpoint_tensor_audit_sha256": "8fcc933647c5911bb96fd668d3410d701301540bf380500a4ac9e588ae9b5560",
+  "new_evaluation_replays": 1448,
+  "replayed_archived_routing_configs": {
+    "T5_zero_against_D": 24,
+    "T6_full_instrumented": 40
+  },
+  "preparation_runs": {
+    "T3_witness": 7,
+    "T7_prefix": 16,
+    "reference_smoke_replays": 4
+  },
+  "temporal_baseline": {
+    "executions": 1090,
+    "distinct_configurations": 940,
+    "overlap": 150
+  },
+  "artifacts": {
+    "t6_event_rows": 871700,
+    "t6_archive_passes": 40,
+    "t2_checkpoint_hash_matches": 8
+  }
+}

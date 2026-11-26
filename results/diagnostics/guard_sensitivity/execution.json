@@ -1,0 +1,22 @@
+{
+  "phase": "T1",
+  "protocol": "85ac675628ae16ef16257a4b1e641d8f7927b63e30b340fa9982307ec4e0d68e",
+  "status": "COMPLETE",
+  "wall_s": 65.13292760000331,
+  "cpu_s": 228.890625,
+  "peak_rss_bytes": 463380480,
+  "gpu": null,
+  "recorded_rows": 240,
+  "reused_rows": 48,
+  "shards": {
+    "d12_r00.json": "e872fc467317e8b34bfcfedb1c2fda9e46e1dbdc39c810f3d4822293869d0c21",
+    "d12_r01.json": "37d368e814dfec11167df95d90403b2c9f6936b1e77e14972a28034485682d39",
+    "d13_r00.json": "3fb621464dd14a71005db81842a5dcdcfa871e03d3b877f6f0cb09c08a330c1a",
+    "d13_r01.json": "9aaf0fded2903e3e8bc0026c6006c2436f84cdb788eb3e3cd63c719a2043b78c",
+    "d14_r00.json": "84aac2c31e34d03bb796e8017b25c6b72f141010adc7e6eecdc508d6e996cd8f",
+    "d14_r01.json": "767612c1e974fe9a985e1243b7326b2c0e495cbf9fb415be46c93773bebebed2"
+  },
+  "completed_utc": "2026-11-26T18:24:47.075062+00:00",
+  "replays_sha256": "416bea1c5790fd3054daf09d0a7f842f6d8ae14e2e1f37e41b97893ddf77fff2",
+  "warmup_s": 6.661011600001075
+}

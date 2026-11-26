@@ -1,0 +1,38 @@
+{
+  "matched_training_latency_P99_SD_ms": 20.033088997491596,
+  "SD_rule": "sample SD across five checkpoint seed means, each averaged over ten reconstructions",
+  "matched_training_adaptive_passes_by_seed_42_to_46": [
+    9,
+    7,
+    8,
+    1,
+    9
+  ],
+  "matched_training_passes": 13,
+  "guard_bank_oracle_latency_passes": 9,
+  "comparison": "same five model hashes, disjoint reconstruction seeds, same two source days",
+  "matched_training_reconstruction_seeds": [
+    314159,
+    314160,
+    314161,
+    314162,
+    314163,
+    314259,
+    314260,
+    314261,
+    314262,
+    314263
+  ],
+  "guard_bank_reconstruction_seeds": [
+    10675309,
+    10675310,
+    10675311,
+    10675312,
+    10675313,
+    10675314,
+    10675319,
+    10675320,
+    10675321,
+    10675325
+  ]
+}

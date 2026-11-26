@@ -1,0 +1,112 @@
+{
+  "phase": "T7",
+  "parent": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "runtime_budget_s": 900,
+  "workers": 4,
+  "native_threads": 1,
+  "software": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "torch": "2.10.0+cpu"
+  },
+  "bank_sha256": "c7f4c30a6b5bd6ebc236734d25099b8868c07cdaf7027d5249a3405c8eb24a33",
+  "checkpoints": {
+    "oracle/42": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+    "oracle/43": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+    "estimated/42": "c997a5ea4667f5c2f0c5b663a74234621ef93ece5fdac55636308f4e03a6cdbe",
+    "estimated/43": "b0ab43d89aea0836729a44cd5072b7d9f75aa4616975bf4f7dda10c7b4ae2869"
+  },
+  "workloads": {
+    "elapsed07": {
+      "day": 7,
+      "trace_sha256": "b40ea2e198654d89c24884a6278703cafca3efe25155d7d6c872f08f63face23",
+      "file_sha256": "b584a891ed1ed7c0f4b113e6e268c7872d7425a42235f8788fde7c9e03daadfe"
+    },
+    "elapsed08": {
+      "day": 8,
+      "trace_sha256": "ea4cecc4511ff7809a1e45dc7719a41b13e8221ec009191ec284c5a3b59f4635",
+      "file_sha256": "67be1382f9ddceba098b83b6d2716afa89871272d9b0865fa23a515074a2183b"
+    }
+  },
+  "seeds": [
+    42,
+    43
+  ],
+  "budget": 0.005,
+  "load": 0.6,
+  "provenance": "Later Azure 2019 days have unverified prior use; Azure 2021 elapsed 7\u20138 are fixed diagnostic windows.",
+  "runner": "42187ebeea6d2672dc8c0a773f662c392f56ed2cc563a784bb0cb85335a6ff9e",
+  "simulator": "cdc75cf365d79b8fd233a3d35265b420ceb749051945596938b25325d336329d",
+  "analysis": "Use 16 unguarded prefix-only calibration trajectories. Apply one fitted scale vector to unchanged frozen models. Compare to archived identical checkpoint and guard at original normalization. Report by fixed window.",
+  "plan": {
+    "fit_days": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "prefix_identity": {
+      "source_sha256": "d56368ef194baa8d418304bd2f87cca67668ced0d117bd89ad4ef3cf836457d2",
+      "source_cutoff": "arrival in elapsed days 0\u20136 and completion strictly before start of day 7",
+      "days": {
+        "0": {
+          "n": 14029,
+          "window_start_minute": 335,
+          "trace_sha256": "3eb5c1614501bc1f5f12095439f911ac54a28f77fc78b58ba141a87f00e373dc"
+        },
+        "1": {
+          "n": 41034,
+          "window_start_minute": 893,
+          "trace_sha256": "287c1a2bd9e81960a154df395c9409d33456d6491a994dc3fd9a1e8178449883"
+        },
+        "2": {
+          "n": 51372,
+          "window_start_minute": 1260,
+          "trace_sha256": "bfd440489ad150030682b3eee39c6ff8cb93d434f4168ac52febbbf018088390"
+        },
+        "3": {
+          "n": 42421,
+          "window_start_minute": 1029,
+          "trace_sha256": "b407ca581fa6006ff90dbe274c29b8e61c4fee7d2cd49195355a8d5ec65c7072"
+        },
+        "4": {
+          "n": 15152,
+          "window_start_minute": 837,
+          "trace_sha256": "7142dec18a1056fc85a23d2ed3deb1d00ab2cbcd3534317f745923fc4f7b46ec"
+        },
+        "5": {
+          "n": 14806,
+          "window_start_minute": 77,
+          "trace_sha256": "dce14b33ce1c5ad2ed6729a08c7ac21daf05d42ccbd21e29b552c53e27208391"
+        },
+        "6": {
+          "n": 9579,
+          "window_start_minute": 1091,
+          "trace_sha256": "a6cf35d88e6549a178fc277100572cf821d54d3bb29ff90aeca78a567a7fa5f3"
+        }
+      },
+      "frozen_bank_value_match": true,
+      "training_csv_sha256": "d21f819f4473c278b12cb7465011f3f34ae42ada25e4149d910f77a70b11742e",
+      "training_bank_sha256": "be092e0574da61026632bda804fcbc2019f87811417149462ee4996afb5f36a3"
+    },
+    "prefix_days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "scale_rule": "95th percentile of each raw request feature and pooled queue residual min, mean and max/2; equal numbers per day and model; floor 1e-6",
+    "sampling_rule": "uniformly spaced indices by floor(linspace) within each trace; 2000 request indices per calibration day and model",
+    "checkpoint_weights": "frozen; 2019 scales used to produce training-prefix calibration trajectories",
+    "expected_calibration_runs": 16,
+    "expected_diagnostic_replays": 16,
+    "expected_reference_reuses": 16,
+    "script_sha256": "1f33f5a147b4d02d17ac61382ad04d612f76c177ff2b093d19a6e7d68a86a7ad",
+    "diagnostic_code": "8cfdb066ab913f3e103b4fc2e03f984d0e3d65c8979987dbf7a3c4eb1140e7d2",
+    "kernel_adapter": "a42731ad2dd58b99c621bda7d5e44d89e6e3f84ebbc61f8004507519e2259098"
+  },
+  "protocol_sha256": "a4a4177d9846f0dca5fb9fc0281514681bb51d4854adc3fc7dc6ab3ad67a314f"
+}

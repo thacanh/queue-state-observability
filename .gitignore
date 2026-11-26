@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.pytest_cache/
+.env
+.env.*
+regenerated*/
+downloads/
+*.zip
+*.rar
+*.tar.xz
+*.raw
+*.pt
+*.nbc
+*.nbi

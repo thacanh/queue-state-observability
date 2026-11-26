@@ -1,0 +1,18 @@
+{
+  "phase": "T7",
+  "protocol": "a4a4177d9846f0dca5fb9fc0281514681bb51d4854adc3fc7dc6ab3ad67a314f",
+  "status": "COMPLETE",
+  "wall_s": 0.9548231000007945,
+  "cpu_s": 3.296875,
+  "peak_rss_bytes": 789434368,
+  "gpu": null,
+  "recorded_rows": 32,
+  "reused_rows": 16,
+  "shards": {
+    "elapsed07.json": "901809bd93ac432068b9c5d5ffa2ff5f4b052582125e87fa28c352d1de8dfd89",
+    "elapsed08.json": "6d914d4d17cd772bda6ab71001a706a9bc6918f7e887ae4fe38d2c198db5257c"
+  },
+  "completed_utc": "2026-11-26T18:30:07.756998+00:00",
+  "replays_sha256": "22c7350526df99ece3e94c7ef731bcf628b0681271e09f532904996a729cac88",
+  "warmup_s": 0.026516300000366755
+}

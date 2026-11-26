@@ -1,0 +1,81 @@
+\newcommand{\MatchedRows}{%
+Latency-only & 458.9 (4.2) & 1690.4 (14.6) & 2284.1 (20.0) & 0.5522 (0.0352) & 13/50 \\
+Fixed $\lambda=2$ & 461.1 (3.0) & 1705.0 (10.0) & 2316.5 (20.7) & 0.4657 (0.0660) & 33/50 \\
+Adaptive $\lambda$ & 460.4 (3.8) & 1706.5 (9.9) & 2329.5 (15.0) & 0.4678 (0.0488) & 34/50 \\
+}
+
+\newcommand{\GuardRows}{%
+Fixed-DDQN & 0.4750 & 1706.9 & 194/295 & 0.6973 & 1676.4 & 2/295 \\
+Fixed-DDQN + guard & 0.3745 & 1708.7 & 281/295 & 0.6135 & 1677.2 & 11/295 \\
+RiskOnly & 0.7952 & 1659.4 & 0/59 & 1.2001 & 1647.0 & 0/59 \\
+SED-P50 & 0.8846 & 1655.9 & 0/59 & 1.2590 & 1644.7 & 0/59 \\
+SED-P50 + guard & 0.8391 & 1657.8 & 0/59 & 1.2292 & 1645.8 & 0/59 \\
+SED-P95 & 0.5452 & 1781.5 & 16/59 & 0.8420 & 1678.9 & 0/59 \\
+SED-P95 + guard & 0.5428 & 1782.1 & 17/59 & 0.8396 & 1679.2 & 0/59 \\
+SED-P99 & 0.4989 & 1808.3 & 33/59 & 0.7831 & 1691.3 & 0/59 \\
+SED-P99 + guard & 0.4988 & 1808.3 & 32/59 & 0.7876 & 1691.3 & 0/59 \\
+}
+
+\newcommand{\TransferRows}{%
+Fixed-DDQN & 14.67 & 1261.7 & 14.49 & 1658.5 \\
+Fixed-DDQN + guard & 23.50 & 793.6 & 26.39 & 699.8 \\
+RiskOnly & 41.05 & 211.4 & 38.43 & 242.7 \\
+SED-P50 & 41.39 & 211.6 & 39.70 & 219.3 \\
+SED-P50 + guard & 41.20 & 210.8 & 39.71 & 252.1 \\
+SED-P95 & 39.24 & 195.6 & 37.46 & 314.5 \\
+SED-P95 + guard & 39.25 & 195.4 & 37.78 & 258.4 \\
+SED-P99 & 37.82 & 193.4 & 38.06 & 228.7 \\
+SED-P99 + guard & 37.85 & 193.5 & 37.89 & 233.1 \\
+}
+
+\newcommand{\CrossedRows}{%
+Oracle & Off & 0.467 & 1702.9 & 35/50 \\
+Estimated & Off & 0.679 & 1672.7 & 2/50 \\
+Oracle & Oracle & 0.371 & 1704.7 & 48/50 \\
+Oracle & Estimated$^\dagger$ & 0.423 & 1703.6 & 45/50 \\
+Estimated & Oracle$^\dagger$ & 0.480 & 1673.8 & 35/50 \\
+Estimated & Estimated & 0.602 & 1673.4 & 4/50 \\
+}
+
+\newcommand{\BoundRows}{%
+9 & 22,583 & 0.204 & 1.96 & 0.748 & 0.748 \\
+10 & 20,595 & 0.283 & 6.53 & 0.262 & 0.325 \\
+11 & 40,311 & 0.446 & 3.22 & 0.327 & 0.337 \\
+12 & 16,582 & 0.148 & 3.76 & 0.320 & 0.386 \\
+13 & 9,460 & 0.163 & 6.97 & 0.063 & 0.222 \\
+}
+
+\newcommand{\WorkloadRows}{%
+Mean arrivals per second & 11.26 & 8.22 \\
+Peak/mean arrivals, 60 s & 1.15 & 2.49 \\
+Peak demand/pool capacity, 60 s & 0.74 & 4.49 \\
+Mean demand (s) & 0.554 & 0.809 \\
+Demand P50 (s) & 0.264 & 0.092 \\
+Demand P95 (s) & 2.05 & 1.07 \\
+Demand P99 (s) & 2.69 & 17.67 \\
+Maximum observed demand (s) & 30.10 & 283.21 \\
+Deadline P05 (s) & 0.10 & 0.10 \\
+Deadline P50 (s) & 0.80 & 1.68 \\
+Deadline P95 (s) & 5.54 & 30.48 \\
+P95 queue backlog (requests) & 3.0 & 1,253.5 \\
+Busiest server utilization (\%) & 81.9 & 74.7 \\
+Maximum individual routed load & 0.82 & 1.59 \\
+Dynamic inputs at upper bound (\%) & 0.02 & 18.79 \\
+Dynamic inputs at lower bound (\%) & 21.78 & 14.75 \\
+}
+
+\newcommand{\CostRows}{%
+Fixed-DDQN & 90.2 & 138.4 & 187.8 \\
+Fixed-DDQN + guard & 85.9 & 132.0 & 176.7 \\
+RiskOnly & 47.5 & 73.9 & 93.4 \\
+SED-P99 & 51.0 & 84.3 & 199.5 \\
+SED-P99 + guard & 48.5 & 74.5 & 140.6 \\
+}
+
+\newcommand{\StressRows}{%
+Reference, 40\% & 0.03 & 0.02 & 0.05 & 0.02 \\
+Reference, 80\% & 7.09 & 6.63 & 11.15 & 9.22 \\
+Reference, 90\% & 22.37 & 22.46 & 30.46 & 28.17 \\
+Burst, 60\% & 92.43 & 89.90 & 91.91 & 91.59 \\
+Heavy tail, 60\% & 0.72 & 0.65 & 1.25 & 0.85 \\
+}

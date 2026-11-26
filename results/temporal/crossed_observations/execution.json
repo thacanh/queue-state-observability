@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "phase": "D",
+  "started_utc": "2026-11-26T17:04:53.989368+00:00",
+  "approved_wall_s": 900,
+  "ram_cap_bytes": 4000000000,
+  "result_manifest_sha256": "c8ad8502e2bb378f4208e48e7a6b0e387a652d4f5be627edc50fd9a41722d4be",
+  "wall_s": 158.07557110000198,
+  "finished_utc": "2026-11-26T17:07:32.064941+00:00",
+  "complete_shards": 15
+}

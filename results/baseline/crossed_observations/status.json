@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED_CROSSED_OBSERVATIONS",
+  "identity": "b25e08d43f785cc79abd0523e20ca3de8d8b60547d19ec58f302ff075b5ce640",
+  "rows": {
+    "workload": 64,
+    "factorial": 300,
+    "telemetry": 75
+  },
+  "sha256": {
+    "workload_by_trace.csv": "4a5683acbde16b845b60dffd8e1f4594a42a528e5db38b3ab8cffc342ce80c8c",
+    "factorial_pairs.csv": "9df1bc0bb6d37e274c2388753ac018f6353adc0a99b3e1756b811692b93a7788",
+    "queue_by_trace_seed.csv": "6e3e5229defc2fb43fe6d8d66fcc27eaea797100e99cf32910c9c00801569d69"
+  }
+}

@@ -1,0 +1,61 @@
+bank,guard,contrast,metric,estimate,lower,upper,replicates,days,seed_count
+Later,False,Estimated Numba minus Oracle Numba,delta_violation_rate,-0.0006416444692680917,-0.0013206689388112324,4.919437790143466e-05,4000,3,2
+Later,False,Estimated Numba minus Oracle Numba,delta_p95_ms,17.233198008026754,14.090106729957858,21.868557926108444,4000,3,2
+Later,False,Estimated Numba minus Oracle Numba,delta_p99_ms,133.56776265329185,64.36030901851986,262.3019747404858,4000,3,2
+Later,False,Estimated Numba minus Oracle Numba,delta_met_budget,0.03333333333333333,-0.1,0.23333333333333334,4000,3,2
+Later,False,Estimated Numba minus Oracle Numba,delta_override_rate,0.0,0.0,0.0,4000,3,2
+Later,False,Estimated Numba minus archived Estimated Numba,delta_violation_rate,0.0,0.0,0.0,4000,3,2
+Later,False,Estimated Numba minus archived Estimated Numba,delta_p95_ms,0.0,0.0,0.0,4000,3,2
+Later,False,Estimated Numba minus archived Estimated Numba,delta_p99_ms,0.0,0.0,0.0,4000,3,2
+Later,False,Estimated Numba minus archived Estimated Numba,delta_met_budget,0.0,0.0,0.0,4000,3,2
+Later,False,Estimated Numba minus archived Estimated Numba,delta_override_rate,0.0,0.0,0.0,4000,3,2
+Later,False,Oracle Numba minus archived Oracle Torch,delta_violation_rate,0.0,0.0,0.0,4000,3,2
+Later,False,Oracle Numba minus archived Oracle Torch,delta_p95_ms,0.0,0.0,0.0,4000,3,2
+Later,False,Oracle Numba minus archived Oracle Torch,delta_p99_ms,0.0,0.0,0.0,4000,3,2
+Later,False,Oracle Numba minus archived Oracle Torch,delta_met_budget,0.0,0.0,0.0,4000,3,2
+Later,False,Oracle Numba minus archived Oracle Torch,delta_override_rate,0.0,0.0,0.0,4000,3,2
+Later,True,Estimated Numba minus Oracle Numba,delta_violation_rate,-0.0007550203238668569,-0.0013114851743539766,-0.00020117587730957557,4000,3,2
+Later,True,Estimated Numba minus Oracle Numba,delta_p95_ms,17.5400205703826,13.174796342448953,26.029206286068376,4000,3,2
+Later,True,Estimated Numba minus Oracle Numba,delta_p99_ms,208.20883701007662,62.47379591318604,539.049939859935,4000,3,2
+Later,True,Estimated Numba minus Oracle Numba,delta_met_budget,0.03333333333333333,0.0,0.16666666666666666,4000,3,2
+Later,True,Estimated Numba minus Oracle Numba,delta_override_rate,0.005540163658034817,0.0008262248627596097,0.009960311723775178,4000,3,2
+Later,True,Estimated Numba minus archived Estimated Numba,delta_violation_rate,0.0,0.0,0.0,4000,3,2
+Later,True,Estimated Numba minus archived Estimated Numba,delta_p95_ms,0.0,0.0,0.0,4000,3,2
+Later,True,Estimated Numba minus archived Estimated Numba,delta_p99_ms,0.0,0.0,0.0,4000,3,2
+Later,True,Estimated Numba minus archived Estimated Numba,delta_met_budget,0.0,0.0,0.0,4000,3,2
+Later,True,Estimated Numba minus archived Estimated Numba,delta_override_rate,0.0,0.0,0.0,4000,3,2
+Later,True,Oracle Numba minus archived Oracle Torch,delta_violation_rate,0.0,0.0,0.0,4000,3,2
+Later,True,Oracle Numba minus archived Oracle Torch,delta_p95_ms,0.0,0.0,0.0,4000,3,2
+Later,True,Oracle Numba minus archived Oracle Torch,delta_p99_ms,0.0,0.0,0.0,4000,3,2
+Later,True,Oracle Numba minus archived Oracle Torch,delta_met_budget,0.0,0.0,0.0,4000,3,2
+Later,True,Oracle Numba minus archived Oracle Torch,delta_override_rate,0.0,0.0,0.0,4000,3,2
+Original,False,Estimated Numba minus Oracle Numba,delta_violation_rate,-0.0013081169509100764,-0.00223324948225406,-0.00038822966049182624,4000,2,2
+Original,False,Estimated Numba minus Oracle Numba,delta_p95_ms,19.36562188827657,17.143641136962476,22.323878676442614,4000,2,2
+Original,False,Estimated Numba minus Oracle Numba,delta_p99_ms,78.13429456628366,69.98474576228281,86.10597889359545,4000,2,2
+Original,False,Estimated Numba minus Oracle Numba,delta_met_budget,0.3898305084745763,0.0,0.875,4000,2,2
+Original,False,Estimated Numba minus Oracle Numba,delta_override_rate,0.0,0.0,0.0,4000,2,2
+Original,False,Estimated Numba minus archived Estimated Numba,delta_violation_rate,0.0,0.0,0.0,4000,2,2
+Original,False,Estimated Numba minus archived Estimated Numba,delta_p95_ms,0.0,0.0,0.0,4000,2,2
+Original,False,Estimated Numba minus archived Estimated Numba,delta_p99_ms,-3.853791109207323e-15,-2.4361465226060576e-14,0.0,4000,2,2
+Original,False,Estimated Numba minus archived Estimated Numba,delta_met_budget,0.0,0.0,0.0,4000,2,2
+Original,False,Estimated Numba minus archived Estimated Numba,delta_override_rate,0.0,0.0,0.0,4000,2,2
+Original,False,Oracle Numba minus archived Oracle Torch,delta_violation_rate,0.0,0.0,0.0,4000,2,2
+Original,False,Oracle Numba minus archived Oracle Torch,delta_p95_ms,0.0,0.0,0.0,4000,2,2
+Original,False,Oracle Numba minus archived Oracle Torch,delta_p99_ms,-3.853791109207323e-15,-2.200390407515149e-14,0.0,4000,2,2
+Original,False,Oracle Numba minus archived Oracle Torch,delta_met_budget,0.0,0.0,0.0,4000,2,2
+Original,False,Oracle Numba minus archived Oracle Torch,delta_override_rate,0.0,0.0,0.0,4000,2,2
+Original,True,Estimated Numba minus Oracle Numba,delta_violation_rate,-0.0014834983960958278,-0.0019589472783309173,-0.0010115305525173392,4000,2,2
+Original,True,Estimated Numba minus Oracle Numba,delta_p95_ms,17.821134053509738,15.643795638046909,20.364015483605034,4000,2,2
+Original,True,Estimated Numba minus Oracle Numba,delta_p99_ms,73.9098930097553,65.97310727542842,81.95138905803512,4000,2,2
+Original,True,Estimated Numba minus Oracle Numba,delta_met_budget,0.847457627118644,0.6129032258064516,1.0,4000,2,2
+Original,True,Estimated Numba minus Oracle Numba,delta_override_rate,0.00579498816019032,-0.00015444654759421198,0.012118928648032394,4000,2,2
+Original,True,Estimated Numba minus archived Estimated Numba,delta_violation_rate,0.0,0.0,0.0,4000,2,2
+Original,True,Estimated Numba minus archived Estimated Numba,delta_p95_ms,0.0,0.0,0.0,4000,2,2
+Original,True,Estimated Numba minus archived Estimated Numba,delta_p99_ms,0.0,0.0,0.0,4000,2,2
+Original,True,Estimated Numba minus archived Estimated Numba,delta_met_budget,0.0,0.0,0.0,4000,2,2
+Original,True,Estimated Numba minus archived Estimated Numba,delta_override_rate,0.0,0.0,0.0,4000,2,2
+Original,True,Oracle Numba minus archived Oracle Torch,delta_violation_rate,0.0,0.0,0.0,4000,2,2
+Original,True,Oracle Numba minus archived Oracle Torch,delta_p95_ms,0.0,0.0,0.0,4000,2,2
+Original,True,Oracle Numba minus archived Oracle Torch,delta_p99_ms,-3.853791109207323e-15,-2.200390407515149e-14,0.0,4000,2,2
+Original,True,Oracle Numba minus archived Oracle Torch,delta_met_budget,0.0,0.0,0.0,4000,2,2
+Original,True,Oracle Numba minus archived Oracle Torch,delta_override_rate,0.0,0.0,0.0,4000,2,2

@@ -1,0 +1,53 @@
+{
+  "phase": "T4",
+  "jobs": [
+    [
+      42,
+      "oracle",
+      2
+    ],
+    [
+      42,
+      "estimated",
+      2
+    ],
+    [
+      43,
+      "oracle",
+      2
+    ],
+    [
+      43,
+      "estimated",
+      2
+    ]
+  ],
+  "source": {
+    "deadline_guard.py": "86083dd17a0f20259ae3e37b6b37db1fc0199564524bb705f2c8ea27ce71a8c3",
+    "routing_simulator.py": "cdc75cf365d79b8fd233a3d35265b420ceb749051945596938b25325d336329d",
+    "test_shared_calendar.py": "67f5453ee7401240d3963b5ca6c7cc281195992370812f0333f8678cac0a0fc5",
+    "rl_core_execution.py": "600163fcb440b257e3ccbe94c091a0956f9d9ac3f7dee3582d2a3ae5c6b65ff5",
+    "estimated_ddqn.py": "e33ba3946c40476fdd9374fe20ce525add6a2e896ff7adad5aae1c1880f7ae06",
+    "gpu_training.py": "05138bded10b9f58f50db933a226c5904196e5879509461316a3629ca920b8e3",
+    "rl_pilot.py": "094aff504d717b0f06e5549ca066950f8c62b579aec35acfb2ee9171b85bc173",
+    "test_estimated_queue.py": "3c43663ea93b1ccf08c823d82f30707377951d064289cb4b46fc36daeb6adf54",
+    "estimated_queue.py": "e4343e53318d7ff25cd3709ce7d2d95b3d520fe15506bd2526d5bcb5a97487d3"
+  },
+  "registry_sha256": "bfc0a2eeb97891221affefdb642f652a2600623e1a0406e1b5e474994c3abab5",
+  "runtime": {
+    "gpu": "Tesla T4",
+    "total_vram_bytes": 15637086208,
+    "driver": "580.82.07",
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "numba": "0.64.0"
+  },
+  "training_budget": {
+    "transitions": 2000128,
+    "updates": 7695,
+    "active_session_cap_s": 1800
+  },
+  "evaluation": "Use the predeclared workloads. No evaluation outcomes enter training."
+}

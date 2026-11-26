@@ -1,0 +1,28 @@
+{
+  "day": "d14",
+  "draw_index": 6,
+  "reconstruction_seed": 2026112906,
+  "key": "d14_r06",
+  "meta": {
+    "day": "d14",
+    "window_start": 807,
+    "window_end": 986,
+    "requests": 155358,
+    "input_rps": 14.541439347378402,
+    "util": 0.6,
+    "mean_service": 0.4291184559474146,
+    "p95_service": 1.7363083092198404
+  },
+  "trace_sha256": "a18171d61a21d831798a4bc77afd08b70c1a05e2a391918d1b950568d2aff3c0",
+  "file_sha256": "d07a049f37c9f73a5fcfd2aff1d7b55e594a54f7368e4d2bfb65aa36c07339f6",
+  "dtypes": {
+    "arrival": "float64",
+    "func_id": "int64",
+    "complexity": "object",
+    "est_p50": "float64",
+    "est_p99": "float64",
+    "service_demand": "float64",
+    "slo": "float64"
+  },
+  "filename": "d14_r06.csv.gz"
+}

@@ -1,0 +1,70 @@
+{
+  "source": "342b80c1f0a47b8fc7aa2d524a69ba9fe8d2cfb477b23181a39e0fc5790cd313",
+  "runtime": {
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "numpy": "2.4.6",
+    "numba": "0.64.0",
+    "pandas": "2.2.3"
+  },
+  "config": {
+    "device": "cuda",
+    "speeds": [
+      1.5,
+      1.0,
+      0.7
+    ],
+    "workers": [
+      4,
+      3,
+      2
+    ],
+    "nenv": 256,
+    "episode_len": 3000,
+    "mask": "full",
+    "dual_envs": 128,
+    "dual_warmup": 512,
+    "dual_measure": 512,
+    "seed": 46,
+    "buffer": 600000,
+    "lr": 0.0001,
+    "lambda_init": 10.0,
+    "identity": "pending",
+    "transitions": 2000000,
+    "learning_starts": 30000,
+    "eps_start": 0.2,
+    "eps_fraction": 0.25,
+    "method": "fixed",
+    "fixed_lambda": 2.0,
+    "clip_reward": true,
+    "gamma": 0.99,
+    "batch": 4096,
+    "target_update": 500,
+    "dual_update": 200,
+    "ema": 0.5,
+    "dual_lr": 100.0,
+    "target": 0.005,
+    "lambda_max": 80.0,
+    "checkpoint_every": 1000,
+    "amp_init_scale": 1024.0,
+    "amp_growth_interval": 1000000000
+  },
+  "inputs": {
+    "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+    "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+    "stage1": "af94e14a26b780bc38d8082ae5c2f1214e1b7aecebb3bb2c925c245507c5f076"
+  },
+  "observation": "estimated",
+  "residual_scale": 1.0,
+  "guard_in_training": false,
+  "id": "fc5c2096b176d2944bad3467655f405a9fc1e761b8ed0364fb04be9c3bfef513",
+  "seed": 46,
+  "status": "COMPLETE",
+  "oracle_model_sha256": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566",
+  "actual_transitions": 2000128,
+  "optimizer_updates": 7695,
+  "model_sha256": "bfd5e596ace8086aec6912f74e8b716c6cc59685014a320a0411e5cee0683730",
+  "session_seconds": 69.93692693000003
+}

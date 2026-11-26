@@ -1,0 +1,39 @@
+{
+  "phase": "transfer",
+  "protocol_sha256": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "scope": "reserved evaluation windows under the existing transfer protocol",
+  "rows": 40,
+  "output": {
+    "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\transfer\\replays.csv",
+    "sha256": "b08e1a4415d7218b9e8b37f5a8e2f0ddb4d208970d5331dc224f1242a0d9a454",
+    "bytes": 35781
+  },
+  "shards": [
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\transfer\\shards\\elapsed07.json",
+      "sha256": "ae0977d0fca46fb86da4c2261de2d406ea5e2dde8c93111906232e44be167b53",
+      "bytes": 45410
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\transfer\\shards\\elapsed08.json",
+      "sha256": "b7eb20856ee7e6c4920fa378023af20f046cae5d64f371b363c7f1b83a46d1b5",
+      "bytes": 45317
+    }
+  ],
+  "measurement": {
+    "startup_s": 4.111414400002104,
+    "preprocessing_s": 3.78347070000018,
+    "jit_s": 6.222758600000816,
+    "workloads_replay_s": 1.9048675000012736,
+    "workloads_cpu_s": 7.328125,
+    "child_wall_s": 16.096488299997873,
+    "peak_rss_bytes": 1034014720,
+    "peak_commit_bytes": 993746944,
+    "native_pools": {
+      "openblas": 1,
+      "openmp": 1,
+      "mkl": 1
+    }
+  },
+  "completed_utc": "2026-11-26T17:07:48.396460+00:00"
+}

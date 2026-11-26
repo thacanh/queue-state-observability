@@ -1,0 +1,169 @@
+bank,day,contrast,budget_pct,n,fail_to_pass,pass_to_fail,both_pass,both_fail,change_pp
+d08–d09,all,Guard after Oracle FT,0.3,295,0,0,0,295,0.0
+d08–d09,all,Guard after Oracle FT,0.4,295,0,0,0,295,0.0
+d08–d09,all,Guard after Oracle FT,0.5,295,9,0,2,284,3.050847457627119
+d08–d09,all,Guard after Oracle FT,0.6,295,124,0,34,137,42.03389830508474
+d08–d09,all,Guard after Oracle FT,0.75,295,51,0,224,20,17.28813559322034
+d08–d09,all,Guard after Oracle FT,1.0,295,0,0,295,0,0.0
+d08–d09,all,Guard after Estimated FT,0.3,295,2,0,0,293,0.6779661016949152
+d08–d09,all,Guard after Estimated FT,0.4,295,113,0,11,171,38.30508474576271
+d08–d09,all,Guard after Estimated FT,0.5,295,122,0,157,16,41.35593220338983
+d08–d09,all,Guard after Estimated FT,0.6,295,29,0,266,0,9.830508474576272
+d08–d09,all,Guard after Estimated FT,0.75,295,0,0,295,0,0.0
+d08–d09,all,Guard after Estimated FT,1.0,295,0,0,295,0,0.0
+d08–d09,all,FT with guard,0.3,295,2,0,0,293,0.6779661016949152
+d08–d09,all,FT with guard,0.4,295,124,0,0,171,42.03389830508474
+d08–d09,all,FT with guard,0.5,295,268,0,11,16,90.84745762711864
+d08–d09,all,FT with guard,0.6,295,137,0,158,0,46.440677966101696
+d08–d09,all,FT with guard,0.75,295,20,0,275,0,6.779661016949152
+d08–d09,all,FT with guard,1.0,295,0,0,295,0,0.0
+d08–d09,all,FT without guard,0.3,295,0,0,0,295,0.0
+d08–d09,all,FT without guard,0.4,295,11,0,0,284,3.728813559322034
+d08–d09,all,FT without guard,0.5,295,155,0,2,138,52.54237288135594
+d08–d09,all,FT without guard,0.6,295,232,0,34,29,78.64406779661017
+d08–d09,all,FT without guard,0.75,295,71,0,224,0,24.06779661016949
+d08–d09,all,FT without guard,1.0,295,0,0,295,0,0.0
+d08–d09,d08,Guard after Oracle FT,0.3,140,0,0,0,140,0.0
+d08–d09,d08,Guard after Oracle FT,0.4,140,0,0,0,140,0.0
+d08–d09,d08,Guard after Oracle FT,0.5,140,3,0,0,137,2.142857142857143
+d08–d09,d08,Guard after Oracle FT,0.6,140,70,0,12,58,50.0
+d08–d09,d08,Guard after Oracle FT,0.75,140,22,0,111,7,15.714285714285714
+d08–d09,d08,Guard after Oracle FT,1.0,140,0,0,140,0,0.0
+d08–d09,d08,Guard after Estimated FT,0.3,140,0,0,0,140,0.0
+d08–d09,d08,Guard after Estimated FT,0.4,140,57,0,2,81,40.714285714285715
+d08–d09,d08,Guard after Estimated FT,0.5,140,53,0,81,6,37.857142857142854
+d08–d09,d08,Guard after Estimated FT,0.6,140,12,0,128,0,8.571428571428571
+d08–d09,d08,Guard after Estimated FT,0.75,140,0,0,140,0,0.0
+d08–d09,d08,Guard after Estimated FT,1.0,140,0,0,140,0,0.0
+d08–d09,d08,FT with guard,0.3,140,0,0,0,140,0.0
+d08–d09,d08,FT with guard,0.4,140,59,0,0,81,42.142857142857146
+d08–d09,d08,FT with guard,0.5,140,131,0,3,6,93.57142857142857
+d08–d09,d08,FT with guard,0.6,140,58,0,82,0,41.42857142857143
+d08–d09,d08,FT with guard,0.75,140,7,0,133,0,5.0
+d08–d09,d08,FT with guard,1.0,140,0,0,140,0,0.0
+d08–d09,d08,FT without guard,0.3,140,0,0,0,140,0.0
+d08–d09,d08,FT without guard,0.4,140,2,0,0,138,1.4285714285714286
+d08–d09,d08,FT without guard,0.5,140,81,0,0,59,57.85714285714286
+d08–d09,d08,FT without guard,0.6,140,116,0,12,12,82.85714285714286
+d08–d09,d08,FT without guard,0.75,140,29,0,111,0,20.714285714285715
+d08–d09,d08,FT without guard,1.0,140,0,0,140,0,0.0
+d08–d09,d09,Guard after Oracle FT,0.3,155,0,0,0,155,0.0
+d08–d09,d09,Guard after Oracle FT,0.4,155,0,0,0,155,0.0
+d08–d09,d09,Guard after Oracle FT,0.5,155,6,0,2,147,3.870967741935484
+d08–d09,d09,Guard after Oracle FT,0.6,155,54,0,22,79,34.83870967741935
+d08–d09,d09,Guard after Oracle FT,0.75,155,29,0,113,13,18.70967741935484
+d08–d09,d09,Guard after Oracle FT,1.0,155,0,0,155,0,0.0
+d08–d09,d09,Guard after Estimated FT,0.3,155,2,0,0,153,1.2903225806451613
+d08–d09,d09,Guard after Estimated FT,0.4,155,56,0,9,90,36.12903225806451
+d08–d09,d09,Guard after Estimated FT,0.5,155,69,0,76,10,44.516129032258064
+d08–d09,d09,Guard after Estimated FT,0.6,155,17,0,138,0,10.967741935483872
+d08–d09,d09,Guard after Estimated FT,0.75,155,0,0,155,0,0.0
+d08–d09,d09,Guard after Estimated FT,1.0,155,0,0,155,0,0.0
+d08–d09,d09,FT with guard,0.3,155,2,0,0,153,1.2903225806451613
+d08–d09,d09,FT with guard,0.4,155,65,0,0,90,41.935483870967744
+d08–d09,d09,FT with guard,0.5,155,137,0,8,10,88.38709677419355
+d08–d09,d09,FT with guard,0.6,155,79,0,76,0,50.967741935483865
+d08–d09,d09,FT with guard,0.75,155,13,0,142,0,8.38709677419355
+d08–d09,d09,FT with guard,1.0,155,0,0,155,0,0.0
+d08–d09,d09,FT without guard,0.3,155,0,0,0,155,0.0
+d08–d09,d09,FT without guard,0.4,155,9,0,0,146,5.806451612903226
+d08–d09,d09,FT without guard,0.5,155,74,0,2,79,47.74193548387097
+d08–d09,d09,FT without guard,0.6,155,116,0,22,17,74.83870967741936
+d08–d09,d09,FT without guard,0.75,155,42,0,113,0,27.09677419354839
+d08–d09,d09,FT without guard,1.0,155,0,0,155,0,0.0
+d12–d14,all,Guard after Oracle FT,0.3,150,0,0,0,150,0.0
+d12–d14,all,Guard after Oracle FT,0.4,150,2,0,0,148,1.3333333333333335
+d12–d14,all,Guard after Oracle FT,0.5,150,5,0,20,125,3.3333333333333335
+d12–d14,all,Guard after Oracle FT,0.6,150,2,0,36,112,1.3333333333333335
+d12–d14,all,Guard after Oracle FT,0.75,150,21,1,51,77,13.333333333333334
+d12–d14,all,Guard after Oracle FT,1.0,150,6,3,100,41,2.0
+d12–d14,all,Guard after Estimated FT,0.3,150,9,0,0,141,6.0
+d12–d14,all,Guard after Estimated FT,0.4,150,10,1,19,120,6.0
+d12–d14,all,Guard after Estimated FT,0.5,150,4,0,35,111,2.666666666666667
+d12–d14,all,Guard after Estimated FT,0.6,150,21,2,45,82,12.666666666666668
+d12–d14,all,Guard after Estimated FT,0.75,150,4,3,91,52,0.6666666666666667
+d12–d14,all,Guard after Estimated FT,1.0,150,6,1,111,32,3.3333333333333335
+d12–d14,all,FT with guard,0.3,150,9,0,0,141,6.0
+d12–d14,all,FT with guard,0.4,150,27,0,2,121,18.0
+d12–d14,all,FT with guard,0.5,150,14,0,25,111,9.333333333333334
+d12–d14,all,FT with guard,0.6,150,28,0,38,84,18.666666666666668
+d12–d14,all,FT with guard,0.75,150,23,0,72,55,15.333333333333332
+d12–d14,all,FT with guard,1.0,150,13,2,104,31,7.333333333333333
+d12–d14,all,FT without guard,0.3,150,0,0,0,150,0.0
+d12–d14,all,FT without guard,0.4,150,20,0,0,130,13.333333333333334
+d12–d14,all,FT without guard,0.5,150,16,1,19,114,10.0
+d12–d14,all,FT without guard,0.6,150,11,0,36,103,7.333333333333333
+d12–d14,all,FT without guard,0.75,150,42,0,52,56,28.000000000000004
+d12–d14,all,FT without guard,1.0,150,9,0,103,38,6.0
+d12–d14,d12,Guard after Oracle FT,0.3,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Oracle FT,0.4,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Oracle FT,0.5,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Oracle FT,0.6,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Oracle FT,0.75,50,21,0,8,21,42.0
+d12–d14,d12,Guard after Oracle FT,1.0,50,1,0,49,0,2.0
+d12–d14,d12,Guard after Estimated FT,0.3,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Estimated FT,0.4,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Estimated FT,0.5,50,0,0,0,50,0.0
+d12–d14,d12,Guard after Estimated FT,0.6,50,21,0,3,26,42.0
+d12–d14,d12,Guard after Estimated FT,0.75,50,4,0,46,0,8.0
+d12–d14,d12,Guard after Estimated FT,1.0,50,0,0,50,0,0.0
+d12–d14,d12,FT with guard,0.3,50,0,0,0,50,0.0
+d12–d14,d12,FT with guard,0.4,50,0,0,0,50,0.0
+d12–d14,d12,FT with guard,0.5,50,0,0,0,50,0.0
+d12–d14,d12,FT with guard,0.6,50,24,0,0,26,48.0
+d12–d14,d12,FT with guard,0.75,50,21,0,29,0,42.0
+d12–d14,d12,FT with guard,1.0,50,0,0,50,0,0.0
+d12–d14,d12,FT without guard,0.3,50,0,0,0,50,0.0
+d12–d14,d12,FT without guard,0.4,50,0,0,0,50,0.0
+d12–d14,d12,FT without guard,0.5,50,0,0,0,50,0.0
+d12–d14,d12,FT without guard,0.6,50,3,0,0,47,6.0
+d12–d14,d12,FT without guard,0.75,50,38,0,8,4,76.0
+d12–d14,d12,FT without guard,1.0,50,1,0,49,0,2.0
+d12–d14,d13,Guard after Oracle FT,0.3,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Oracle FT,0.4,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Oracle FT,0.5,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Oracle FT,0.6,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Oracle FT,0.75,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Oracle FT,1.0,50,5,0,4,41,10.0
+d12–d14,d13,Guard after Estimated FT,0.3,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Estimated FT,0.4,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Estimated FT,0.5,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Estimated FT,0.6,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Estimated FT,0.75,50,0,0,0,50,0.0
+d12–d14,d13,Guard after Estimated FT,1.0,50,6,1,11,32,10.0
+d12–d14,d13,FT with guard,0.3,50,0,0,0,50,0.0
+d12–d14,d13,FT with guard,0.4,50,0,0,0,50,0.0
+d12–d14,d13,FT with guard,0.5,50,0,0,0,50,0.0
+d12–d14,d13,FT with guard,0.6,50,0,0,0,50,0.0
+d12–d14,d13,FT with guard,0.75,50,0,0,0,50,0.0
+d12–d14,d13,FT with guard,1.0,50,10,2,7,31,16.0
+d12–d14,d13,FT without guard,0.3,50,0,0,0,50,0.0
+d12–d14,d13,FT without guard,0.4,50,0,0,0,50,0.0
+d12–d14,d13,FT without guard,0.5,50,0,0,0,50,0.0
+d12–d14,d13,FT without guard,0.6,50,0,0,0,50,0.0
+d12–d14,d13,FT without guard,0.75,50,0,0,0,50,0.0
+d12–d14,d13,FT without guard,1.0,50,8,0,4,38,16.0
+d12–d14,d14,Guard after Oracle FT,0.3,50,0,0,0,50,0.0
+d12–d14,d14,Guard after Oracle FT,0.4,50,2,0,0,48,4.0
+d12–d14,d14,Guard after Oracle FT,0.5,50,5,0,20,25,10.0
+d12–d14,d14,Guard after Oracle FT,0.6,50,2,0,36,12,4.0
+d12–d14,d14,Guard after Oracle FT,0.75,50,0,1,43,6,-2.0
+d12–d14,d14,Guard after Oracle FT,1.0,50,0,3,47,0,-6.0
+d12–d14,d14,Guard after Estimated FT,0.3,50,9,0,0,41,18.0
+d12–d14,d14,Guard after Estimated FT,0.4,50,10,1,19,20,18.0
+d12–d14,d14,Guard after Estimated FT,0.5,50,4,0,35,11,8.0
+d12–d14,d14,Guard after Estimated FT,0.6,50,0,2,42,6,-4.0
+d12–d14,d14,Guard after Estimated FT,0.75,50,0,3,45,2,-6.0
+d12–d14,d14,Guard after Estimated FT,1.0,50,0,0,50,0,0.0
+d12–d14,d14,FT with guard,0.3,50,9,0,0,41,18.0
+d12–d14,d14,FT with guard,0.4,50,27,0,2,21,54.0
+d12–d14,d14,FT with guard,0.5,50,14,0,25,11,28.000000000000004
+d12–d14,d14,FT with guard,0.6,50,4,0,38,8,8.0
+d12–d14,d14,FT with guard,0.75,50,2,0,43,5,4.0
+d12–d14,d14,FT with guard,1.0,50,3,0,47,0,6.0
+d12–d14,d14,FT without guard,0.3,50,0,0,0,50,0.0
+d12–d14,d14,FT without guard,0.4,50,20,0,0,30,40.0
+d12–d14,d14,FT without guard,0.5,50,16,1,19,14,30.0
+d12–d14,d14,FT without guard,0.6,50,8,0,36,6,16.0
+d12–d14,d14,FT without guard,0.75,50,4,0,44,2,8.0
+d12–d14,d14,FT without guard,1.0,50,0,0,50,0,0.0

@@ -1,0 +1,100 @@
+{
+  "decision": "NO_GO_FOR_DEPLOYMENT_OR_SUPERIORITY; conditional empirical result",
+  "rows": {
+    "core": 2006,
+    "external": 170,
+    "secondary": 400,
+    "sensitivity": 150,
+    "robustness": 400,
+    "overhead": 15,
+    "mechanism": 20,
+    "outputs": 18,
+    "ci": 80,
+    "calibration": 162,
+    "paired_timing": 3800,
+    "cdf_scaling": 45
+  },
+  "outputs": {
+    "outputs\\guard_evaluation\\paired.csv": "381b6fdd9e435da7c02997d74df5d1e60ed7f3967547c05aa4cedcb9ea8a5f29",
+    "outputs\\guard_evaluation\\external\\paired_2021.csv": "84bb13f4a1b1a546eea78de8db1b6ef5f159c05864d80fe8fdaeefb9fe7a94e6",
+    "outputs\\guard_evaluation\\diagnostics\\checkpoint_controls.csv": "195162bac9803f590285c16af755eb7c655769dbe13709ba1e6ac1e2accb5b02",
+    "outputs\\guard_evaluation\\diagnostics\\sensitivity.csv": "92c93e6422dc1b8db946eabf1d2f49c48f26be11ddf833915db4f76802f97483",
+    "outputs\\guard_evaluation\\diagnostics\\robustness.csv": "315c46c8ee5ecce3188057dea4e5741dd9e89631593110792fb6f6e15b66c3ab",
+    "outputs\\guard_evaluation\\loopback.csv": "692f2a79f393f3f3431e2ddff2bd36f31a10caf62be76e13c948cf9d94deb07a",
+    "outputs\\guard_evaluation\\override_mechanism_sample.csv": "3da44e584325193da064f23af79ed87fcc306801a02279c9c4a30f1d10424987",
+    "outputs\\guard_evaluation\\summary.csv": "2cda8bc594b3cadba0dedadee37036a755ba74bb11a67b29d143da64c0c415be",
+    "outputs\\guard_evaluation\\paired_conditional_intervals.csv": "7d32f382346431019da3e7e8c0412bc56ad68f143bcc706bde8971c1386f7ba2",
+    "outputs\\guard_evaluation\\reliability.csv": "071cdf28814b0860b3ebd5777e2bbfd87464d949358558c13627f9949a9c381d",
+    "outputs\\guard_evaluation\\decision_timing_matched.csv": "194d453514e4ee7dbd541bd1414d5b0ab67beeec44ee29c23363023ccbb95319",
+    "outputs\\guard_evaluation\\cdf_scaling.csv": "88aca39f0d86aa182583349bc579d867c43c6596a331a4c202f7890ef47c758d"
+  },
+  "models": {
+    "latency_seed42_lambda0": {
+      "sha256": "ec401d18a1885ee85610aceba2d2bf1555b55b177ae741b7ec4de94c783a51b2",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\latency_seed42_lambda0_67813571929c\\final.pt"
+    },
+    "adaptive_seed42_lambda10": {
+      "sha256": "d0b7b63d49b7707b59cf31cf434950f066b8375e1bc2bd24fa7c55eea25fe36c",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\adaptive_seed42_lambda10_b5183e5a7bdf\\final.pt"
+    },
+    "fixed_seed42_lambda2": {
+      "sha256": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+      "workspace_path": "outputs\\shield_verified\\source_data\\runs\\matched_training\\fixed_seed42_lambda2_b9dc1b96bf6a\\final.pt"
+    },
+    "latency_seed43_lambda0": {
+      "sha256": "6fa910ff8ffc015ce44defb36e41b4d6fd8d9f84c02c4fe625d2167647b52ca1",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\latency_seed43_lambda0_82f16a5ff718\\final.pt"
+    },
+    "adaptive_seed43_lambda10": {
+      "sha256": "cbfea01ec18d62847f2ddbbf63df6ec1da0d10aa80001f46c132dd81fbc0b060",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\adaptive_seed43_lambda10_36bff8d2c2aa\\final.pt"
+    },
+    "fixed_seed43_lambda2": {
+      "sha256": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+      "workspace_path": "outputs\\shield_verified\\source_data\\runs\\matched_training\\fixed_seed43_lambda2_182daae8a18c\\final.pt"
+    },
+    "latency_seed44_lambda0": {
+      "sha256": "08f08b037935cab3be92f03ef0c354bf2f3c63253552fc2fa49ad749e87b088f",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\latency_seed44_lambda0_9def7e850e2d\\final.pt"
+    },
+    "adaptive_seed44_lambda10": {
+      "sha256": "6e6c87ff77150f0f44d4ed4ddb88b6479cacccf0d7bc13285484654650ad3ee6",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\adaptive_seed44_lambda10_e2769420baae\\final.pt"
+    },
+    "fixed_seed44_lambda2": {
+      "sha256": "57cf7d0f411c85d52316b5c1b4a6d73be61e86a922bbbc52e3cefbf3ed454dbc",
+      "workspace_path": "outputs\\shield_verified\\source_data\\runs\\matched_training\\fixed_seed44_lambda2_f58371051894\\final.pt"
+    },
+    "latency_seed45_lambda0": {
+      "sha256": "7657362e8562448179d1619bd999ed184460e501e3e4c6696d59c25d05661f98",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\latency_seed45_lambda0_50895786f57a\\final.pt"
+    },
+    "adaptive_seed45_lambda10": {
+      "sha256": "b558b7d350fa988479628887deb590d9e9f0efdd8a61e86b4b12da6777ac4a4d",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\adaptive_seed45_lambda10_2b648ca16736\\final.pt"
+    },
+    "fixed_seed45_lambda2": {
+      "sha256": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427",
+      "workspace_path": "outputs\\shield_verified\\source_data\\runs\\matched_training\\fixed_seed45_lambda2_1da4d79fba82\\final.pt"
+    },
+    "latency_seed46_lambda0": {
+      "sha256": "9c1aa592704582f4814d59e71eae1f49fe094ee99a2b703c25375f6a64670d38",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\latency_seed46_lambda0_70e62e5f9f8c\\final.pt"
+    },
+    "adaptive_seed46_lambda10": {
+      "sha256": "4b719c76ae69116b80f3acfdf6731b461cae4eeb335f571a508c42f1ccdac5ae",
+      "workspace_path": "outputs\\guard_evaluation\\external_models\\adaptive_seed46_lambda10_cb0705ab0f68\\final.pt"
+    },
+    "fixed_seed46_lambda2": {
+      "sha256": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566",
+      "workspace_path": "outputs\\shield_verified\\source_data\\runs\\matched_training\\fixed_seed46_lambda2_4a6f48a4e744\\final.pt"
+    }
+  },
+  "limits": [
+    "Two source days in conditional 2019 study",
+    "No estimated-state retraining",
+    "Three-server targeted guard stress",
+    "2021 transfers weights with corpus-specific profile fitting",
+    "Loopback software timing only"
+  ]
+}

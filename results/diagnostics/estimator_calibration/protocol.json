@@ -1,0 +1,131 @@
+{
+  "phase": "T3",
+  "parent": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "runtime_budget_s": 900,
+  "workers": 4,
+  "native_threads": 1,
+  "software": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "torch": "2.10.0+cpu"
+  },
+  "bank_sha256": "445df37ed11d9a8f1f85c4c8d8882c4957b8519a4ff7dfcef20e4701abb86338",
+  "checkpoints": {
+    "oracle/42": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+    "oracle/43": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+    "estimated/42": "c997a5ea4667f5c2f0c5b663a74234621ef93ece5fdac55636308f4e03a6cdbe",
+    "estimated/43": "b0ab43d89aea0836729a44cd5072b7d9f75aa4616975bf4f7dda10c7b4ae2869"
+  },
+  "workloads": {
+    "d12_r00": {
+      "day": "d12",
+      "trace_sha256": "9938936549a44401d695876ed15bbb82718583a52a52795b1108924655b03084",
+      "file_sha256": "a053c2230cba2a540ebeca23ba46e40e8cb487fe66bbb533c886cb9f723c1c5a"
+    },
+    "d12_r01": {
+      "day": "d12",
+      "trace_sha256": "6d0232378ff8d871723969fc7ab490aea3d09d757c29246eaeba770207a5ceae",
+      "file_sha256": "877af7aedb7aad61397cb0a10a7522fdd0de7af3afa21310da81820c64c3f4b4"
+    },
+    "d13_r00": {
+      "day": "d13",
+      "trace_sha256": "cc7c3a55415d2b2a1fdef999c86ad3985f1602247faed883c007220f18ebcb49",
+      "file_sha256": "17728119b8fa9ef57b07071124599164fbdc02d24e1ed3734f3b773a7720360f"
+    },
+    "d13_r01": {
+      "day": "d13",
+      "trace_sha256": "7079209512ce20585ece2f7c4ae764fac0f5776a02530dfa0143c9b91013fbbb",
+      "file_sha256": "580a97ebdb7e2b621d3182a91c255736e1b014af6b5b9b430abc25e20b9f0539"
+    },
+    "d14_r00": {
+      "day": "d14",
+      "trace_sha256": "4e28b93a04e21166fb519569839924da476f0ab017468824d9bc8f14f0e38d2b",
+      "file_sha256": "8d586e75b7a388eeb2b4929e54b8196e88e6fbd6fc4d652fe7312d67f043c83a"
+    },
+    "d14_r01": {
+      "day": "d14",
+      "trace_sha256": "43126613610e9b4e3d62ca3162af91dfbdffcb8067fb1ae4f81527c15def303c",
+      "file_sha256": "00eab9e5aa900d45db6c9537dee6da4f308658810b4f068dc7cb44ffc8a40dd3"
+    }
+  },
+  "seeds": [
+    42,
+    43
+  ],
+  "budget": 0.005,
+  "load": 0.6,
+  "provenance": "Later Azure 2019 days have unverified prior use; Azure 2021 elapsed 7\u20138 are fixed diagnostic windows.",
+  "runner": "42187ebeea6d2672dc8c0a773f662c392f56ed2cc563a784bb0cb85335a6ff9e",
+  "simulator": "cdc75cf365d79b8fd233a3d35265b420ceb749051945596938b25325d336329d",
+  "analysis": "Fit and report training-only fixed-trajectory same-state labels, then compare fully re-routed later evaluation trajectories by workload and seed against exact archived original estimator. Report signed and absolute wait, miss and tail, attained budget and guard behavior. Positive waits and all-state metrics reported separately.",
+  "plan": {
+    "training": {
+      "trace_bytes_sha256": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+      "boundary_gap_s": 600,
+      "source_days": {
+        "d01": {
+          "lo": 0,
+          "hi": 126936,
+          "rows": 126936,
+          "table_hash": "0bb199d209f061439fd7923516a37c444c469a61e786e6cf98c0b87313d3e510"
+        },
+        "d02": {
+          "lo": 126936,
+          "hi": 249178,
+          "rows": 122242,
+          "table_hash": "76a8cb00efe6f49648d999e53f6f2e281527810312f3ced7cd07750dce58b602"
+        },
+        "d03": {
+          "lo": 249178,
+          "hi": 375798,
+          "rows": 126620,
+          "table_hash": "137660af7c778a67d0c32d3c10d98ffab44e188cb65d771d7c1a9309bcb5922c"
+        },
+        "d04": {
+          "lo": 375798,
+          "hi": 511005,
+          "rows": 135207,
+          "table_hash": "c34041cc9d67c365fe3bb2001fc1735358b969bf14f77fb35877252c88044dce"
+        },
+        "d05": {
+          "lo": 511005,
+          "hi": 635495,
+          "rows": 124490,
+          "table_hash": "b5ff9125c8577e1eeba1bb473922eea43576d86570f82329e3e9dda2b558bf56"
+        },
+        "d06": {
+          "lo": 635495,
+          "hi": 746503,
+          "rows": 111008,
+          "table_hash": "3ce3f402acb3e8a82623a72b87231909202a330c339d3eae300087cc91701a1e"
+        },
+        "d07": {
+          "lo": 746503,
+          "hi": 868593,
+          "rows": 122090,
+          "table_hash": "38520f9c3e7c1550faf6357847c6f162c75773b02c363e4f5895abbaa7432333"
+        }
+      },
+      "profile_sources": {
+        "outputs\\shield_verified\\source_data\\processed\\selected_functions_d01_v2.csv": "de049e036d8262eb25059019e66b8e2ee74c96faa09b88c209360e70330c1dec",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d01.csv": "6bb4e9a918dff8bf021158cbb9470107b47f0a2003412f789d03cb23dce3a5d2",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d02.csv": "4986df9ca6284d21c79767ebabbf2ce7851cf26bfbb6bedbd39e44e5fa127af6",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d03.csv": "8c197c00304cebbb0e8c4392877fa84c990619c07e33369d25671d6e426cba83",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d04.csv": "ff54d6a15b78fcb19e790effc0a379b064058433f27d4e66177a360993d1c927",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d05.csv": "63fee5d1c8bf208d8d4719aa683ba495b3a10e4bf578652ba38d1e385129053b",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d06.csv": "36959f76b9e12f2d130563eeaf65d4beda6f6f71c4fc9704a9070da21e84df0a",
+        "outputs\\shield_verified\\source_data\\data\\function_durations_percentiles.anon.d07.csv": "cbb94daec594584c66ae4946fa939a141f7fd484c01a57369e1d37ecdbd11065"
+      },
+      "provenance_rules": "Legacy ordered train days, six 600-s concatenation gaps, each day independently checked against preceding-day profile features and same-day duration support."
+    },
+    "bank": "445df37ed11d9a8f1f85c4c8d8882c4957b8519a4ff7dfcef20e4701abb86338",
+    "model": "v_corrected = c * v; zero remains zero",
+    "fit": "minimize equal-day/equal-server Huber loss over estimated wait > 0; Huber delta .05s; c in [0.25,2.5]",
+    "witness": "Estimated SED-P50, guard off. All training arrivals and valid servers; reset at every source day.",
+    "expected_new": 48,
+    "expected_training_telemetry": 7,
+    "diagnostic_code": "8cfdb066ab913f3e103b4fc2e03f984d0e3d65c8979987dbf7a3c4eb1140e7d2",
+    "kernel_adapter": "a42731ad2dd58b99c621bda7d5e44d89e6e3f84ebbc61f8004507519e2259098"
+  },
+  "protocol_sha256": "19a471ef33894fadaeea300c3e153875baadf9ac9127b3b2a8e4e880b0fe4273"
+}

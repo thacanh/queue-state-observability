@@ -1,0 +1,967 @@
+{
+  "jobs": {
+    "latency_seed42_lambda0": {
+      "status": "evaluated",
+      "record": {
+        "seed": 42,
+        "method": "latency",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "67813571929c1a7a97236bc99fce47542ab8ac133f1a1e413a6a11e1b0707028",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/latency_seed42_lambda0_67813571929c/final.pt",
+        "model_sha256": "ec401d18a1885ee85610aceba2d2bf1555b55b177ae741b7ec4de94c783a51b2",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 55.78803800599985,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "adaptive_seed42_lambda10": {
+      "status": "evaluated",
+      "record": {
+        "seed": 42,
+        "method": "adaptive",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "b5183e5a7bdf6c318d12b7aa22a8a2e7018be6db217350a08d6f4e135bbc874d",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/adaptive_seed42_lambda10_b5183e5a7bdf/final.pt",
+        "model_sha256": "d0b7b63d49b7707b59cf31cf434950f066b8375e1bc2bd24fa7c55eea25fe36c",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 127.67204249800011,
+        "lambda_final": 18.961197007070382,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda0": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "ed12e7bd0f6a7df05066b010447deee96baebd4fd26af5376f4f01421a8bd178",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda0_ed12e7bd0f6a/final.pt",
+        "model_sha256": "d6692776d4e74508745cb2c47c13ec53a8260ff3d8386c96d984dc788a2bb900",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 61.29659635200005,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda2": {
+      "status": "evaluated",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 2.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "b9dc1b96bf6ad7564784857b48e1e56289a5bdb383d1abbcfc60e23748010ec0",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda2_b9dc1b96bf6a/final.pt",
+        "model_sha256": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 57.45080223400009,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda5": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 5.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "1d852343c3abda3c66109fe4b4729c9f17517f5f6d5bc5662a5d94128ccaab6b",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda5_1d852343c3ab/final.pt",
+        "model_sha256": "d5b2ec2ae8e9d5b065828bfb8175154d73971a1ccc88de18a17b4573198ba6e8",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 56.1783226550001,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda10": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "e1a6dc31dbfd24319fd02da53249b34ae78b58b40c4fab2654eac919ceabe6a9",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda10_e1a6dc31dbfd/final.pt",
+        "model_sha256": "d5148d3920d1558116bc8b9a5ef56ad398fce09128170d1087ce56a23657c96f",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 59.4719542480002,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda15": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 15.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "90884f5930f6b4ad2d03a2f6410c30aa6f01d8021dd4aaa6d4c12686f8a4d467",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda15_90884f5930f6/final.pt",
+        "model_sha256": "8d81f9f37b8a37e663d6d27f3575b46b675a658c44fbf2d25ee9a5ecd5b0a502",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 59.480637617000184,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda20": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 20.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "bc7fb66183d76db569d8fc5e60982db0b6f17cdeae3bcbdfa1068566091cf6bd",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda20_bc7fb66183d7/final.pt",
+        "model_sha256": "15f58c34500a858c36e855a6f03bcff547d7dc23eed3f9b3b434934b9c350d07",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 56.073887754,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda30": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 30.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "f519a6e8a02fa63b634e140f4b00e7551fbf699bed9ed2cfc77c831aca07bd6a",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda30_f519a6e8a02f/final.pt",
+        "model_sha256": "15008c7add8acfdfb740f409b30ec6daee7b9a205424ff033d56979915d62116",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 54.45604974800017,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda40": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 40.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "e62f83d2358f195abfc1df785b924717993f95f7238f06d4063abfc97e7ffbb4",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda40_e62f83d2358f/final.pt",
+        "model_sha256": "c7b0b7c94048fbd4bf86294ccd28918a3307dffcdcdebb2a708fc45ad97b170b",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 55.06459422900025,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed42_lambda80": {
+      "status": "trained",
+      "record": {
+        "seed": 42,
+        "method": "fixed",
+        "fixed_lambda": 80.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "e413ec3943a62ef550b808facc686a6f69099bfb9e0aad6fbbbd4e6e18636165",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed42_lambda80_e413ec3943a6/final.pt",
+        "model_sha256": "75fa9135bd35ba19961df7461fe08df5084bafb30c87f82dd4a2553650a346f8",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 56.04553784100017,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "latency_seed43_lambda0": {
+      "status": "evaluated",
+      "record": {
+        "seed": 43,
+        "method": "latency",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "82f16a5ff718f1ca0b61160a74eff1387a0265c6a940c9841053f4572caf2427",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/latency_seed43_lambda0_82f16a5ff718/final.pt",
+        "model_sha256": "6fa910ff8ffc015ce44defb36e41b4d6fd8d9f84c02c4fe625d2167647b52ca1",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 55.28734923000002,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "adaptive_seed43_lambda10": {
+      "status": "evaluated",
+      "record": {
+        "seed": 43,
+        "method": "adaptive",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "36bff8d2c2aa42fb02f3299dd45fef66b3de76dc45eb28253332daa08f56b729",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/adaptive_seed43_lambda10_36bff8d2c2aa/final.pt",
+        "model_sha256": "cbfea01ec18d62847f2ddbbf63df6ec1da0d10aa80001f46c132dd81fbc0b060",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 115.69797067899981,
+        "lambda_final": 18.712537635515083,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda0": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "34945d7d03dc68bf92820a0f1cc56a53e05950ec7026b180a471c81ea26ec74a",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda0_34945d7d03dc/final.pt",
+        "model_sha256": "4a1afd34fe345e8cc97c72b51b3fb97a9d3dec8e58b9e61d3d682b2b99ec9244",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 53.29000232499993,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda2": {
+      "status": "evaluated",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 2.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "182daae8a18c8df57c481c637007a75942e96a2691171ba5da5b3d72b7e57688",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda2_182daae8a18c/final.pt",
+        "model_sha256": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 54.69078258699983,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda5": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 5.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "1070b42cab4200fde9ff24bb220e97c0ef1ac2461c9f174a6ec76c9f3b7ffef6",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda5_1070b42cab42/final.pt",
+        "model_sha256": "cb335d8ee8e53427dca0b590bcb6fa8a3b30bff10bce5effb965c230d37b24e4",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 54.71900727399998,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda10": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "be781da5ac0b59b6b2601b1b921f5b2c484aab6892efbf1b40775151286ad42f",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda10_be781da5ac0b/final.pt",
+        "model_sha256": "13dec39031116b6a97c654b07d4441e931f9dfb50202596a3ddad5039cabb38e",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 54.23845041100003,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda15": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 15.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "cf7a9b31b95e8fd2306043ec63c59bb1fffcb5e843415a8a5a82d73b80a60c1b",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda15_cf7a9b31b95e/final.pt",
+        "model_sha256": "c94b459c6727b53e48bde53e28050ee9460cd396881dc20ef6ad52fb24564820",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 56.276704364000125,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda20": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 20.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "51faca1f751162d80ff4f75cdab702a52e21d90efb1c2ca92cdc97f9033b253b",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda20_51faca1f7511/final.pt",
+        "model_sha256": "a498cd8218e7e05f872b1ce8501eb6c2dedf4b650c1156b5d4632ebb99fdab20",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 54.62794711300012,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda30": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 30.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "d8ac7ba07e6b2c3681d49522829eb6de49e79045a596afc45a420f68a74e7d52",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda30_d8ac7ba07e6b/final.pt",
+        "model_sha256": "d564da13630243a3eed3818f196341a1b620e694d09448c5d1b41159e0a63894",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 56.58540471000015,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda40": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 40.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "175e66488d0f6d5e92188c1198d540be824dba9076bd84a6f401090066c81052",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda40_175e66488d0f/final.pt",
+        "model_sha256": "e34f633301f56ec695cbafd4acb99790f7ec3b066972a8669a0b19f03c30c1e0",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 58.289085946999876,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed43_lambda80": {
+      "status": "trained",
+      "record": {
+        "seed": 43,
+        "method": "fixed",
+        "fixed_lambda": 80.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "4841f5d278486e3ce0726bf1839175cca80f05f6cc6e3e46601794a575bcdb7e",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "99386a4a86bada64d2582b3b5ea3f6744853bb7fd86e6cda6a20c610c76b237e"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed43_lambda80_4841f5d27848/final.pt",
+        "model_sha256": "84701ecc7babd70bc8dc1e962602d0daedb8515832fb82f78354d69beebba519",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 55.1556623649999,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "latency_seed44_lambda0": {
+      "status": "evaluated",
+      "record": {
+        "seed": 44,
+        "method": "latency",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "9def7e850e2df21410e009c208d5278da8f57b89f662f435e86347c975056c18",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "d749e3859cbe015fba297e410b6ba6f9cce99f4def829dafdca880de0ffe9081"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/latency_seed44_lambda0_9def7e850e2d/final.pt",
+        "model_sha256": "08f08b037935cab3be92f03ef0c354bf2f3c63253552fc2fa49ad749e87b088f",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 53.502790620999804,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "adaptive_seed44_lambda10": {
+      "status": "evaluated",
+      "record": {
+        "seed": 44,
+        "method": "adaptive",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "e2769420baae0c74db7d350f2426a7425b4101ea4234ded58687fc3f33175399",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "d749e3859cbe015fba297e410b6ba6f9cce99f4def829dafdca880de0ffe9081"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/adaptive_seed44_lambda10_e2769420baae/final.pt",
+        "model_sha256": "6e6c87ff77150f0f44d4ed4ddb88b6479cacccf0d7bc13285484654650ad3ee6",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 113.49885771100026,
+        "lambda_final": 17.885449557525003,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed44_lambda2": {
+      "status": "evaluated",
+      "record": {
+        "seed": 44,
+        "method": "fixed",
+        "fixed_lambda": 2.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "f583710518944eabf6e47709db8e38168ac4703bc61810a422d3fe3f6e20c8cd",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "d749e3859cbe015fba297e410b6ba6f9cce99f4def829dafdca880de0ffe9081"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed44_lambda2_f58371051894/final.pt",
+        "model_sha256": "57cf7d0f411c85d52316b5c1b4a6d73be61e86a922bbbc52e3cefbf3ed454dbc",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 53.00130241099987,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "latency_seed45_lambda0": {
+      "status": "evaluated",
+      "record": {
+        "seed": 45,
+        "method": "latency",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "50895786f57aacee3b7f3648537381aafffdcf95517d936b861e1c921112ecd1",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "b08afc589cfd717c1b27bf80bbff3c043fe83220a163d30d1045502f5e75bbdb"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/latency_seed45_lambda0_50895786f57a/final.pt",
+        "model_sha256": "7657362e8562448179d1619bd999ed184460e501e3e4c6696d59c25d05661f98",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 52.19124762599995,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "adaptive_seed45_lambda10": {
+      "status": "evaluated",
+      "record": {
+        "seed": 45,
+        "method": "adaptive",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "2b648ca167365c6f6eff843b740527d7e7ba9b968e79fb481c88aafa95bc4185",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "b08afc589cfd717c1b27bf80bbff3c043fe83220a163d30d1045502f5e75bbdb"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/adaptive_seed45_lambda10_2b648ca16736/final.pt",
+        "model_sha256": "b558b7d350fa988479628887deb590d9e9f0efdd8a61e86b4b12da6777ac4a4d",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 119.1559276930002,
+        "lambda_final": 23.266441194633185,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed45_lambda2": {
+      "status": "evaluated",
+      "record": {
+        "seed": 45,
+        "method": "fixed",
+        "fixed_lambda": 2.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "1da4d79fba82909e39f892faebecfec56a23ec3095a1e180345016ef805feea6",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "b08afc589cfd717c1b27bf80bbff3c043fe83220a163d30d1045502f5e75bbdb"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed45_lambda2_1da4d79fba82/final.pt",
+        "model_sha256": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 57.422328364999885,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "latency_seed46_lambda0": {
+      "status": "evaluated",
+      "record": {
+        "seed": 46,
+        "method": "latency",
+        "fixed_lambda": 0.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "70e62e5f9f8cc57bfc6425a28903bb0e21cc2b89e26ae6e573c9f24841cd64bd",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "af94e14a26b780bc38d8082ae5c2f1214e1b7aecebb3bb2c925c245507c5f076"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/latency_seed46_lambda0_70e62e5f9f8c/final.pt",
+        "model_sha256": "9c1aa592704582f4814d59e71eae1f49fe094ee99a2b703c25375f6a64670d38",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 54.48109769800021,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "adaptive_seed46_lambda10": {
+      "status": "evaluated",
+      "record": {
+        "seed": 46,
+        "method": "adaptive",
+        "fixed_lambda": 10.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "cb0705ab0f68db4f7c3d466b1d270dfba831cef5d36c53d5fd32b836462d8fd8",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "af94e14a26b780bc38d8082ae5c2f1214e1b7aecebb3bb2c925c245507c5f076"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/adaptive_seed46_lambda10_cb0705ab0f68/final.pt",
+        "model_sha256": "4b719c76ae69116b80f3acfdf6731b461cae4eeb335f571a508c42f1ccdac5ae",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 116.08330577800007,
+        "lambda_final": 16.243092397333342,
+        "provenance": "canonical-source-v2"
+      }
+    },
+    "fixed_seed46_lambda2": {
+      "status": "evaluated",
+      "record": {
+        "seed": 46,
+        "method": "fixed",
+        "fixed_lambda": 2.0,
+        "stage2_transitions": 2000000,
+        "train_days": "d01-d07",
+        "validation_days": "d08-d09",
+        "holdout_used": false,
+        "identity": "4a6f48a4e7440dd4f3e05791fd84fc95889362f0507a6e1eb7a705f6a24a9b6a",
+        "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+        "input_sha256": {
+          "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+          "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+          "stage1": "af94e14a26b780bc38d8082ae5c2f1214e1b7aecebb3bb2c925c245507c5f076"
+        },
+        "runtime": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "cuda": "13.0"
+        },
+        "model_path": "runs/e2_complete_v2/fixed_seed46_lambda2_4a6f48a4e744/final.pt",
+        "model_sha256": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566",
+        "actual_optimizer_updates": 7695,
+        "realized_transitions": 2000128,
+        "session_train_seconds": 53.399092867000036,
+        "lambda_final": 10.0,
+        "provenance": "canonical-source-v2"
+      }
+    }
+  },
+  "status": "E2_COMPLETE",
+  "confirmation_rows": 150
+}

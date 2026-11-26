@@ -1,0 +1,7 @@
+{
+  "branch": "C",
+  "settings_with_observed_advantage": 0,
+  "settings": 36,
+  "criterion": "adaptive meets budget on every paired row; >1% mean P95 gain over each feasible fixed/latency comparator and best fully feasible heuristic; no larger mean violation versus feasible RL comparator",
+  "limitation": "Descriptive validation-only decision. No significance or temporal generalization claim. Pilot seeds 42/43 are reused in the five-seed main comparison."
+}

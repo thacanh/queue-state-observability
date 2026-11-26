@@ -1,0 +1,32 @@
+{
+  "operation": "CPU sequential causal simulator including state construction, inference, route and queue update; plus conversion and summary cost",
+  "requests_per_repeat": 4096,
+  "repeats": 20,
+  "unit": "amortized us/request",
+  "median": 9.555280151367189,
+  "p95_repeat": 10.07216337890625,
+  "samples": [
+    9.8528408203125,
+    10.08323681640625,
+    9.58790087890625,
+    9.56204736328125,
+    9.250674560546875,
+    9.396998779296876,
+    9.548512939453126,
+    9.78226025390625,
+    9.480563232421876,
+    9.508389404296874,
+    9.72113623046875,
+    9.414707275390626,
+    9.456759765625,
+    9.44783984375,
+    9.326986572265625,
+    9.370627685546875,
+    10.0637001953125,
+    10.07158056640625,
+    9.592579345703125,
+    9.564131103515624
+  ],
+  "deployment_claim": false,
+  "limitation": "Amortized loop throughput, not individual decision latency or real cloud overhead."
+}

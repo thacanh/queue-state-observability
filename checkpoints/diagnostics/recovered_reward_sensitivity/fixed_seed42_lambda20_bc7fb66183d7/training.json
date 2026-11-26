@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "method": "fixed",
+  "fixed_lambda": 20.0,
+  "stage2_transitions": 2000000,
+  "train_days": "d01-d07",
+  "validation_days": "d08-d09",
+  "holdout_used": false,
+  "identity": "bc7fb66183d76db569d8fc5e60982db0b6f17cdeae3bcbdfa1068566091cf6bd",
+  "source_sha256": "75eb256c1ee6a6016cd3338e6788140f246c746e2a34882784d216c64ac91362",
+  "input_sha256": {
+    "train": "fbfdf0c97975d7de1b65d779398b47d664a34f537e53e77999d26649bcd0db62",
+    "validation": "f8c59c3d8cdc22c46e6c0010e14bd8331ff939e923a409dfb44d68e828af6fcb",
+    "stage1": "038331f4021589569b7985ba7e8fda83eff53bceee273011dbfcb83b9ae6d0bd"
+  },
+  "runtime": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.4.6",
+    "cuda": "13.0"
+  },
+  "model_path": "runs/e2_complete_v2/fixed_seed42_lambda20_bc7fb66183d7/final.pt",
+  "model_sha256": "15f58c34500a858c36e855a6f03bcff547d7dc23eed3f9b3b434934b9c350d07",
+  "actual_optimizer_updates": 7695,
+  "realized_transitions": 2000128,
+  "session_train_seconds": 56.073887754,
+  "lambda_final": 10.0,
+  "provenance": "canonical-source-v2"
+}

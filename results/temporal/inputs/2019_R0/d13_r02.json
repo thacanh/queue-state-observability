@@ -1,0 +1,28 @@
+{
+  "day": "d13",
+  "draw_index": 2,
+  "reconstruction_seed": 2026112802,
+  "key": "d13_r02",
+  "meta": {
+    "day": "d13",
+    "window_start": 892,
+    "window_end": 1071,
+    "requests": 145573,
+    "input_rps": 12.955502112052285,
+    "util": 0.5999999999999999,
+    "mean_service": 0.4816486421004889,
+    "p95_service": 1.8200199652775424
+  },
+  "trace_sha256": "e5f30973181a144102b4c953831c023e7ca4f4d5e6aed39afe3ae8f183c892a8",
+  "file_sha256": "facfb83c297692dd6c406d9cde0e02d36ed886516e21e217472999a6ea7c619e",
+  "dtypes": {
+    "arrival": "float64",
+    "func_id": "int64",
+    "complexity": "object",
+    "est_p50": "float64",
+    "est_p99": "float64",
+    "service_demand": "float64",
+    "slo": "float64"
+  },
+  "filename": "d13_r02.csv.gz"
+}

@@ -1,0 +1,20 @@
+{
+  "protocol_id": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "verified_replays": 1090,
+  "matched_B_D": 150,
+  "manuscript_baseline_sha256": {
+    "source/access.tex": "75ae82960fbc1144220836c16f2dbe813fbff98848d9748370e24dbba15ce52a",
+    "source/supplement.tex": "11085768e63c386ecb10ffe2c27fd220e8bf9652a11d39705295f39ff32c78b9",
+    "IEEE_ACCESS_REVIEW.zip": "5906ecf822da298aa6f74b3b545a28f108d6b979b8a3781b77a2234dd9652ceb"
+  },
+  "file_sha256": {
+    "protocol.json": "cc1f4389cde54fb18ebac48e48b97c991ae1d3f6e88760ff2f7682cb5c1acbb7",
+    "analysis/analysis_manifest.json": "f0e0ec5b0e2e2588318e738659a21d52814a7a4c12e63d28e9ac7119c154ead9",
+    "BAO_CAO_DANH_GIA_THEO_NGAY.md": "64f1ca7c3724f8d06fa838a50505ea56cf96ac45c7c1b24a7facf91ccf299cf3",
+    "BANG_KET_QUA.md": "f6933bb6d978c9b6362a858739ed8ba4f574ac115f1e40072a548a5b524310cd",
+    "REPRODUCIBILITY.md": "61d002f736d4f1ca377be304369e94654b864dd946f596be094b546d9f91ebfe",
+    "B/execution.json": "8f9b3dc2544a5b3eea783885a8deb8d8edc773e66bf508860627a54460b792da",
+    "D/execution.json": "ee6ae634ba6c41444414aaa41dc32668c3e543787701bcfd4ae2d4a90e0da791",
+    "transfer/execution.json": "3d499290daac6c64d22a5780d68fcf7e208e4b358b14ccc84c72a655736ffa23"
+  }
+}

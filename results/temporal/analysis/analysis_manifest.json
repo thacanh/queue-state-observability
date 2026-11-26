@@ -1,0 +1,276 @@
+{
+  "protocol_sha256": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "replays_verified": 1090,
+  "timing": {
+    "B": {
+      "rows": 600,
+      "wall_s": 301.96905810000317,
+      "cap_s": 1200,
+      "startup_s": 4.311652599993977,
+      "preprocessing_s": 81.46785019999515,
+      "jit_s": 5.070217499996943,
+      "workloads_replay_s": 209.903639199998,
+      "workloads_cpu_s": 772.890625,
+      "child_wall_s": 301.1598712999985,
+      "peak_rss_bytes": 579678208,
+      "peak_commit_bytes": 685760512,
+      "native_pools": {
+        "openblas": 1,
+        "openmp": 1,
+        "mkl": 1
+      }
+    },
+    "D": {
+      "rows": 450,
+      "wall_s": 158.07557110000198,
+      "cap_s": 900,
+      "startup_s": 4.257926899997983,
+      "preprocessing_s": 0.42487270000128774,
+      "jit_s": 6.52875870000571,
+      "workloads_replay_s": 145.60541039999953,
+      "workloads_cpu_s": 535.578125,
+      "child_wall_s": 157.20251799999824,
+      "peak_rss_bytes": 538521600,
+      "peak_commit_bytes": 524050432,
+      "native_pools": {
+        "openblas": 1,
+        "openmp": 1,
+        "mkl": 1
+      }
+    },
+    "transfer": {
+      "rows": 40,
+      "wall_s": 16.94849859999522,
+      "cap_s": 180,
+      "startup_s": 4.111414400002104,
+      "preprocessing_s": 3.78347070000018,
+      "jit_s": 6.222758600000816,
+      "workloads_replay_s": 1.9048675000012736,
+      "workloads_cpu_s": 7.328125,
+      "child_wall_s": 16.096488299997873,
+      "peak_rss_bytes": 1034014720,
+      "peak_commit_bytes": 993746944,
+      "native_pools": {
+        "openblas": 1,
+        "openmp": 1,
+        "mkl": 1
+      }
+    }
+  },
+  "D_overlap_B": {
+    "verified_pairs": 150,
+    "mismatches": 0,
+    "max_abs_latency_deltas_ms": {
+      "mean_ms": 0.0,
+      "p95_ms": 0.0,
+      "p99_ms": 0.0
+    }
+  },
+  "analysis_script": {
+    "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\work\\temporal-holdout-audit\\analyze_temporal.py",
+    "sha256": "92b1ad3aa5f297d9fcc7d104ce7df7173d93a6f81ccbde6ba9d2e57f647f7aa4",
+    "bytes": 14664
+  },
+  "outputs": [
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_arms.csv",
+      "sha256": "34176969709405d8d692b49f94fbf67d57467bfee00fb10ad41817360c7c8527",
+      "bytes": 773
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_conditional_intervals.csv",
+      "sha256": "b7fac39414a0358c602a9f985e192df2cb912b7c66fdc88115acab1e16c7df17",
+      "bytes": 2338
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_day_arms.csv",
+      "sha256": "a8d60884df91f918f1c72cc483a8a9fd2bfab1934a84a0588e1155e4a7a9896c",
+      "bytes": 1926
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_day_seed_arms.csv",
+      "sha256": "7922bb00d905cb6200522b789b1789929bc787874573fb0b32bb2632b7b14288",
+      "bytes": 9128
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_arms.csv",
+      "sha256": "feb9ba69520522a4d81c0e06df2bea442ea12086446338610063ae266729388f",
+      "bytes": 789
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_conditional_intervals.csv",
+      "sha256": "6c29eb49aaec796206e2f92e40d0d71a832876fff610fb2bae2564a1ce4a12d3",
+      "bytes": 2422
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_day_arms.csv",
+      "sha256": "92d84718ee6461c5246de26e7916d48014b2aa25543e41e77f8c2774a2d09366",
+      "bytes": 1449
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_day_seed_arms.csv",
+      "sha256": "8909f16834cacda0da30b30fb6edeeae4a4ebfd857e4a3cb48e4baad51cee1ec",
+      "bytes": 6502
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_near_budget.csv",
+      "sha256": "ec4ee42015df9b112af65cee639d9be164ea2cc370cf6af6024b8bb75b8cbb91",
+      "bytes": 385
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_paired_contrasts.csv",
+      "sha256": "117175f039ea6d18e13c6745f9d3c39583ce41111e709cc2b5259f0330fe7f90",
+      "bytes": 3073
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_paired_detail.csv",
+      "sha256": "ae09c0b967cf040191f26353242745fa1f62f20a86c904e015cd81aaf1e6392c",
+      "bytes": 390727
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_historical_threshold_ecdf.csv",
+      "sha256": "d97993ed5e48b8cb2f3c2563d95ea625c321dc1ebd3137d38fec27ae2d4664eb",
+      "bytes": 122585
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_near_budget.csv",
+      "sha256": "08959b86b165ccca3ffc74069a598150029921293d351742a77a307e424b29eb",
+      "bytes": 473
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_paired_contrasts.csv",
+      "sha256": "8ec5c787bed3570106ba50d0ff9d882cfd7d7a19fa1f2a2d1f92cedbcff70bd6",
+      "bytes": 3689
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_paired_detail.csv",
+      "sha256": "9d2707480c25a75b45bc0ca0c8a40fbe6f4bb009ecffd348bd86682275a45673",
+      "bytes": 203105
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\B_threshold_ecdf.csv",
+      "sha256": "cbce65b510d72506f3273270e5c15c1088178ffeb5e9b7af71790d1a6e1f973f",
+      "bytes": 56066
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_against_B_overlap.csv",
+      "sha256": "f65102021c6b36a3a1413ee64b200c555a5590f6b87abc89e1c1915e776defef",
+      "bytes": 108962
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_arms.csv",
+      "sha256": "6ce8d46b4eb2ec75bc2d9a4f046e6270161d3b440e3213b50749f3c4d426ef93",
+      "bytes": 1047
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_conditional_intervals.csv",
+      "sha256": "6ed6e6e42c535ca87d0e68311925e6cad8b56fa8c07aa4dd416a4461737e6b07",
+      "bytes": 3390
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_day_arms.csv",
+      "sha256": "fd5de0e31e272ce700c31de75d3a311150afca15875bf97a2f70a9a4988329d1",
+      "bytes": 2688
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_day_seed_arms.csv",
+      "sha256": "9fd60ecc748f734e8af3a7121301c1f4155696d4f274cb21a58fef7921dd8487",
+      "bytes": 12829
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_historical_arms.csv",
+      "sha256": "0b1509b32459569064b861d1eee4490c582fe41255c2b7249d3b80c3e30ca6b6",
+      "bytes": 974
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_historical_conditional_intervals.csv",
+      "sha256": "7b763461f7cc1a0ed6c8cd0105f838ecbf67707fab80a5d467266423e6a59635",
+      "bytes": 3323
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_historical_day_arms.csv",
+      "sha256": "6478777d6365abf6486eaf2847ba9c10bc7fe9bc1b5918430f3302fcc9426276",
+      "bytes": 1854
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_historical_day_seed_arms.csv",
+      "sha256": "6507bcc8bc516c89f4ce7bde7b68284262474136f09bf7c06a251f959e28467d",
+      "bytes": 8628
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_historical_paired_contrasts.csv",
+      "sha256": "5819fe171bc6a5d9eb8c72c656f96eca1e6946af54d43576e08983eb012a4925",
+      "bytes": 3943
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_historical_paired_detail.csv",
+      "sha256": "b365c25379eaab1af061baf90fc4d94e1d230f1c33764c67f975b6c0f3b3604e",
+      "bytes": 93623
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_paired_contrasts.csv",
+      "sha256": "4aa70356ff530a9742c470da816318663038a0e1ddb51ca5168ffdd948a215c1",
+      "bytes": 5217
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\D_paired_detail.csv",
+      "sha256": "f5bb73d85d7fff22d9335f6392075c274a11c220ddf3d0f2e709bfc12540250e",
+      "bytes": 143692
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_arms.csv",
+      "sha256": "83fb7c5f70a30edd592cae01fb966dd2e76c57fea097d46aa248c09923d9c8eb",
+      "bytes": 701
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_day_arms.csv",
+      "sha256": "795007a6c36dd1c91d3ca833572d4e3f7e3678f722757e0bed3e41936d670f3c",
+      "bytes": 1276
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_day_seed_arms.csv",
+      "sha256": "acb9f9a83ca49d754c66985b4e3ff26a6ccffa76566fcaf08813f3c40937668c",
+      "bytes": 5836
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_feasibility.csv",
+      "sha256": "ea4ca088f130fda7a4d83e3a139a3ca5758f39dee2807d3b48009a43e1621510",
+      "bytes": 1134
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_historical_arms.csv",
+      "sha256": "63bc976221fe0b69b26d8cd7b2b5dd39f55dc0f0aaeac9c610fc240885118513",
+      "bytes": 706
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_historical_day_arms.csv",
+      "sha256": "751bd328ccd841ec81ac68e766b689ae79243d7254d150b19dfa74f087e820ff",
+      "bytes": 2974
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_historical_day_seed_arms.csv",
+      "sha256": "e0902de1834cf87ac95704ada630c1fe30d1c7564b11a943da6991cac59a7f95",
+      "bytes": 14291
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_historical_paired_contrasts.csv",
+      "sha256": "a6e26b509be64a5fd965efcbf52748fec7b93f956e8e185eca91bf2187b30432",
+      "bytes": 3589
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_historical_paired_detail.csv",
+      "sha256": "85404365671340d21f6c38b715838a3c619128621967d05ed3d9c369d6728e93",
+      "bytes": 25859
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_paired_contrasts.csv",
+      "sha256": "31c58e395e6d1ea3728f76ad8bd47fe57ef02711c7e49f2845b5a09f0ae6a7da",
+      "bytes": 1933
+    },
+    {
+      "path": "C:\\Users\\thaca\\Documents\\Codex\\2026-11-01\\th-c-hi-n-to-n\\outputs\\temporal_evaluation\\analysis\\transfer_paired_detail.csv",
+      "sha256": "dacf690fa15827c29b4417ec632c29263ecb4f8e8258123064e839d048c8dc00",
+      "bytes": 10547
+    }
+  ]
+}

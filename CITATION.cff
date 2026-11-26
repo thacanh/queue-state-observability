@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite this software and the trace providers."
+title: "Queue-State Observability in Deadline-Aware Heterogeneous Request Routing"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Nguyen
+    given-names: Thang Tat
+  - family-names: Nguyen
+    given-names: Anh Thac
+  - family-names: Nguyen
+    given-names: Yen Hai
+  - family-names: Dang
+    given-names: Long Hoang
+repository-code: "https://github.com/thacanh/queue-state-observability"
+license: MIT

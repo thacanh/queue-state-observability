@@ -1,0 +1,9 @@
+{
+  "protocol": "743ea8b4500b284591cae44dc4d20ad6ee9f9171fc29e0421b6749cab5489305",
+  "executions": 1090,
+  "distinct_configurations": 940,
+  "repeated_B_D_configurations": 150,
+  "published_aggregate_cells_checked": 3968,
+  "temporal_prose_macros": 36,
+  "passed": true
+}

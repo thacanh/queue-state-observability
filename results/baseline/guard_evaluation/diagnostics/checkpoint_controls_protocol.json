@@ -1,0 +1,61 @@
+{
+  "identity": "64b311162ed9bd5474733db899fce2c6b829dda53ebcf416e9d7d02edf31e946",
+  "phase": "checkpoint_controls",
+  "input_plan": [
+    [
+      "d08",
+      10675309
+    ],
+    [
+      "d08",
+      10675319
+    ],
+    [
+      "d08",
+      10675320
+    ],
+    [
+      "d08",
+      10675321
+    ],
+    [
+      "d08",
+      10675325
+    ],
+    [
+      "d09",
+      10675310
+    ],
+    [
+      "d09",
+      10675311
+    ],
+    [
+      "d09",
+      10675312
+    ],
+    [
+      "d09",
+      10675313
+    ],
+    [
+      "d09",
+      10675314
+    ]
+  ],
+  "source": "26e8b8fda3833e15bd2a18a9bf6d87ae7c2e7f5ee2e65f3338440728f51bbe43",
+  "main_lock": "c407fcd7c519ef890cbbce472a4469e5e5fb6b1a869dcb21130afe24b3675917",
+  "scope": "development-only robustness, selected by first five draws per source day",
+  "checkpoint_sha256": {
+    "latency/42": "ec401d18a1885ee85610aceba2d2bf1555b55b177ae741b7ec4de94c783a51b2",
+    "adaptive/42": "d0b7b63d49b7707b59cf31cf434950f066b8375e1bc2bd24fa7c55eea25fe36c",
+    "latency/43": "6fa910ff8ffc015ce44defb36e41b4d6fd8d9f84c02c4fe625d2167647b52ca1",
+    "adaptive/43": "cbfea01ec18d62847f2ddbbf63df6ec1da0d10aa80001f46c132dd81fbc0b060",
+    "latency/44": "08f08b037935cab3be92f03ef0c354bf2f3c63253552fc2fa49ad749e87b088f",
+    "adaptive/44": "6e6c87ff77150f0f44d4ed4ddb88b6479cacccf0d7bc13285484654650ad3ee6",
+    "latency/45": "7657362e8562448179d1619bd999ed184460e501e3e4c6696d59c25d05661f98",
+    "adaptive/45": "b558b7d350fa988479628887deb590d9e9f0efdd8a61e86b4b12da6777ac4a4d",
+    "latency/46": "9c1aa592704582f4814d59e71eae1f49fe094ee99a2b703c25375f6a64670d38",
+    "adaptive/46": "4b719c76ae69116b80f3acfdf6731b461cae4eeb335f571a508c42f1ccdac5ae"
+  }
+}

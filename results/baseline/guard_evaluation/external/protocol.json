@@ -1,0 +1,47 @@
+{
+  "identity": "73145a6d906828926948d07a33e97182edff82ceb0746008d26ca8dccad8ced5",
+  "source": "Microsoft Azure Functions Invocation Trace 2021; attribution Zhang et al., SOSP 2021",
+  "archive_sha256": "8bb5d1c82e89e467062b6582996232df24edfebadbaf3287a8c985ca178ba92d",
+  "member_sha256": "d56368ef194baa8d418304bd2f87cca67668ced0d117bd89ad4ef3cf836457d2",
+  "code": {
+    "replay_transfer.py": "8c84b7beea8e521a57c8a4831d749747f975ce8ca1764fce2a260d2f6edcd2ee",
+    "replay_io.py": "c2454163e7dfc38575fb6f036f41f2eb2ef2355a153154e2f880fe8643a0d13a",
+    "routing_simulator.py": "08e48d84576f6bce60ed010f6d331b658a6afe4430b16153fbd2f984b608b49d"
+  },
+  "unit": "one real source elapsed-day window per draw; durations as service proxy, start=end-duration, timestamps modified by publisher",
+  "split": {
+    "profile_fit": "elapsed days 0-6, invocations ending before day 7",
+    "reserved_unused": [
+      7,
+      8
+    ],
+    "held_out": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "cohort": "top 30 (app,func) by valid training count; minimum 200 requests over at least 3 training days; lexicographic tie",
+  "test_replay": "earliest busiest 180-minute window per day in fixed cohort; preserve order and intervals up to global rescale to 60% offered load on three modeled servers",
+  "checkpoints": {
+    "42": "9d76283ba271ea3e98f674231d08a04a922672ef0deb7d21873129a42f3eb72f",
+    "43": "bb27b0e1140fba60866826d0c4931e4f1304a9f6369b388a50f9b775f20f0e3c",
+    "44": "57cf7d0f411c85d52316b5c1b4a6d73be61e86a922bbbc52e3cefbf3ed454dbc",
+    "45": "4a860cad425e4097f75a3edd255a466ea322675a37e95508136328e20f53f427",
+    "46": "f7ba943e91c6e177fa77b7234ef841e6ffb18e52bec87319c3bacff3ffb80566"
+  },
+  "models": "No retraining; fixed-DDQN weights and feature scales frozen from 2019. Profiles, guard CDF and deadlines built from 2021 training prefix. Cross-corpus transfer, not an unchanged full-stack checkpoint test.",
+  "deadline": "twice training P99, floored at 100 ms",
+  "budget": 0.005,
+  "guard_thresholds": [
+    0.005,
+    0.005
+  ],
+  "branches": [
+    "oracle",
+    "estimated"
+  ],
+  "no_test_tuning": true
+}
